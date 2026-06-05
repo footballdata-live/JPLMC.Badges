@@ -1,2 +1,2 @@
 # JPLMC.Badges
-alle logo's van de ploegen in 1A JPL
+alle logo's van de ploegen in 1A JPL 
