@@ -1,1 +1,2756 @@
-{}
+{
+  "211303": {
+    "thread_id": "8492",
+    "thread_url": "https://voetbalbe.boards.net/thread/8492/club-brugge-kv-kortrijk",
+    "title": "Club Brugge KV - KV Kortrijk",
+    "home_team": "Club Brugge KV",
+    "away_team": "KV Kortrijk",
+    "event_date": "2026-08-07T18:45:00+00:00",
+    "round": 1
+  },
+  "211304": {
+    "thread_id": "8493",
+    "thread_url": "https://voetbalbe.boards.net/thread/8493/sporting-charleroi-oud-heverlee-leuven",
+    "title": "RC Sporting Charleroi - Oud-Heverlee Leuven",
+    "home_team": "RC Sporting Charleroi",
+    "away_team": "Oud-Heverlee Leuven",
+    "event_date": "2026-08-08T14:00:00+00:00",
+    "round": 1
+  },
+  "211305": {
+    "thread_id": "8494",
+    "thread_url": "https://voetbalbe.boards.net/thread/8494/standard-li-ge-cercle-brugge",
+    "title": "Standard Liège - Cercle Brugge",
+    "home_team": "Standard Liège",
+    "away_team": "Cercle Brugge",
+    "event_date": "2026-08-08T16:15:00+00:00",
+    "round": 1
+  },
+  "211306": {
+    "thread_id": "8495",
+    "thread_url": "https://voetbalbe.boards.net/thread/8495/westerlo-royale-union-saint-gilloise",
+    "title": "KVC Westerlo - Royale Union Saint-Gilloise",
+    "home_team": "KVC Westerlo",
+    "away_team": "Royale Union Saint-Gilloise",
+    "event_date": "2026-08-08T18:45:00+00:00",
+    "round": 1
+  },
+  "211307": {
+    "thread_id": "8496",
+    "thread_url": "https://voetbalbe.boards.net/thread/8496/sint-truidense-vv-lommel-sk",
+    "title": "Sint-Truidense VV - Lommel SK",
+    "home_team": "Sint-Truidense VV",
+    "away_team": "Lommel SK",
+    "event_date": "2026-08-08T18:45:00+00:00",
+    "round": 1
+  },
+  "211308": {
+    "thread_id": "8497",
+    "thread_url": "https://voetbalbe.boards.net/thread/8497/kaa-gent-kv-mechelen",
+    "title": "KAA Gent - KV Mechelen",
+    "home_team": "KAA Gent",
+    "away_team": "KV Mechelen",
+    "event_date": "2026-08-09T11:30:00+00:00",
+    "round": 1
+  },
+  "211309": {
+    "thread_id": "8498",
+    "thread_url": "https://voetbalbe.boards.net/thread/8498/sv-zulte-waregem-krc-genk",
+    "title": "SV Zulte Waregem - KRC Genk",
+    "home_team": "SV Zulte Waregem",
+    "away_team": "KRC Genk",
+    "event_date": "2026-08-09T14:00:00+00:00",
+    "round": 1
+  },
+  "211310": {
+    "thread_id": "8499",
+    "thread_url": "https://voetbalbe.boards.net/thread/8499/rsc-anderlecht-raal-la-louvi",
+    "title": "RSC Anderlecht - RAAL La Louvière",
+    "home_team": "RSC Anderlecht",
+    "away_team": "RAAL La Louvière",
+    "event_date": "2026-08-09T16:30:00+00:00",
+    "round": 1
+  },
+  "211311": {
+    "thread_id": "8500",
+    "thread_url": "https://voetbalbe.boards.net/thread/8500/royal-antwerp-fc-sk-beveren",
+    "title": "Royal Antwerp FC - SK Beveren",
+    "home_team": "Royal Antwerp FC",
+    "away_team": "SK Beveren",
+    "event_date": "2026-08-09T17:15:00+00:00",
+    "round": 1
+  },
+  "211312": {
+    "thread_id": "8501",
+    "thread_url": "https://voetbalbe.boards.net/thread/8501/cercle-brugge-sint-truidense-vv",
+    "title": "Cercle Brugge - Sint-Truidense VV",
+    "home_team": "Cercle Brugge",
+    "away_team": "Sint-Truidense VV",
+    "event_date": "2026-08-14T18:45:00+00:00",
+    "round": 2
+  },
+  "211313": {
+    "thread_id": "8502",
+    "thread_url": "https://voetbalbe.boards.net/thread/8502/royale-union-saint-gilloise-waregem",
+    "title": "Royale Union Saint-Gilloise - SV Zulte Waregem",
+    "home_team": "Royale Union Saint-Gilloise",
+    "away_team": "SV Zulte Waregem",
+    "event_date": "2026-08-15T14:00:00+00:00",
+    "round": 2
+  },
+  "211314": {
+    "thread_id": "8503",
+    "thread_url": "https://voetbalbe.boards.net/thread/8503/kv-kortrijk-royal-antwerp-fc",
+    "title": "KV Kortrijk - Royal Antwerp FC",
+    "home_team": "KV Kortrijk",
+    "away_team": "Royal Antwerp FC",
+    "event_date": "2026-08-15T16:15:00+00:00",
+    "round": 2
+  },
+  "211315": {
+    "thread_id": "8504",
+    "thread_url": "https://voetbalbe.boards.net/thread/8504/krc-genk-kvc-westerlo",
+    "title": "KRC Genk - KVC Westerlo",
+    "home_team": "KRC Genk",
+    "away_team": "KVC Westerlo",
+    "event_date": "2026-08-15T18:45:00+00:00",
+    "round": 2
+  },
+  "211316": {
+    "thread_id": "8505",
+    "thread_url": "https://voetbalbe.boards.net/thread/8505/oud-heverlee-leuven-club-brugge",
+    "title": "Oud-Heverlee Leuven - Club Brugge KV",
+    "home_team": "Oud-Heverlee Leuven",
+    "away_team": "Club Brugge KV",
+    "event_date": "2026-08-15T18:45:00+00:00",
+    "round": 2
+  },
+  "211317": {
+    "thread_id": "8506",
+    "thread_url": "https://voetbalbe.boards.net/thread/8506/sk-beveren-rsc-anderlecht",
+    "title": "SK Beveren - RSC Anderlecht",
+    "home_team": "SK Beveren",
+    "away_team": "RSC Anderlecht",
+    "event_date": "2026-08-16T11:30:00+00:00",
+    "round": 2
+  },
+  "211318": {
+    "thread_id": "8507",
+    "thread_url": "https://voetbalbe.boards.net/thread/8507/raal-la-louvi-kaa-gent",
+    "title": "RAAL La Louvière - KAA Gent",
+    "home_team": "RAAL La Louvière",
+    "away_team": "KAA Gent",
+    "event_date": "2026-08-16T14:00:00+00:00",
+    "round": 2
+  },
+  "211319": {
+    "thread_id": "8508",
+    "thread_url": "https://voetbalbe.boards.net/thread/8508/kv-mechelen-standard-li-ge",
+    "title": "KV Mechelen - Standard Liège",
+    "home_team": "KV Mechelen",
+    "away_team": "Standard Liège",
+    "event_date": "2026-08-16T16:30:00+00:00",
+    "round": 2
+  },
+  "211320": {
+    "thread_id": "8509",
+    "thread_url": "https://voetbalbe.boards.net/thread/8509/lommel-sk-rc-sporting-charleroi",
+    "title": "Lommel SK - RC Sporting Charleroi",
+    "home_team": "Lommel SK",
+    "away_team": "RC Sporting Charleroi",
+    "event_date": "2026-08-16T17:15:00+00:00",
+    "round": 2
+  },
+  "211321": {
+    "thread_id": "8510",
+    "thread_url": "https://voetbalbe.boards.net/thread/8510/standard-li-ge-raal-louvi",
+    "title": "Standard Liège - RAAL La Louvière",
+    "home_team": "Standard Liège",
+    "away_team": "RAAL La Louvière",
+    "event_date": "2026-08-21T18:45:00+00:00",
+    "round": 3
+  },
+  "211322": {
+    "thread_id": "8511",
+    "thread_url": "https://voetbalbe.boards.net/thread/8511/sv-zulte-waregem-sk-beveren",
+    "title": "SV Zulte Waregem - SK Beveren",
+    "home_team": "SV Zulte Waregem",
+    "away_team": "SK Beveren",
+    "event_date": "2026-08-22T14:00:00+00:00",
+    "round": 3
+  },
+  "211323": {
+    "thread_id": "8512",
+    "thread_url": "https://voetbalbe.boards.net/thread/8512/rc-sporting-charleroi-kv-mechelen",
+    "title": "RC Sporting Charleroi - KV Mechelen",
+    "home_team": "RC Sporting Charleroi",
+    "away_team": "KV Mechelen",
+    "event_date": "2026-08-22T16:15:00+00:00",
+    "round": 3
+  },
+  "211324": {
+    "thread_id": "8513",
+    "thread_url": "https://voetbalbe.boards.net/thread/8513/kaa-gent-oud-heverlee-leuven",
+    "title": "KAA Gent - Oud-Heverlee Leuven",
+    "home_team": "KAA Gent",
+    "away_team": "Oud-Heverlee Leuven",
+    "event_date": "2026-08-22T18:45:00+00:00",
+    "round": 3
+  },
+  "211325": {
+    "thread_id": "8514",
+    "thread_url": "https://voetbalbe.boards.net/thread/8514/royal-antwerp-fc-krc-genk",
+    "title": "Royal Antwerp FC - KRC Genk",
+    "home_team": "Royal Antwerp FC",
+    "away_team": "KRC Genk",
+    "event_date": "2026-08-22T18:45:00+00:00",
+    "round": 3
+  },
+  "211326": {
+    "thread_id": "8515",
+    "thread_url": "https://voetbalbe.boards.net/thread/8515/rsc-anderlecht-kv-kortrijk",
+    "title": "RSC Anderlecht - KV Kortrijk",
+    "home_team": "RSC Anderlecht",
+    "away_team": "KV Kortrijk",
+    "event_date": "2026-08-23T11:30:00+00:00",
+    "round": 3
+  },
+  "211327": {
+    "thread_id": "8516",
+    "thread_url": "https://voetbalbe.boards.net/thread/8516/lommel-sk-kvc-westerlo",
+    "title": "Lommel SK - KVC Westerlo",
+    "home_team": "Lommel SK",
+    "away_team": "KVC Westerlo",
+    "event_date": "2026-08-23T14:00:00+00:00",
+    "round": 3
+  },
+  "211328": {
+    "thread_id": "8517",
+    "thread_url": "https://voetbalbe.boards.net/thread/8517/club-brugge-kv-cercle",
+    "title": "Club Brugge KV - Cercle Brugge",
+    "home_team": "Club Brugge KV",
+    "away_team": "Cercle Brugge",
+    "event_date": "2026-08-23T16:30:00+00:00",
+    "round": 3
+  },
+  "211329": {
+    "thread_id": "8518",
+    "thread_url": "https://voetbalbe.boards.net/thread/8518/truidense-royale-union-saint-gilloise",
+    "title": "Sint-Truidense VV - Royale Union Saint-Gilloise",
+    "home_team": "Sint-Truidense VV",
+    "away_team": "Royale Union Saint-Gilloise",
+    "event_date": "2026-09-02T18:30:00+00:00",
+    "round": 3
+  },
+  "211330": {
+    "thread_id": "8519",
+    "thread_url": "https://voetbalbe.boards.net/thread/8519/krc-genk-sk-beveren",
+    "title": "KRC Genk - SK Beveren",
+    "home_team": "KRC Genk",
+    "away_team": "SK Beveren",
+    "event_date": "2026-08-28T18:45:00+00:00",
+    "round": 4
+  },
+  "211331": {
+    "thread_id": "8520",
+    "thread_url": "https://voetbalbe.boards.net/thread/8520/raal-la-louvi-re-mechelen",
+    "title": "RAAL La Louvière - KV Mechelen",
+    "home_team": "RAAL La Louvière",
+    "away_team": "KV Mechelen",
+    "event_date": "2026-08-29T14:00:00+00:00",
+    "round": 4
+  },
+  "211332": {
+    "thread_id": "8521",
+    "thread_url": "https://voetbalbe.boards.net/thread/8521/kv-kortrijk-rc-sporting-charleroi",
+    "title": "KV Kortrijk - RC Sporting Charleroi",
+    "home_team": "KV Kortrijk",
+    "away_team": "RC Sporting Charleroi",
+    "event_date": "2026-08-29T16:15:00+00:00",
+    "round": 4
+  },
+  "211333": {
+    "thread_id": "8522",
+    "thread_url": "https://voetbalbe.boards.net/thread/8522/cercle-brugge-lommel-sk",
+    "title": "Cercle Brugge - Lommel SK",
+    "home_team": "Cercle Brugge",
+    "away_team": "Lommel SK",
+    "event_date": "2026-08-29T18:45:00+00:00",
+    "round": 4
+  },
+  "211334": {
+    "thread_id": "8523",
+    "thread_url": "https://voetbalbe.boards.net/thread/8523/oud-heverlee-leuven-standard-li",
+    "title": "Oud-Heverlee Leuven - Standard Liège",
+    "home_team": "Oud-Heverlee Leuven",
+    "away_team": "Standard Liège",
+    "event_date": "2026-08-29T18:45:00+00:00",
+    "round": 4
+  },
+  "211335": {
+    "thread_id": "8524",
+    "thread_url": "https://voetbalbe.boards.net/thread/8524/kaa-gent-club-brugge-kv",
+    "title": "KAA Gent - Club Brugge KV",
+    "home_team": "KAA Gent",
+    "away_team": "Club Brugge KV",
+    "event_date": "2026-08-30T11:30:00+00:00",
+    "round": 4
+  },
+  "211336": {
+    "thread_id": "8525",
+    "thread_url": "https://voetbalbe.boards.net/thread/8525/royal-antwerp-fc-sint-truidense",
+    "title": "Royal Antwerp FC - Sint-Truidense VV",
+    "home_team": "Royal Antwerp FC",
+    "away_team": "Sint-Truidense VV",
+    "event_date": "2026-08-30T14:00:00+00:00",
+    "round": 4
+  },
+  "211337": {
+    "thread_id": "8526",
+    "thread_url": "https://voetbalbe.boards.net/thread/8526/royale-union-saint-gilloise-anderlecht",
+    "title": "Royale Union Saint-Gilloise - RSC Anderlecht",
+    "home_team": "Royale Union Saint-Gilloise",
+    "away_team": "RSC Anderlecht",
+    "event_date": "2026-08-30T16:30:00+00:00",
+    "round": 4
+  },
+  "211338": {
+    "thread_id": "8527",
+    "thread_url": "https://voetbalbe.boards.net/thread/8527/kvc-westerlo-sv-zulte-waregem",
+    "title": "KVC Westerlo - SV Zulte Waregem",
+    "home_team": "KVC Westerlo",
+    "away_team": "SV Zulte Waregem",
+    "event_date": "2026-08-30T17:15:00+00:00",
+    "round": 4
+  },
+  "211339": {
+    "thread_id": "8528",
+    "thread_url": "https://voetbalbe.boards.net/thread/8528/lommel-sk-club-brugge-kv",
+    "title": "Lommel SK - Club Brugge KV",
+    "home_team": "Lommel SK",
+    "away_team": "Club Brugge KV",
+    "event_date": "2026-09-04T18:45:00+00:00",
+    "round": 5
+  },
+  "211340": {
+    "thread_id": "8529",
+    "thread_url": "https://voetbalbe.boards.net/thread/8529/sporting-charleroi-royale-union-gilloise",
+    "title": "RC Sporting Charleroi - Royale Union Saint-Gilloise",
+    "home_team": "RC Sporting Charleroi",
+    "away_team": "Royale Union Saint-Gilloise",
+    "event_date": "2026-09-05T14:00:00+00:00",
+    "round": 5
+  },
+  "211341": {
+    "thread_id": "8530",
+    "thread_url": "https://voetbalbe.boards.net/thread/8530/kv-mechelen-kvc-westerlo",
+    "title": "KV Mechelen - KVC Westerlo",
+    "home_team": "KV Mechelen",
+    "away_team": "KVC Westerlo",
+    "event_date": "2026-09-05T16:15:00+00:00",
+    "round": 5
+  },
+  "211342": {
+    "thread_id": "8531",
+    "thread_url": "https://voetbalbe.boards.net/thread/8531/sint-truidense-vv-raal-louvi",
+    "title": "Sint-Truidense VV - RAAL La Louvière",
+    "home_team": "Sint-Truidense VV",
+    "away_team": "RAAL La Louvière",
+    "event_date": "2026-09-05T18:45:00+00:00",
+    "round": 5
+  },
+  "211343": {
+    "thread_id": "8532",
+    "thread_url": "https://voetbalbe.boards.net/thread/8532/standard-li-ge-royal-antwerp",
+    "title": "Standard Liège - Royal Antwerp FC",
+    "home_team": "Standard Liège",
+    "away_team": "Royal Antwerp FC",
+    "event_date": "2026-09-05T18:45:00+00:00",
+    "round": 5
+  },
+  "211344": {
+    "thread_id": "8533",
+    "thread_url": "https://voetbalbe.boards.net/thread/8533/cercle-brugge-kaa-gent",
+    "title": "Cercle Brugge - KAA Gent",
+    "home_team": "Cercle Brugge",
+    "away_team": "KAA Gent",
+    "event_date": "2026-09-06T11:30:00+00:00",
+    "round": 5
+  },
+  "211345": {
+    "thread_id": "8534",
+    "thread_url": "https://voetbalbe.boards.net/thread/8534/kv-kortrijk-sv-zulte-waregem",
+    "title": "KV Kortrijk - SV Zulte Waregem",
+    "home_team": "KV Kortrijk",
+    "away_team": "SV Zulte Waregem",
+    "event_date": "2026-09-06T14:00:00+00:00",
+    "round": 5
+  },
+  "211346": {
+    "thread_id": "8535",
+    "thread_url": "https://voetbalbe.boards.net/thread/8535/rsc-anderlecht-krc-genk",
+    "title": "RSC Anderlecht - KRC Genk",
+    "home_team": "RSC Anderlecht",
+    "away_team": "KRC Genk",
+    "event_date": "2026-09-06T16:30:00+00:00",
+    "round": 5
+  },
+  "211347": {
+    "thread_id": "8536",
+    "thread_url": "https://voetbalbe.boards.net/thread/8536/sk-beveren-oud-heverlee-leuven",
+    "title": "SK Beveren - Oud-Heverlee Leuven",
+    "home_team": "SK Beveren",
+    "away_team": "Oud-Heverlee Leuven",
+    "event_date": "2026-09-06T17:15:00+00:00",
+    "round": 5
+  },
+  "211348": {
+    "thread_id": "8537",
+    "thread_url": "https://voetbalbe.boards.net/thread/8537/kv-mechelen-rsc-anderlecht",
+    "title": "KV Mechelen - RSC Anderlecht",
+    "home_team": "KV Mechelen",
+    "away_team": "RSC Anderlecht",
+    "event_date": "2026-09-11T18:45:00+00:00",
+    "round": 6
+  },
+  "211349": {
+    "thread_id": "8538",
+    "thread_url": "https://voetbalbe.boards.net/thread/8538/sk-beveren-sint-truidense-vv",
+    "title": "SK Beveren - Sint-Truidense VV",
+    "home_team": "SK Beveren",
+    "away_team": "Sint-Truidense VV",
+    "event_date": "2026-09-12T14:00:00+00:00",
+    "round": 6
+  },
+  "211350": {
+    "thread_id": "8539",
+    "thread_url": "https://voetbalbe.boards.net/thread/8539/kvc-westerlo-standard-li-ge",
+    "title": "KVC Westerlo - Standard Liège",
+    "home_team": "KVC Westerlo",
+    "away_team": "Standard Liège",
+    "event_date": "2026-09-12T16:15:00+00:00",
+    "round": 6
+  },
+  "211351": {
+    "thread_id": "8540",
+    "thread_url": "https://voetbalbe.boards.net/thread/8540/oud-heverlee-leuven-cercle-brugge",
+    "title": "Oud-Heverlee Leuven - Cercle Brugge",
+    "home_team": "Oud-Heverlee Leuven",
+    "away_team": "Cercle Brugge",
+    "event_date": "2026-09-12T18:45:00+00:00",
+    "round": 6
+  },
+  "211352": {
+    "thread_id": "8541",
+    "thread_url": "https://voetbalbe.boards.net/thread/8541/royale-union-saint-gilloise-lommel",
+    "title": "Royale Union Saint-Gilloise - Lommel SK",
+    "home_team": "Royale Union Saint-Gilloise",
+    "away_team": "Lommel SK",
+    "event_date": "2026-09-12T18:45:00+00:00",
+    "round": 6
+  },
+  "211353": {
+    "thread_id": "8542",
+    "thread_url": "https://voetbalbe.boards.net/thread/8542/club-brugge-kv-royal-antwerp",
+    "title": "Club Brugge KV - Royal Antwerp FC",
+    "home_team": "Club Brugge KV",
+    "away_team": "Royal Antwerp FC",
+    "event_date": "2026-09-13T11:30:00+00:00",
+    "round": 6
+  },
+  "211354": {
+    "thread_id": "8543",
+    "thread_url": "https://voetbalbe.boards.net/thread/8543/krc-genk-kaa-gent",
+    "title": "KRC Genk - KAA Gent",
+    "home_team": "KRC Genk",
+    "away_team": "KAA Gent",
+    "event_date": "2026-09-13T14:00:00+00:00",
+    "round": 6
+  },
+  "211355": {
+    "thread_id": "8544",
+    "thread_url": "https://voetbalbe.boards.net/thread/8544/sv-zulte-waregem-sporting-charleroi",
+    "title": "SV Zulte Waregem - RC Sporting Charleroi",
+    "home_team": "SV Zulte Waregem",
+    "away_team": "RC Sporting Charleroi",
+    "event_date": "2026-09-13T16:30:00+00:00",
+    "round": 6
+  },
+  "211356": {
+    "thread_id": "8545",
+    "thread_url": "https://voetbalbe.boards.net/thread/8545/raal-la-louvi-re-kortrijk",
+    "title": "RAAL La Louvière - KV Kortrijk",
+    "home_team": "RAAL La Louvière",
+    "away_team": "KV Kortrijk",
+    "event_date": "2026-09-13T17:15:00+00:00",
+    "round": 6
+  },
+  "211357": {
+    "thread_id": "8546",
+    "thread_url": "https://voetbalbe.boards.net/thread/8546/kaa-gent-standard-li-ge",
+    "title": "KAA Gent - Standard Liège",
+    "home_team": "KAA Gent",
+    "away_team": "Standard Liège",
+    "event_date": "2026-09-18T18:45:00+00:00",
+    "round": 7
+  },
+  "211358": {
+    "thread_id": "8547",
+    "thread_url": "https://voetbalbe.boards.net/thread/8547/oud-heverlee-leuven-raal-louvi",
+    "title": "Oud-Heverlee Leuven - RAAL La Louvière",
+    "home_team": "Oud-Heverlee Leuven",
+    "away_team": "RAAL La Louvière",
+    "event_date": "2026-09-19T14:00:00+00:00",
+    "round": 7
+  },
+  "211359": {
+    "thread_id": "8548",
+    "thread_url": "https://voetbalbe.boards.net/thread/8548/rc-sporting-charleroi-cercle-brugge",
+    "title": "RC Sporting Charleroi - Cercle Brugge",
+    "home_team": "RC Sporting Charleroi",
+    "away_team": "Cercle Brugge",
+    "event_date": "2026-09-19T16:15:00+00:00",
+    "round": 7
+  },
+  "211360": {
+    "thread_id": "8549",
+    "thread_url": "https://voetbalbe.boards.net/thread/8549/lommel-sk-kv-mechelen",
+    "title": "Lommel SK - KV Mechelen",
+    "home_team": "Lommel SK",
+    "away_team": "KV Mechelen",
+    "event_date": "2026-09-19T18:45:00+00:00",
+    "round": 7
+  },
+  "211361": {
+    "thread_id": "8550",
+    "thread_url": "https://voetbalbe.boards.net/thread/8550/rsc-anderlecht-sv-zulte-waregem",
+    "title": "RSC Anderlecht - SV Zulte Waregem",
+    "home_team": "RSC Anderlecht",
+    "away_team": "SV Zulte Waregem",
+    "event_date": "2026-09-19T18:45:00+00:00",
+    "round": 7
+  },
+  "211362": {
+    "thread_id": "8551",
+    "thread_url": "https://voetbalbe.boards.net/thread/8551/royal-antwerp-royale-union-gilloise",
+    "title": "Royal Antwerp FC - Royale Union Saint-Gilloise",
+    "home_team": "Royal Antwerp FC",
+    "away_team": "Royale Union Saint-Gilloise",
+    "event_date": "2026-09-20T11:30:00+00:00",
+    "round": 7
+  },
+  "211363": {
+    "thread_id": "8552",
+    "thread_url": "https://voetbalbe.boards.net/thread/8552/sint-truidense-vv-kvc-westerlo",
+    "title": "Sint-Truidense VV - KVC Westerlo",
+    "home_team": "Sint-Truidense VV",
+    "away_team": "KVC Westerlo",
+    "event_date": "2026-09-20T14:00:00+00:00",
+    "round": 7
+  },
+  "211364": {
+    "thread_id": "8553",
+    "thread_url": "https://voetbalbe.boards.net/thread/8553/club-brugge-kv-krc-genk",
+    "title": "Club Brugge KV - KRC Genk",
+    "home_team": "Club Brugge KV",
+    "away_team": "KRC Genk",
+    "event_date": "2026-09-20T16:30:00+00:00",
+    "round": 7
+  },
+  "211365": {
+    "thread_id": "8554",
+    "thread_url": "https://voetbalbe.boards.net/thread/8554/kv-kortrijk-sk-beveren",
+    "title": "KV Kortrijk - SK Beveren",
+    "home_team": "KV Kortrijk",
+    "away_team": "SK Beveren",
+    "event_date": "2026-09-20T17:15:00+00:00",
+    "round": 7
+  },
+  "212781": {
+    "thread_id": "8555",
+    "thread_url": "https://voetbalbe.boards.net/thread/8555/cercle-brugge-rsc-anderlecht",
+    "title": "Cercle Brugge - RSC Anderlecht",
+    "home_team": "Cercle Brugge",
+    "away_team": "RSC Anderlecht",
+    "event_date": "2026-10-09T16:00:00+00:00",
+    "round": 8
+  },
+  "212782": {
+    "thread_id": "8556",
+    "thread_url": "https://voetbalbe.boards.net/thread/8556/krc-genk-kv-kortrijk",
+    "title": "KRC Genk - KV Kortrijk",
+    "home_team": "KRC Genk",
+    "away_team": "KV Kortrijk",
+    "event_date": "2026-10-09T16:00:00+00:00",
+    "round": 8
+  },
+  "212783": {
+    "thread_id": "8557",
+    "thread_url": "https://voetbalbe.boards.net/thread/8557/kv-mechelen-sint-truidense-vv",
+    "title": "KV Mechelen - Sint-Truidense VV",
+    "home_team": "KV Mechelen",
+    "away_team": "Sint-Truidense VV",
+    "event_date": "2026-10-09T16:00:00+00:00",
+    "round": 8
+  },
+  "212784": {
+    "thread_id": "8558",
+    "thread_url": "https://voetbalbe.boards.net/thread/8558/kvc-westerlo-royal-antwerp-fc",
+    "title": "KVC Westerlo - Royal Antwerp FC",
+    "home_team": "KVC Westerlo",
+    "away_team": "Royal Antwerp FC",
+    "event_date": "2026-10-09T16:00:00+00:00",
+    "round": 8
+  },
+  "212785": {
+    "thread_id": "8559",
+    "thread_url": "https://voetbalbe.boards.net/thread/8559/raal-la-louvi-club-brugge",
+    "title": "RAAL La Louvière - Club Brugge KV",
+    "home_team": "RAAL La Louvière",
+    "away_team": "Club Brugge KV",
+    "event_date": "2026-10-09T16:00:00+00:00",
+    "round": 8
+  },
+  "212786": {
+    "thread_id": "8560",
+    "thread_url": "https://voetbalbe.boards.net/thread/8560/royale-union-gilloise-heverlee-leuven",
+    "title": "Royale Union Saint-Gilloise - Oud-Heverlee Leuven",
+    "home_team": "Royale Union Saint-Gilloise",
+    "away_team": "Oud-Heverlee Leuven",
+    "event_date": "2026-10-09T16:00:00+00:00",
+    "round": 8
+  },
+  "212787": {
+    "thread_id": "8561",
+    "thread_url": "https://voetbalbe.boards.net/thread/8561/sk-beveren-lommel",
+    "title": "SK Beveren - Lommel SK",
+    "home_team": "SK Beveren",
+    "away_team": "Lommel SK",
+    "event_date": "2026-10-09T16:00:00+00:00",
+    "round": 8
+  },
+  "212788": {
+    "thread_id": "8562",
+    "thread_url": "https://voetbalbe.boards.net/thread/8562/sv-zulte-waregem-kaa-gent",
+    "title": "SV Zulte Waregem - KAA Gent",
+    "home_team": "SV Zulte Waregem",
+    "away_team": "KAA Gent",
+    "event_date": "2026-10-09T16:00:00+00:00",
+    "round": 8
+  },
+  "212789": {
+    "thread_id": "8563",
+    "thread_url": "https://voetbalbe.boards.net/thread/8563/standard-li-ge-sporting-charleroi",
+    "title": "Standard Liège - RC Sporting Charleroi",
+    "home_team": "Standard Liège",
+    "away_team": "RC Sporting Charleroi",
+    "event_date": "2026-10-09T16:00:00+00:00",
+    "round": 8
+  },
+  "212790": {
+    "thread_id": "8564",
+    "thread_url": "https://voetbalbe.boards.net/thread/8564/club-brugge-kv-sint-truidense",
+    "title": "Club Brugge KV - Sint-Truidense VV",
+    "home_team": "Club Brugge KV",
+    "away_team": "Sint-Truidense VV",
+    "event_date": "2026-10-23T16:00:00+00:00",
+    "round": 9
+  },
+  "212791": {
+    "thread_id": "8565",
+    "thread_url": "https://voetbalbe.boards.net/thread/8565/kaa-gent-rsc-anderlecht",
+    "title": "KAA Gent - RSC Anderlecht",
+    "home_team": "KAA Gent",
+    "away_team": "RSC Anderlecht",
+    "event_date": "2026-10-23T16:00:00+00:00",
+    "round": 9
+  },
+  "212792": {
+    "thread_id": "8566",
+    "thread_url": "https://voetbalbe.boards.net/thread/8566/krc-genk-standard-li-ge",
+    "title": "KRC Genk - Standard Liège",
+    "home_team": "KRC Genk",
+    "away_team": "Standard Liège",
+    "event_date": "2026-10-23T16:00:00+00:00",
+    "round": 9
+  },
+  "212793": {
+    "thread_id": "8567",
+    "thread_url": "https://voetbalbe.boards.net/thread/8567/kv-kortrijk-mechelen",
+    "title": "KV Kortrijk - KV Mechelen",
+    "home_team": "KV Kortrijk",
+    "away_team": "KV Mechelen",
+    "event_date": "2026-10-23T16:00:00+00:00",
+    "round": 9
+  },
+  "212794": {
+    "thread_id": "8568",
+    "thread_url": "https://voetbalbe.boards.net/thread/8568/kvc-westerlo-sk-beveren",
+    "title": "KVC Westerlo - SK Beveren",
+    "home_team": "KVC Westerlo",
+    "away_team": "SK Beveren",
+    "event_date": "2026-10-23T16:00:00+00:00",
+    "round": 9
+  },
+  "212795": {
+    "thread_id": "8569",
+    "thread_url": "https://voetbalbe.boards.net/thread/8569/oud-heverlee-leuven-lommel-sk",
+    "title": "Oud-Heverlee Leuven - Lommel SK",
+    "home_team": "Oud-Heverlee Leuven",
+    "away_team": "Lommel SK",
+    "event_date": "2026-10-23T16:00:00+00:00",
+    "round": 9
+  },
+  "212796": {
+    "thread_id": "8570",
+    "thread_url": "https://voetbalbe.boards.net/thread/8570/raal-la-louvi-zulte-waregem",
+    "title": "RAAL La Louvière - SV Zulte Waregem",
+    "home_team": "RAAL La Louvière",
+    "away_team": "SV Zulte Waregem",
+    "event_date": "2026-10-23T16:00:00+00:00",
+    "round": 9
+  },
+  "212797": {
+    "thread_id": "8571",
+    "thread_url": "https://voetbalbe.boards.net/thread/8571/royal-antwerp-fc-sporting-charleroi",
+    "title": "Royal Antwerp FC - RC Sporting Charleroi",
+    "home_team": "Royal Antwerp FC",
+    "away_team": "RC Sporting Charleroi",
+    "event_date": "2026-10-23T16:00:00+00:00",
+    "round": 9
+  },
+  "212798": {
+    "thread_id": "8572",
+    "thread_url": "https://voetbalbe.boards.net/thread/8572/royale-union-gilloise-cercle-brugge",
+    "title": "Royale Union Saint-Gilloise - Cercle Brugge",
+    "home_team": "Royale Union Saint-Gilloise",
+    "away_team": "Cercle Brugge",
+    "event_date": "2026-10-23T16:00:00+00:00",
+    "round": 9
+  },
+  "212799": {
+    "thread_id": "8573",
+    "thread_url": "https://voetbalbe.boards.net/thread/8573/cercle-brugge-royal-antwerp-fc",
+    "title": "Cercle Brugge - Royal Antwerp FC",
+    "home_team": "Cercle Brugge",
+    "away_team": "Royal Antwerp FC",
+    "event_date": "2026-10-31T16:00:00+00:00",
+    "round": 10
+  },
+  "212800": {
+    "thread_id": "8574",
+    "thread_url": "https://voetbalbe.boards.net/thread/8574/kv-mechelen-krc-genk",
+    "title": "KV Mechelen - KRC Genk",
+    "home_team": "KV Mechelen",
+    "away_team": "KRC Genk",
+    "event_date": "2026-10-31T16:00:00+00:00",
+    "round": 10
+  },
+  "212801": {
+    "thread_id": "8575",
+    "thread_url": "https://voetbalbe.boards.net/thread/8575/lommel-sk-kaa-gent",
+    "title": "Lommel SK - KAA Gent",
+    "home_team": "Lommel SK",
+    "away_team": "KAA Gent",
+    "event_date": "2026-10-31T16:00:00+00:00",
+    "round": 10
+  },
+  "212802": {
+    "thread_id": "8576",
+    "thread_url": "https://voetbalbe.boards.net/thread/8576/rc-sporting-charleroi-raal-louvi",
+    "title": "RC Sporting Charleroi - RAAL La Louvière",
+    "home_team": "RC Sporting Charleroi",
+    "away_team": "RAAL La Louvière",
+    "event_date": "2026-10-31T16:00:00+00:00",
+    "round": 10
+  },
+  "212803": {
+    "thread_id": "8577",
+    "thread_url": "https://voetbalbe.boards.net/thread/8577/rsc-anderlecht-kvc-westerlo",
+    "title": "RSC Anderlecht - KVC Westerlo",
+    "home_team": "RSC Anderlecht",
+    "away_team": "KVC Westerlo",
+    "event_date": "2026-10-31T16:00:00+00:00",
+    "round": 10
+  },
+  "212804": {
+    "thread_id": "8578",
+    "thread_url": "https://voetbalbe.boards.net/thread/8578/beveren-royale-union-saint-gilloise",
+    "title": "SK Beveren - Royale Union Saint-Gilloise",
+    "home_team": "SK Beveren",
+    "away_team": "Royale Union Saint-Gilloise",
+    "event_date": "2026-10-31T16:00:00+00:00",
+    "round": 10
+  },
+  "212805": {
+    "thread_id": "8579",
+    "thread_url": "https://voetbalbe.boards.net/thread/8579/sv-zulte-waregem-club-brugge",
+    "title": "SV Zulte Waregem - Club Brugge KV",
+    "home_team": "SV Zulte Waregem",
+    "away_team": "Club Brugge KV",
+    "event_date": "2026-10-31T16:00:00+00:00",
+    "round": 10
+  },
+  "212806": {
+    "thread_id": "8580",
+    "thread_url": "https://voetbalbe.boards.net/thread/8580/sint-truidense-oud-heverlee-leuven",
+    "title": "Sint-Truidense VV - Oud-Heverlee Leuven",
+    "home_team": "Sint-Truidense VV",
+    "away_team": "Oud-Heverlee Leuven",
+    "event_date": "2026-10-31T16:00:00+00:00",
+    "round": 10
+  },
+  "212807": {
+    "thread_id": "8581",
+    "thread_url": "https://voetbalbe.boards.net/thread/8581/standard-li-ge-kv-kortrijk",
+    "title": "Standard Liège - KV Kortrijk",
+    "home_team": "Standard Liège",
+    "away_team": "KV Kortrijk",
+    "event_date": "2026-10-31T16:00:00+00:00",
+    "round": 10
+  },
+  "212808": {
+    "thread_id": "8582",
+    "thread_url": "https://voetbalbe.boards.net/thread/8582/club-brugge-kv-rsc-anderlecht",
+    "title": "Club Brugge KV - RSC Anderlecht",
+    "home_team": "Club Brugge KV",
+    "away_team": "RSC Anderlecht",
+    "event_date": "2026-11-07T16:00:00+00:00",
+    "round": 11
+  },
+  "212809": {
+    "thread_id": "8583",
+    "thread_url": "https://voetbalbe.boards.net/thread/8583/kaa-gent-kv-kortrijk",
+    "title": "KAA Gent - KV Kortrijk",
+    "home_team": "KAA Gent",
+    "away_team": "KV Kortrijk",
+    "event_date": "2026-11-07T16:00:00+00:00",
+    "round": 11
+  },
+  "212810": {
+    "thread_id": "8584",
+    "thread_url": "https://voetbalbe.boards.net/thread/8584/kvc-westerlo-rc-sporting-charleroi",
+    "title": "KVC Westerlo - RC Sporting Charleroi",
+    "home_team": "KVC Westerlo",
+    "away_team": "RC Sporting Charleroi",
+    "event_date": "2026-11-07T16:00:00+00:00",
+    "round": 11
+  },
+  "212811": {
+    "thread_id": "8585",
+    "thread_url": "https://voetbalbe.boards.net/thread/8585/oud-heverlee-leuven-kv-mechelen",
+    "title": "Oud-Heverlee Leuven - KV Mechelen",
+    "home_team": "Oud-Heverlee Leuven",
+    "away_team": "KV Mechelen",
+    "event_date": "2026-11-07T16:00:00+00:00",
+    "round": 11
+  },
+  "212812": {
+    "thread_id": "8586",
+    "thread_url": "https://voetbalbe.boards.net/thread/8586/raal-la-louvi-cercle-brugge",
+    "title": "RAAL La Louvière - Cercle Brugge",
+    "home_team": "RAAL La Louvière",
+    "away_team": "Cercle Brugge",
+    "event_date": "2026-11-07T16:00:00+00:00",
+    "round": 11
+  },
+  "212813": {
+    "thread_id": "8587",
+    "thread_url": "https://voetbalbe.boards.net/thread/8587/royal-antwerp-fc-lommel-sk",
+    "title": "Royal Antwerp FC - Lommel SK",
+    "home_team": "Royal Antwerp FC",
+    "away_team": "Lommel SK",
+    "event_date": "2026-11-07T16:00:00+00:00",
+    "round": 11
+  },
+  "212814": {
+    "thread_id": "8588",
+    "thread_url": "https://voetbalbe.boards.net/thread/8588/royale-union-saint-gilloise-genk",
+    "title": "Royale Union Saint-Gilloise - KRC Genk",
+    "home_team": "Royale Union Saint-Gilloise",
+    "away_team": "KRC Genk",
+    "event_date": "2026-11-07T16:00:00+00:00",
+    "round": 11
+  },
+  "212815": {
+    "thread_id": "8589",
+    "thread_url": "https://voetbalbe.boards.net/thread/8589/sint-truidense-vv-zulte-waregem",
+    "title": "Sint-Truidense VV - SV Zulte Waregem",
+    "home_team": "Sint-Truidense VV",
+    "away_team": "SV Zulte Waregem",
+    "event_date": "2026-11-07T16:00:00+00:00",
+    "round": 11
+  },
+  "212816": {
+    "thread_id": "8590",
+    "thread_url": "https://voetbalbe.boards.net/thread/8590/standard-li-ge-sk-beveren",
+    "title": "Standard Liège - SK Beveren",
+    "home_team": "Standard Liège",
+    "away_team": "SK Beveren",
+    "event_date": "2026-11-07T16:00:00+00:00",
+    "round": 11
+  },
+  "212817": {
+    "thread_id": "8591",
+    "thread_url": "https://voetbalbe.boards.net/thread/8591/cercle-brugge-kvc-westerlo",
+    "title": "Cercle Brugge - KVC Westerlo",
+    "home_team": "Cercle Brugge",
+    "away_team": "KVC Westerlo",
+    "event_date": "2026-11-21T16:00:00+00:00",
+    "round": 12
+  },
+  "212818": {
+    "thread_id": "8592",
+    "thread_url": "https://voetbalbe.boards.net/thread/8592/krc-genk-raal-la-louvi",
+    "title": "KRC Genk - RAAL La Louvière",
+    "home_team": "KRC Genk",
+    "away_team": "RAAL La Louvière",
+    "event_date": "2026-11-21T16:00:00+00:00",
+    "round": 12
+  },
+  "212819": {
+    "thread_id": "8593",
+    "thread_url": "https://voetbalbe.boards.net/thread/8593/kortrijk-royale-union-saint-gilloise",
+    "title": "KV Kortrijk - Royale Union Saint-Gilloise",
+    "home_team": "KV Kortrijk",
+    "away_team": "Royale Union Saint-Gilloise",
+    "event_date": "2026-11-21T16:00:00+00:00",
+    "round": 12
+  },
+  "212820": {
+    "thread_id": "8594",
+    "thread_url": "https://voetbalbe.boards.net/thread/8594/kv-mechelen-club-brugge",
+    "title": "KV Mechelen - Club Brugge KV",
+    "home_team": "KV Mechelen",
+    "away_team": "Club Brugge KV",
+    "event_date": "2026-11-21T16:00:00+00:00",
+    "round": 12
+  },
+  "212821": {
+    "thread_id": "8595",
+    "thread_url": "https://voetbalbe.boards.net/thread/8595/lommel-sk-standard-li-ge",
+    "title": "Lommel SK - Standard Liège",
+    "home_team": "Lommel SK",
+    "away_team": "Standard Liège",
+    "event_date": "2026-11-21T16:00:00+00:00",
+    "round": 12
+  },
+  "212822": {
+    "thread_id": "8596",
+    "thread_url": "https://voetbalbe.boards.net/thread/8596/rc-sporting-charleroi-sint-truidense",
+    "title": "RC Sporting Charleroi - Sint-Truidense VV",
+    "home_team": "RC Sporting Charleroi",
+    "away_team": "Sint-Truidense VV",
+    "event_date": "2026-11-21T16:00:00+00:00",
+    "round": 12
+  },
+  "212823": {
+    "thread_id": "8597",
+    "thread_url": "https://voetbalbe.boards.net/thread/8597/rsc-anderlecht-oud-heverlee-leuven",
+    "title": "RSC Anderlecht - Oud-Heverlee Leuven",
+    "home_team": "RSC Anderlecht",
+    "away_team": "Oud-Heverlee Leuven",
+    "event_date": "2026-11-21T16:00:00+00:00",
+    "round": 12
+  },
+  "212824": {
+    "thread_id": "8598",
+    "thread_url": "https://voetbalbe.boards.net/thread/8598/sk-beveren-kaa-gent",
+    "title": "SK Beveren - KAA Gent",
+    "home_team": "SK Beveren",
+    "away_team": "KAA Gent",
+    "event_date": "2026-11-21T16:00:00+00:00",
+    "round": 12
+  },
+  "212825": {
+    "thread_id": "8599",
+    "thread_url": "https://voetbalbe.boards.net/thread/8599/sv-zulte-waregem-royal-antwerp",
+    "title": "SV Zulte Waregem - Royal Antwerp FC",
+    "home_team": "SV Zulte Waregem",
+    "away_team": "Royal Antwerp FC",
+    "event_date": "2026-11-21T16:00:00+00:00",
+    "round": 12
+  },
+  "212826": {
+    "thread_id": "8600",
+    "thread_url": "https://voetbalbe.boards.net/thread/8600/cercle-brugge-kv-mechelen",
+    "title": "Cercle Brugge - KV Mechelen",
+    "home_team": "Cercle Brugge",
+    "away_team": "KV Mechelen",
+    "event_date": "2026-11-28T16:00:00+00:00",
+    "round": 13
+  },
+  "212827": {
+    "thread_id": "8601",
+    "thread_url": "https://voetbalbe.boards.net/thread/8601/kvc-westerlo-raal-la-louvi",
+    "title": "KVC Westerlo - RAAL La Louvière",
+    "home_team": "KVC Westerlo",
+    "away_team": "RAAL La Louvière",
+    "event_date": "2026-11-28T16:00:00+00:00",
+    "round": 13
+  },
+  "212828": {
+    "thread_id": "8602",
+    "thread_url": "https://voetbalbe.boards.net/thread/8602/lommel-sk-sv-zulte-waregem",
+    "title": "Lommel SK - SV Zulte Waregem",
+    "home_team": "Lommel SK",
+    "away_team": "SV Zulte Waregem",
+    "event_date": "2026-11-28T16:00:00+00:00",
+    "round": 13
+  },
+  "212829": {
+    "thread_id": "8603",
+    "thread_url": "https://voetbalbe.boards.net/thread/8603/oud-heverlee-leuven-kv-kortrijk",
+    "title": "Oud-Heverlee Leuven - KV Kortrijk",
+    "home_team": "Oud-Heverlee Leuven",
+    "away_team": "KV Kortrijk",
+    "event_date": "2026-11-28T16:00:00+00:00",
+    "round": 13
+  },
+  "212830": {
+    "thread_id": "8604",
+    "thread_url": "https://voetbalbe.boards.net/thread/8604/rc-sporting-charleroi-sk-beveren",
+    "title": "RC Sporting Charleroi - SK Beveren",
+    "home_team": "RC Sporting Charleroi",
+    "away_team": "SK Beveren",
+    "event_date": "2026-11-28T16:00:00+00:00",
+    "round": 13
+  },
+  "212831": {
+    "thread_id": "8605",
+    "thread_url": "https://voetbalbe.boards.net/thread/8605/royal-antwerp-fc-rsc-anderlecht",
+    "title": "Royal Antwerp FC - RSC Anderlecht",
+    "home_team": "Royal Antwerp FC",
+    "away_team": "RSC Anderlecht",
+    "event_date": "2026-11-28T16:00:00+00:00",
+    "round": 13
+  },
+  "212832": {
+    "thread_id": "8606",
+    "thread_url": "https://voetbalbe.boards.net/thread/8606/royale-union-saint-gilloise-gent",
+    "title": "Royale Union Saint-Gilloise - KAA Gent",
+    "home_team": "Royale Union Saint-Gilloise",
+    "away_team": "KAA Gent",
+    "event_date": "2026-11-28T16:00:00+00:00",
+    "round": 13
+  },
+  "212833": {
+    "thread_id": "8607",
+    "thread_url": "https://voetbalbe.boards.net/thread/8607/sint-truidense-vv-krc-genk",
+    "title": "Sint-Truidense VV - KRC Genk",
+    "home_team": "Sint-Truidense VV",
+    "away_team": "KRC Genk",
+    "event_date": "2026-11-28T16:00:00+00:00",
+    "round": 13
+  },
+  "212834": {
+    "thread_id": "8608",
+    "thread_url": "https://voetbalbe.boards.net/thread/8608/standard-li-ge-club-brugge",
+    "title": "Standard Liège - Club Brugge KV",
+    "home_team": "Standard Liège",
+    "away_team": "Club Brugge KV",
+    "event_date": "2026-11-28T16:00:00+00:00",
+    "round": 13
+  },
+  "212835": {
+    "thread_id": "8609",
+    "thread_url": "https://voetbalbe.boards.net/thread/8609/club-brugge-kv-kvc-westerlo",
+    "title": "Club Brugge KV - KVC Westerlo",
+    "home_team": "Club Brugge KV",
+    "away_team": "KVC Westerlo",
+    "event_date": "2026-12-12T16:00:00+00:00",
+    "round": 14
+  },
+  "212836": {
+    "thread_id": "8610",
+    "thread_url": "https://voetbalbe.boards.net/thread/8610/kaa-gent-sint-truidense-vv",
+    "title": "KAA Gent - Sint-Truidense VV",
+    "home_team": "KAA Gent",
+    "away_team": "Sint-Truidense VV",
+    "event_date": "2026-12-12T16:00:00+00:00",
+    "round": 14
+  },
+  "212837": {
+    "thread_id": "8611",
+    "thread_url": "https://voetbalbe.boards.net/thread/8611/krc-genk-oud-heverlee-leuven",
+    "title": "KRC Genk - Oud-Heverlee Leuven",
+    "home_team": "KRC Genk",
+    "away_team": "Oud-Heverlee Leuven",
+    "event_date": "2026-12-12T16:00:00+00:00",
+    "round": 14
+  },
+  "212838": {
+    "thread_id": "8612",
+    "thread_url": "https://voetbalbe.boards.net/thread/8612/kv-kortrijk-lommel-sk",
+    "title": "KV Kortrijk - Lommel SK",
+    "home_team": "KV Kortrijk",
+    "away_team": "Lommel SK",
+    "event_date": "2026-12-12T16:00:00+00:00",
+    "round": 14
+  },
+  "212839": {
+    "thread_id": "8613",
+    "thread_url": "https://voetbalbe.boards.net/thread/8613/mechelen-royale-union-saint-gilloise",
+    "title": "KV Mechelen - Royale Union Saint-Gilloise",
+    "home_team": "KV Mechelen",
+    "away_team": "Royale Union Saint-Gilloise",
+    "event_date": "2026-12-12T16:00:00+00:00",
+    "round": 14
+  },
+  "212840": {
+    "thread_id": "8614",
+    "thread_url": "https://voetbalbe.boards.net/thread/8614/raal-la-louvi-royal-antwerp",
+    "title": "RAAL La Louvière - Royal Antwerp FC",
+    "home_team": "RAAL La Louvière",
+    "away_team": "Royal Antwerp FC",
+    "event_date": "2026-12-12T16:00:00+00:00",
+    "round": 14
+  },
+  "212841": {
+    "thread_id": "8615",
+    "thread_url": "https://voetbalbe.boards.net/thread/8615/rsc-anderlecht-rc-sporting-charleroi",
+    "title": "RSC Anderlecht - RC Sporting Charleroi",
+    "home_team": "RSC Anderlecht",
+    "away_team": "RC Sporting Charleroi",
+    "event_date": "2026-12-12T16:00:00+00:00",
+    "round": 14
+  },
+  "212842": {
+    "thread_id": "8616",
+    "thread_url": "https://voetbalbe.boards.net/thread/8616/sk-beveren-cercle-brugge",
+    "title": "SK Beveren - Cercle Brugge",
+    "home_team": "SK Beveren",
+    "away_team": "Cercle Brugge",
+    "event_date": "2026-12-12T16:00:00+00:00",
+    "round": 14
+  },
+  "212843": {
+    "thread_id": "8617",
+    "thread_url": "https://voetbalbe.boards.net/thread/8617/sv-zulte-waregem-standard-li",
+    "title": "SV Zulte Waregem - Standard Liège",
+    "home_team": "SV Zulte Waregem",
+    "away_team": "Standard Liège",
+    "event_date": "2026-12-12T16:00:00+00:00",
+    "round": 14
+  },
+  "212844": {
+    "thread_id": "8618",
+    "thread_url": "https://voetbalbe.boards.net/thread/8618/cercle-brugge-sv-zulte-waregem",
+    "title": "Cercle Brugge - SV Zulte Waregem",
+    "home_team": "Cercle Brugge",
+    "away_team": "SV Zulte Waregem",
+    "event_date": "2026-12-19T16:00:00+00:00",
+    "round": 15
+  },
+  "212845": {
+    "thread_id": "8619",
+    "thread_url": "https://voetbalbe.boards.net/thread/8619/kvc-westerlo-kaa-gent",
+    "title": "KVC Westerlo - KAA Gent",
+    "home_team": "KVC Westerlo",
+    "away_team": "KAA Gent",
+    "event_date": "2026-12-19T16:00:00+00:00",
+    "round": 15
+  },
+  "212846": {
+    "thread_id": "8620",
+    "thread_url": "https://voetbalbe.boards.net/thread/8620/lommel-sk-raal-la-louvi",
+    "title": "Lommel SK - RAAL La Louvière",
+    "home_team": "Lommel SK",
+    "away_team": "RAAL La Louvière",
+    "event_date": "2026-12-19T16:00:00+00:00",
+    "round": 15
+  },
+  "212847": {
+    "thread_id": "8621",
+    "thread_url": "https://voetbalbe.boards.net/thread/8621/rc-sporting-charleroi-krc-genk",
+    "title": "RC Sporting Charleroi - KRC Genk",
+    "home_team": "RC Sporting Charleroi",
+    "away_team": "KRC Genk",
+    "event_date": "2026-12-19T16:00:00+00:00",
+    "round": 15
+  },
+  "212848": {
+    "thread_id": "8622",
+    "thread_url": "https://voetbalbe.boards.net/thread/8622/royal-antwerp-oud-heverlee-leuven",
+    "title": "Royal Antwerp FC - Oud-Heverlee Leuven",
+    "home_team": "Royal Antwerp FC",
+    "away_team": "Oud-Heverlee Leuven",
+    "event_date": "2026-12-19T16:00:00+00:00",
+    "round": 15
+  },
+  "212849": {
+    "thread_id": "8623",
+    "thread_url": "https://voetbalbe.boards.net/thread/8623/royale-union-saint-gilloise-brugge",
+    "title": "Royale Union Saint-Gilloise - Club Brugge KV",
+    "home_team": "Royale Union Saint-Gilloise",
+    "away_team": "Club Brugge KV",
+    "event_date": "2026-12-19T16:00:00+00:00",
+    "round": 15
+  },
+  "212850": {
+    "thread_id": "8624",
+    "thread_url": "https://voetbalbe.boards.net/thread/8624/sk-beveren-kv-mechelen",
+    "title": "SK Beveren - KV Mechelen",
+    "home_team": "SK Beveren",
+    "away_team": "KV Mechelen",
+    "event_date": "2026-12-19T16:00:00+00:00",
+    "round": 15
+  },
+  "212851": {
+    "thread_id": "8625",
+    "thread_url": "https://voetbalbe.boards.net/thread/8625/sint-truidense-vv-kv-kortrijk",
+    "title": "Sint-Truidense VV - KV Kortrijk",
+    "home_team": "Sint-Truidense VV",
+    "away_team": "KV Kortrijk",
+    "event_date": "2026-12-19T16:00:00+00:00",
+    "round": 15
+  },
+  "212852": {
+    "thread_id": "8626",
+    "thread_url": "https://voetbalbe.boards.net/thread/8626/standard-li-ge-rsc-anderlecht",
+    "title": "Standard Liège - RSC Anderlecht",
+    "home_team": "Standard Liège",
+    "away_team": "RSC Anderlecht",
+    "event_date": "2026-12-19T16:00:00+00:00",
+    "round": 15
+  },
+  "212853": {
+    "thread_id": "8627",
+    "thread_url": "https://voetbalbe.boards.net/thread/8627/club-brugge-kv-sporting-charleroi",
+    "title": "Club Brugge KV - RC Sporting Charleroi",
+    "home_team": "Club Brugge KV",
+    "away_team": "RC Sporting Charleroi",
+    "event_date": "2026-12-26T16:00:00+00:00",
+    "round": 16
+  },
+  "212854": {
+    "thread_id": "8628",
+    "thread_url": "https://voetbalbe.boards.net/thread/8628/kaa-gent-royal-antwerp-fc",
+    "title": "KAA Gent - Royal Antwerp FC",
+    "home_team": "KAA Gent",
+    "away_team": "Royal Antwerp FC",
+    "event_date": "2026-12-26T16:00:00+00:00",
+    "round": 16
+  },
+  "212855": {
+    "thread_id": "8629",
+    "thread_url": "https://voetbalbe.boards.net/thread/8629/krc-genk-lommel-sk",
+    "title": "KRC Genk - Lommel SK",
+    "home_team": "KRC Genk",
+    "away_team": "Lommel SK",
+    "event_date": "2026-12-26T16:00:00+00:00",
+    "round": 16
+  },
+  "212856": {
+    "thread_id": "8630",
+    "thread_url": "https://voetbalbe.boards.net/thread/8630/kv-kortrijk-cercle-brugge",
+    "title": "KV Kortrijk - Cercle Brugge",
+    "home_team": "KV Kortrijk",
+    "away_team": "Cercle Brugge",
+    "event_date": "2026-12-26T16:00:00+00:00",
+    "round": 16
+  },
+  "212857": {
+    "thread_id": "8631",
+    "thread_url": "https://voetbalbe.boards.net/thread/8631/kv-mechelen-sv-zulte-waregem",
+    "title": "KV Mechelen - SV Zulte Waregem",
+    "home_team": "KV Mechelen",
+    "away_team": "SV Zulte Waregem",
+    "event_date": "2026-12-26T16:00:00+00:00",
+    "round": 16
+  },
+  "212858": {
+    "thread_id": "8632",
+    "thread_url": "https://voetbalbe.boards.net/thread/8632/oud-heverlee-leuven-kvc-westerlo",
+    "title": "Oud-Heverlee Leuven - KVC Westerlo",
+    "home_team": "Oud-Heverlee Leuven",
+    "away_team": "KVC Westerlo",
+    "event_date": "2026-12-26T16:00:00+00:00",
+    "round": 16
+  },
+  "212859": {
+    "thread_id": "8633",
+    "thread_url": "https://voetbalbe.boards.net/thread/8633/raal-la-louvi-re-beveren",
+    "title": "RAAL La Louvière - SK Beveren",
+    "home_team": "RAAL La Louvière",
+    "away_team": "SK Beveren",
+    "event_date": "2026-12-26T16:00:00+00:00",
+    "round": 16
+  },
+  "212860": {
+    "thread_id": "8634",
+    "thread_url": "https://voetbalbe.boards.net/thread/8634/rsc-anderlecht-sint-truidense-vv",
+    "title": "RSC Anderlecht - Sint-Truidense VV",
+    "home_team": "RSC Anderlecht",
+    "away_team": "Sint-Truidense VV",
+    "event_date": "2026-12-26T16:00:00+00:00",
+    "round": 16
+  },
+  "212861": {
+    "thread_id": "8635",
+    "thread_url": "https://voetbalbe.boards.net/thread/8635/standard-royale-union-saint-gilloise",
+    "title": "Standard Liège - Royale Union Saint-Gilloise",
+    "home_team": "Standard Liège",
+    "away_team": "Royale Union Saint-Gilloise",
+    "event_date": "2026-12-26T16:00:00+00:00",
+    "round": 16
+  },
+  "212862": {
+    "thread_id": "8636",
+    "thread_url": "https://voetbalbe.boards.net/thread/8636/cercle-brugge-krc-genk",
+    "title": "Cercle Brugge - KRC Genk",
+    "home_team": "Cercle Brugge",
+    "away_team": "KRC Genk",
+    "event_date": "2027-01-16T16:00:00+00:00",
+    "round": 17
+  },
+  "212863": {
+    "thread_id": "8637",
+    "thread_url": "https://voetbalbe.boards.net/thread/8637/kvc-westerlo-kv-kortrijk",
+    "title": "KVC Westerlo - KV Kortrijk",
+    "home_team": "KVC Westerlo",
+    "away_team": "KV Kortrijk",
+    "event_date": "2027-01-16T16:00:00+00:00",
+    "round": 17
+  },
+  "212864": {
+    "thread_id": "8638",
+    "thread_url": "https://voetbalbe.boards.net/thread/8638/lommel-sk-rsc-anderlecht",
+    "title": "Lommel SK - RSC Anderlecht",
+    "home_team": "Lommel SK",
+    "away_team": "RSC Anderlecht",
+    "event_date": "2027-01-16T16:00:00+00:00",
+    "round": 17
+  },
+  "212865": {
+    "thread_id": "8639",
+    "thread_url": "https://voetbalbe.boards.net/thread/8639/rc-sporting-charleroi-kaa-gent",
+    "title": "RC Sporting Charleroi - KAA Gent",
+    "home_team": "RC Sporting Charleroi",
+    "away_team": "KAA Gent",
+    "event_date": "2027-01-16T16:00:00+00:00",
+    "round": 17
+  },
+  "212866": {
+    "thread_id": "8640",
+    "thread_url": "https://voetbalbe.boards.net/thread/8640/royal-antwerp-fc-kv-mechelen",
+    "title": "Royal Antwerp FC - KV Mechelen",
+    "home_team": "Royal Antwerp FC",
+    "away_team": "KV Mechelen",
+    "event_date": "2027-01-16T16:00:00+00:00",
+    "round": 17
+  },
+  "212867": {
+    "thread_id": "8641",
+    "thread_url": "https://voetbalbe.boards.net/thread/8641/royale-union-saint-gilloise-louvi",
+    "title": "Royale Union Saint-Gilloise - RAAL La Louvière",
+    "home_team": "Royale Union Saint-Gilloise",
+    "away_team": "RAAL La Louvière",
+    "event_date": "2027-01-16T16:00:00+00:00",
+    "round": 17
+  },
+  "212868": {
+    "thread_id": "8642",
+    "thread_url": "https://voetbalbe.boards.net/thread/8642/sk-beveren-club-brugge-kv",
+    "title": "SK Beveren - Club Brugge KV",
+    "home_team": "SK Beveren",
+    "away_team": "Club Brugge KV",
+    "event_date": "2027-01-16T16:00:00+00:00",
+    "round": 17
+  },
+  "212869": {
+    "thread_id": "8643",
+    "thread_url": "https://voetbalbe.boards.net/thread/8643/zulte-waregem-oud-heverlee-leuven",
+    "title": "SV Zulte Waregem - Oud-Heverlee Leuven",
+    "home_team": "SV Zulte Waregem",
+    "away_team": "Oud-Heverlee Leuven",
+    "event_date": "2027-01-16T16:00:00+00:00",
+    "round": 17
+  },
+  "212870": {
+    "thread_id": "8644",
+    "thread_url": "https://voetbalbe.boards.net/thread/8644/sint-truidense-vv-standard-li",
+    "title": "Sint-Truidense VV - Standard Liège",
+    "home_team": "Sint-Truidense VV",
+    "away_team": "Standard Liège",
+    "event_date": "2027-01-16T16:00:00+00:00",
+    "round": 17
+  },
+  "212871": {
+    "thread_id": "8645",
+    "thread_url": "https://voetbalbe.boards.net/thread/8645/club-brugge-kv-raal-louvi",
+    "title": "Club Brugge KV - RAAL La Louvière",
+    "home_team": "Club Brugge KV",
+    "away_team": "RAAL La Louvière",
+    "event_date": "2027-01-23T16:00:00+00:00",
+    "round": 18
+  },
+  "212872": {
+    "thread_id": "8646",
+    "thread_url": "https://voetbalbe.boards.net/thread/8646/kaa-gent-cercle-brugge",
+    "title": "KAA Gent - Cercle Brugge",
+    "home_team": "KAA Gent",
+    "away_team": "Cercle Brugge",
+    "event_date": "2027-01-23T16:00:00+00:00",
+    "round": 18
+  },
+  "212873": {
+    "thread_id": "8647",
+    "thread_url": "https://voetbalbe.boards.net/thread/8647/kv-kortrijk-rsc-anderlecht",
+    "title": "KV Kortrijk - RSC Anderlecht",
+    "home_team": "KV Kortrijk",
+    "away_team": "RSC Anderlecht",
+    "event_date": "2027-01-23T16:00:00+00:00",
+    "round": 18
+  },
+  "212874": {
+    "thread_id": "8648",
+    "thread_url": "https://voetbalbe.boards.net/thread/8648/kv-mechelen-lommel-sk",
+    "title": "KV Mechelen - Lommel SK",
+    "home_team": "KV Mechelen",
+    "away_team": "Lommel SK",
+    "event_date": "2027-01-23T16:00:00+00:00",
+    "round": 18
+  },
+  "212875": {
+    "thread_id": "8649",
+    "thread_url": "https://voetbalbe.boards.net/thread/8649/rc-sporting-charleroi-royal-antwerp",
+    "title": "RC Sporting Charleroi - Royal Antwerp FC",
+    "home_team": "RC Sporting Charleroi",
+    "away_team": "Royal Antwerp FC",
+    "event_date": "2027-01-23T16:00:00+00:00",
+    "round": 18
+  },
+  "212876": {
+    "thread_id": "8650",
+    "thread_url": "https://voetbalbe.boards.net/thread/8650/royale-union-saint-gilloise-beveren",
+    "title": "Royale Union Saint-Gilloise - SK Beveren",
+    "home_team": "Royale Union Saint-Gilloise",
+    "away_team": "SK Beveren",
+    "event_date": "2027-01-23T16:00:00+00:00",
+    "round": 18
+  },
+  "212877": {
+    "thread_id": "8651",
+    "thread_url": "https://voetbalbe.boards.net/thread/8651/standard-li-ge-kvc-westerlo",
+    "title": "Standard Liège - KVC Westerlo",
+    "home_team": "Standard Liège",
+    "away_team": "KVC Westerlo",
+    "event_date": "2027-01-23T16:00:00+00:00",
+    "round": 18
+  },
+  "212881": {
+    "thread_id": "8652",
+    "thread_url": "https://voetbalbe.boards.net/thread/8652/krc-genk-sv-zulte-waregem",
+    "title": "KRC Genk - SV Zulte Waregem",
+    "home_team": "KRC Genk",
+    "away_team": "SV Zulte Waregem",
+    "event_date": "2027-01-23T16:00:00+00:00",
+    "round": 18
+  },
+  "212882": {
+    "thread_id": "8653",
+    "thread_url": "https://voetbalbe.boards.net/thread/8653/oud-heverlee-leuven-sint-truidense",
+    "title": "Oud-Heverlee Leuven - Sint-Truidense VV",
+    "home_team": "Oud-Heverlee Leuven",
+    "away_team": "Sint-Truidense VV",
+    "event_date": "2027-01-23T16:00:00+00:00",
+    "round": 18
+  },
+  "212883": {
+    "thread_id": "8654",
+    "thread_url": "https://voetbalbe.boards.net/thread/8654/cercle-brugge-standard-li-ge",
+    "title": "Cercle Brugge - Standard Liège",
+    "home_team": "Cercle Brugge",
+    "away_team": "Standard Liège",
+    "event_date": "2027-01-30T16:00:00+00:00",
+    "round": 19
+  },
+  "212884": {
+    "thread_id": "8655",
+    "thread_url": "https://voetbalbe.boards.net/thread/8655/kvc-westerlo-krc-genk",
+    "title": "KVC Westerlo - KRC Genk",
+    "home_team": "KVC Westerlo",
+    "away_team": "KRC Genk",
+    "event_date": "2027-01-30T16:00:00+00:00",
+    "round": 19
+  },
+  "212885": {
+    "thread_id": "8656",
+    "thread_url": "https://voetbalbe.boards.net/thread/8656/lommel-sk-oud-heverlee-leuven",
+    "title": "Lommel SK - Oud-Heverlee Leuven",
+    "home_team": "Lommel SK",
+    "away_team": "Oud-Heverlee Leuven",
+    "event_date": "2027-01-30T16:00:00+00:00",
+    "round": 19
+  },
+  "212886": {
+    "thread_id": "8657",
+    "thread_url": "https://voetbalbe.boards.net/thread/8657/raal-la-louvi-sporting-charleroi",
+    "title": "RAAL La Louvière - RC Sporting Charleroi",
+    "home_team": "RAAL La Louvière",
+    "away_team": "RC Sporting Charleroi",
+    "event_date": "2027-01-30T16:00:00+00:00",
+    "round": 19
+  },
+  "212887": {
+    "thread_id": "8658",
+    "thread_url": "https://voetbalbe.boards.net/thread/8658/rsc-anderlecht-kaa-gent",
+    "title": "RSC Anderlecht - KAA Gent",
+    "home_team": "RSC Anderlecht",
+    "away_team": "KAA Gent",
+    "event_date": "2027-01-30T16:00:00+00:00",
+    "round": 19
+  },
+  "212888": {
+    "thread_id": "8659",
+    "thread_url": "https://voetbalbe.boards.net/thread/8659/royal-antwerp-fc-club-brugge",
+    "title": "Royal Antwerp FC - Club Brugge KV",
+    "home_team": "Royal Antwerp FC",
+    "away_team": "Club Brugge KV",
+    "event_date": "2027-01-30T16:00:00+00:00",
+    "round": 19
+  },
+  "212889": {
+    "thread_id": "8660",
+    "thread_url": "https://voetbalbe.boards.net/thread/8660/sk-beveren-kv-kortrijk",
+    "title": "SK Beveren - KV Kortrijk",
+    "home_team": "SK Beveren",
+    "away_team": "KV Kortrijk",
+    "event_date": "2027-01-30T16:00:00+00:00",
+    "round": 19
+  },
+  "212890": {
+    "thread_id": "8661",
+    "thread_url": "https://voetbalbe.boards.net/thread/8661/zulte-waregem-royale-union-gilloise",
+    "title": "SV Zulte Waregem - Royale Union Saint-Gilloise",
+    "home_team": "SV Zulte Waregem",
+    "away_team": "Royale Union Saint-Gilloise",
+    "event_date": "2027-01-30T16:00:00+00:00",
+    "round": 19
+  },
+  "212891": {
+    "thread_id": "8662",
+    "thread_url": "https://voetbalbe.boards.net/thread/8662/sint-truidense-vv-kv-mechelen",
+    "title": "Sint-Truidense VV - KV Mechelen",
+    "home_team": "Sint-Truidense VV",
+    "away_team": "KV Mechelen",
+    "event_date": "2027-01-30T16:00:00+00:00",
+    "round": 19
+  },
+  "212892": {
+    "thread_id": "8663",
+    "thread_url": "https://voetbalbe.boards.net/thread/8663/club-brugge-kv-standard-li",
+    "title": "Club Brugge KV - Standard Liège",
+    "home_team": "Club Brugge KV",
+    "away_team": "Standard Liège",
+    "event_date": "2027-02-06T16:00:00+00:00",
+    "round": 20
+  },
+  "212893": {
+    "thread_id": "8664",
+    "thread_url": "https://voetbalbe.boards.net/thread/8664/kaa-gent-sk-beveren",
+    "title": "KAA Gent - SK Beveren",
+    "home_team": "KAA Gent",
+    "away_team": "SK Beveren",
+    "event_date": "2027-02-06T16:00:00+00:00",
+    "round": 20
+  },
+  "212894": {
+    "thread_id": "8665",
+    "thread_url": "https://voetbalbe.boards.net/thread/8665/krc-genk-royal-antwerp-fc",
+    "title": "KRC Genk - Royal Antwerp FC",
+    "home_team": "KRC Genk",
+    "away_team": "Royal Antwerp FC",
+    "event_date": "2027-02-06T16:00:00+00:00",
+    "round": 20
+  },
+  "212895": {
+    "thread_id": "8666",
+    "thread_url": "https://voetbalbe.boards.net/thread/8666/kv-kortrijk-raal-la-louvi",
+    "title": "KV Kortrijk - RAAL La Louvière",
+    "home_team": "KV Kortrijk",
+    "away_team": "RAAL La Louvière",
+    "event_date": "2027-02-06T16:00:00+00:00",
+    "round": 20
+  },
+  "212896": {
+    "thread_id": "8667",
+    "thread_url": "https://voetbalbe.boards.net/thread/8667/kv-mechelen-cercle-brugge",
+    "title": "KV Mechelen - Cercle Brugge",
+    "home_team": "KV Mechelen",
+    "away_team": "Cercle Brugge",
+    "event_date": "2027-02-06T16:00:00+00:00",
+    "round": 20
+  },
+  "212897": {
+    "thread_id": "8668",
+    "thread_url": "https://voetbalbe.boards.net/thread/8668/oud-heverlee-leuven-rsc-anderlecht",
+    "title": "Oud-Heverlee Leuven - RSC Anderlecht",
+    "home_team": "Oud-Heverlee Leuven",
+    "away_team": "RSC Anderlecht",
+    "event_date": "2027-02-06T16:00:00+00:00",
+    "round": 20
+  },
+  "212898": {
+    "thread_id": "8669",
+    "thread_url": "https://voetbalbe.boards.net/thread/8669/rc-sporting-charleroi-kvc-westerlo",
+    "title": "RC Sporting Charleroi - KVC Westerlo",
+    "home_team": "RC Sporting Charleroi",
+    "away_team": "KVC Westerlo",
+    "event_date": "2027-02-06T16:00:00+00:00",
+    "round": 20
+  },
+  "212899": {
+    "thread_id": "8670",
+    "thread_url": "https://voetbalbe.boards.net/thread/8670/royale-union-saint-gilloise-truidense",
+    "title": "Royale Union Saint-Gilloise - Sint-Truidense VV",
+    "home_team": "Royale Union Saint-Gilloise",
+    "away_team": "Sint-Truidense VV",
+    "event_date": "2027-02-06T16:00:00+00:00",
+    "round": 20
+  },
+  "212900": {
+    "thread_id": "8671",
+    "thread_url": "https://voetbalbe.boards.net/thread/8671/sv-zulte-waregem-lommel-sk",
+    "title": "SV Zulte Waregem - Lommel SK",
+    "home_team": "SV Zulte Waregem",
+    "away_team": "Lommel SK",
+    "event_date": "2027-02-06T16:00:00+00:00",
+    "round": 20
+  },
+  "212901": {
+    "thread_id": "8672",
+    "thread_url": "https://voetbalbe.boards.net/thread/8672/cercle-brugge-rc-sporting-charleroi",
+    "title": "Cercle Brugge - RC Sporting Charleroi",
+    "home_team": "Cercle Brugge",
+    "away_team": "RC Sporting Charleroi",
+    "event_date": "2027-02-13T16:00:00+00:00",
+    "round": 21
+  },
+  "212902": {
+    "thread_id": "8673",
+    "thread_url": "https://voetbalbe.boards.net/thread/8673/kvc-westerlo-club-brugge-kv",
+    "title": "KVC Westerlo - Club Brugge KV",
+    "home_team": "KVC Westerlo",
+    "away_team": "Club Brugge KV",
+    "event_date": "2027-02-13T16:00:00+00:00",
+    "round": 21
+  },
+  "212903": {
+    "thread_id": "8674",
+    "thread_url": "https://voetbalbe.boards.net/thread/8674/lommel-royale-union-saint-gilloise",
+    "title": "Lommel SK - Royale Union Saint-Gilloise",
+    "home_team": "Lommel SK",
+    "away_team": "Royale Union Saint-Gilloise",
+    "event_date": "2027-02-13T16:00:00+00:00",
+    "round": 21
+  },
+  "212904": {
+    "thread_id": "8675",
+    "thread_url": "https://voetbalbe.boards.net/thread/8675/raal-louvi-oud-heverlee-leuven",
+    "title": "RAAL La Louvière - Oud-Heverlee Leuven",
+    "home_team": "RAAL La Louvière",
+    "away_team": "Oud-Heverlee Leuven",
+    "event_date": "2027-02-13T16:00:00+00:00",
+    "round": 21
+  },
+  "212905": {
+    "thread_id": "8676",
+    "thread_url": "https://voetbalbe.boards.net/thread/8676/rsc-anderlecht-kv-mechelen",
+    "title": "RSC Anderlecht - KV Mechelen",
+    "home_team": "RSC Anderlecht",
+    "away_team": "KV Mechelen",
+    "event_date": "2027-02-13T16:00:00+00:00",
+    "round": 21
+  },
+  "212906": {
+    "thread_id": "8677",
+    "thread_url": "https://voetbalbe.boards.net/thread/8677/royal-antwerp-fc-kv-kortrijk",
+    "title": "Royal Antwerp FC - KV Kortrijk",
+    "home_team": "Royal Antwerp FC",
+    "away_team": "KV Kortrijk",
+    "event_date": "2027-02-13T16:00:00+00:00",
+    "round": 21
+  },
+  "212907": {
+    "thread_id": "8678",
+    "thread_url": "https://voetbalbe.boards.net/thread/8678/sk-beveren-krc-genk",
+    "title": "SK Beveren - KRC Genk",
+    "home_team": "SK Beveren",
+    "away_team": "KRC Genk",
+    "event_date": "2027-02-13T16:00:00+00:00",
+    "round": 21
+  },
+  "212908": {
+    "thread_id": "8679",
+    "thread_url": "https://voetbalbe.boards.net/thread/8679/sint-truidense-vv-kaa-gent",
+    "title": "Sint-Truidense VV - KAA Gent",
+    "home_team": "Sint-Truidense VV",
+    "away_team": "KAA Gent",
+    "event_date": "2027-02-13T16:00:00+00:00",
+    "round": 21
+  },
+  "212909": {
+    "thread_id": "8680",
+    "thread_url": "https://voetbalbe.boards.net/thread/8680/standard-li-ge-zulte-waregem",
+    "title": "Standard Liège - SV Zulte Waregem",
+    "home_team": "Standard Liège",
+    "away_team": "SV Zulte Waregem",
+    "event_date": "2027-02-13T16:00:00+00:00",
+    "round": 21
+  },
+  "212910": {
+    "thread_id": "8681",
+    "thread_url": "https://voetbalbe.boards.net/thread/8681/club-brugge-kv-lommel-sk",
+    "title": "Club Brugge KV - Lommel SK",
+    "home_team": "Club Brugge KV",
+    "away_team": "Lommel SK",
+    "event_date": "2027-02-20T16:00:00+00:00",
+    "round": 22
+  },
+  "212911": {
+    "thread_id": "8682",
+    "thread_url": "https://voetbalbe.boards.net/thread/8682/kaa-gent-raal-la-louvi",
+    "title": "KAA Gent - RAAL La Louvière",
+    "home_team": "KAA Gent",
+    "away_team": "RAAL La Louvière",
+    "event_date": "2027-02-20T16:00:00+00:00",
+    "round": 22
+  },
+  "212912": {
+    "thread_id": "8683",
+    "thread_url": "https://voetbalbe.boards.net/thread/8683/kv-kortrijk-krc-genk",
+    "title": "KV Kortrijk - KRC Genk",
+    "home_team": "KV Kortrijk",
+    "away_team": "KRC Genk",
+    "event_date": "2027-02-20T16:00:00+00:00",
+    "round": 22
+  },
+  "212913": {
+    "thread_id": "8684",
+    "thread_url": "https://voetbalbe.boards.net/thread/8684/kv-mechelen-sk-beveren",
+    "title": "KV Mechelen - SK Beveren",
+    "home_team": "KV Mechelen",
+    "away_team": "SK Beveren",
+    "event_date": "2027-02-20T16:00:00+00:00",
+    "round": 22
+  },
+  "212914": {
+    "thread_id": "8685",
+    "thread_url": "https://voetbalbe.boards.net/thread/8685/oud-heverlee-leuven-royal-antwerp",
+    "title": "Oud-Heverlee Leuven - Royal Antwerp FC",
+    "home_team": "Oud-Heverlee Leuven",
+    "away_team": "Royal Antwerp FC",
+    "event_date": "2027-02-20T16:00:00+00:00",
+    "round": 22
+  },
+  "212915": {
+    "thread_id": "8686",
+    "thread_url": "https://voetbalbe.boards.net/thread/8686/rc-sporting-charleroi-standard-li",
+    "title": "RC Sporting Charleroi - Standard Liège",
+    "home_team": "RC Sporting Charleroi",
+    "away_team": "Standard Liège",
+    "event_date": "2027-02-20T16:00:00+00:00",
+    "round": 22
+  },
+  "212916": {
+    "thread_id": "8687",
+    "thread_url": "https://voetbalbe.boards.net/thread/8687/royale-union-saint-gilloise-westerlo",
+    "title": "Royale Union Saint-Gilloise - KVC Westerlo",
+    "home_team": "Royale Union Saint-Gilloise",
+    "away_team": "KVC Westerlo",
+    "event_date": "2027-02-20T16:00:00+00:00",
+    "round": 22
+  },
+  "212917": {
+    "thread_id": "8688",
+    "thread_url": "https://voetbalbe.boards.net/thread/8688/sv-zulte-waregem-rsc-anderlecht",
+    "title": "SV Zulte Waregem - RSC Anderlecht",
+    "home_team": "SV Zulte Waregem",
+    "away_team": "RSC Anderlecht",
+    "event_date": "2027-02-20T16:00:00+00:00",
+    "round": 22
+  },
+  "212918": {
+    "thread_id": "8689",
+    "thread_url": "https://voetbalbe.boards.net/thread/8689/sint-truidense-vv-cercle-brugge",
+    "title": "Sint-Truidense VV - Cercle Brugge",
+    "home_team": "Sint-Truidense VV",
+    "away_team": "Cercle Brugge",
+    "event_date": "2027-02-20T16:00:00+00:00",
+    "round": 22
+  },
+  "212919": {
+    "thread_id": "8690",
+    "thread_url": "https://voetbalbe.boards.net/thread/8690/cercle-brugge-oud-heverlee-leuven",
+    "title": "Cercle Brugge - Oud-Heverlee Leuven",
+    "home_team": "Cercle Brugge",
+    "away_team": "Oud-Heverlee Leuven",
+    "event_date": "2027-02-27T16:00:00+00:00",
+    "round": 23
+  },
+  "212920": {
+    "thread_id": "8691",
+    "thread_url": "https://voetbalbe.boards.net/thread/8691/genk-royale-union-saint-gilloise",
+    "title": "KRC Genk - Royale Union Saint-Gilloise",
+    "home_team": "KRC Genk",
+    "away_team": "Royale Union Saint-Gilloise",
+    "event_date": "2027-02-27T16:00:00+00:00",
+    "round": 23
+  },
+  "212921": {
+    "thread_id": "8692",
+    "thread_url": "https://voetbalbe.boards.net/thread/8692/kvc-westerlo-kv-mechelen",
+    "title": "KVC Westerlo - KV Mechelen",
+    "home_team": "KVC Westerlo",
+    "away_team": "KV Mechelen",
+    "event_date": "2027-02-27T16:00:00+00:00",
+    "round": 23
+  },
+  "212922": {
+    "thread_id": "8693",
+    "thread_url": "https://voetbalbe.boards.net/thread/8693/lommel-sk-kv-kortrijk",
+    "title": "Lommel SK - KV Kortrijk",
+    "home_team": "Lommel SK",
+    "away_team": "KV Kortrijk",
+    "event_date": "2027-02-27T16:00:00+00:00",
+    "round": 23
+  },
+  "212923": {
+    "thread_id": "8694",
+    "thread_url": "https://voetbalbe.boards.net/thread/8694/raal-la-louvi-sint-truidense",
+    "title": "RAAL La Louvière - Sint-Truidense VV",
+    "home_team": "RAAL La Louvière",
+    "away_team": "Sint-Truidense VV",
+    "event_date": "2027-02-27T16:00:00+00:00",
+    "round": 23
+  },
+  "212924": {
+    "thread_id": "8695",
+    "thread_url": "https://voetbalbe.boards.net/thread/8695/rsc-anderlecht-club-brugge-kv",
+    "title": "RSC Anderlecht - Club Brugge KV",
+    "home_team": "RSC Anderlecht",
+    "away_team": "Club Brugge KV",
+    "event_date": "2027-02-27T16:00:00+00:00",
+    "round": 23
+  },
+  "212925": {
+    "thread_id": "8696",
+    "thread_url": "https://voetbalbe.boards.net/thread/8696/royal-antwerp-fc-zulte-waregem",
+    "title": "Royal Antwerp FC - SV Zulte Waregem",
+    "home_team": "Royal Antwerp FC",
+    "away_team": "SV Zulte Waregem",
+    "event_date": "2027-02-27T16:00:00+00:00",
+    "round": 23
+  },
+  "212926": {
+    "thread_id": "8697",
+    "thread_url": "https://voetbalbe.boards.net/thread/8697/sk-beveren-rc-sporting-charleroi",
+    "title": "SK Beveren - RC Sporting Charleroi",
+    "home_team": "SK Beveren",
+    "away_team": "RC Sporting Charleroi",
+    "event_date": "2027-02-27T16:00:00+00:00",
+    "round": 23
+  },
+  "212927": {
+    "thread_id": "8698",
+    "thread_url": "https://voetbalbe.boards.net/thread/8698/standard-li-ge-kaa-gent",
+    "title": "Standard Liège - KAA Gent",
+    "home_team": "Standard Liège",
+    "away_team": "KAA Gent",
+    "event_date": "2027-02-27T16:00:00+00:00",
+    "round": 23
+  },
+  "212928": {
+    "thread_id": "8699",
+    "thread_url": "https://voetbalbe.boards.net/thread/8699/club-brugge-kv-sk-beveren",
+    "title": "Club Brugge KV - SK Beveren",
+    "home_team": "Club Brugge KV",
+    "away_team": "SK Beveren",
+    "event_date": "2027-03-06T16:00:00+00:00",
+    "round": 24
+  },
+  "212929": {
+    "thread_id": "8700",
+    "thread_url": "https://voetbalbe.boards.net/thread/8700/kaa-gent-rc-sporting-charleroi",
+    "title": "KAA Gent - RC Sporting Charleroi",
+    "home_team": "KAA Gent",
+    "away_team": "RC Sporting Charleroi",
+    "event_date": "2027-03-06T16:00:00+00:00",
+    "round": 24
+  },
+  "212930": {
+    "thread_id": "8701",
+    "thread_url": "https://voetbalbe.boards.net/thread/8701/kv-mechelen-kortrijk",
+    "title": "KV Mechelen - KV Kortrijk",
+    "home_team": "KV Mechelen",
+    "away_team": "KV Kortrijk",
+    "event_date": "2027-03-06T16:00:00+00:00",
+    "round": 24
+  },
+  "212931": {
+    "thread_id": "8702",
+    "thread_url": "https://voetbalbe.boards.net/thread/8702/kvc-westerlo-rsc-anderlecht",
+    "title": "KVC Westerlo - RSC Anderlecht",
+    "home_team": "KVC Westerlo",
+    "away_team": "RSC Anderlecht",
+    "event_date": "2027-03-06T16:00:00+00:00",
+    "round": 24
+  },
+  "212932": {
+    "thread_id": "8703",
+    "thread_url": "https://voetbalbe.boards.net/thread/8703/oud-heverlee-leuven-krc-genk",
+    "title": "Oud-Heverlee Leuven - KRC Genk",
+    "home_team": "Oud-Heverlee Leuven",
+    "away_team": "KRC Genk",
+    "event_date": "2027-03-06T16:00:00+00:00",
+    "round": 24
+  },
+  "212933": {
+    "thread_id": "8704",
+    "thread_url": "https://voetbalbe.boards.net/thread/8704/raal-la-louvi-re-lommel",
+    "title": "RAAL La Louvière - Lommel SK",
+    "home_team": "RAAL La Louvière",
+    "away_team": "Lommel SK",
+    "event_date": "2027-03-06T16:00:00+00:00",
+    "round": 24
+  },
+  "212934": {
+    "thread_id": "8705",
+    "thread_url": "https://voetbalbe.boards.net/thread/8705/royale-union-saint-gilloise-standard",
+    "title": "Royale Union Saint-Gilloise - Standard Liège",
+    "home_team": "Royale Union Saint-Gilloise",
+    "away_team": "Standard Liège",
+    "event_date": "2027-03-06T16:00:00+00:00",
+    "round": 24
+  },
+  "212935": {
+    "thread_id": "8706",
+    "thread_url": "https://voetbalbe.boards.net/thread/8706/sv-zulte-waregem-cercle-brugge",
+    "title": "SV Zulte Waregem - Cercle Brugge",
+    "home_team": "SV Zulte Waregem",
+    "away_team": "Cercle Brugge",
+    "event_date": "2027-03-06T16:00:00+00:00",
+    "round": 24
+  },
+  "212936": {
+    "thread_id": "8707",
+    "thread_url": "https://voetbalbe.boards.net/thread/8707/sint-truidense-vv-royal-antwerp",
+    "title": "Sint-Truidense VV - Royal Antwerp FC",
+    "home_team": "Sint-Truidense VV",
+    "away_team": "Royal Antwerp FC",
+    "event_date": "2027-03-06T16:00:00+00:00",
+    "round": 24
+  },
+  "212937": {
+    "thread_id": "8708",
+    "thread_url": "https://voetbalbe.boards.net/thread/8708/cercle-brugge-royale-union-gilloise",
+    "title": "Cercle Brugge - Royale Union Saint-Gilloise",
+    "home_team": "Cercle Brugge",
+    "away_team": "Royale Union Saint-Gilloise",
+    "event_date": "2027-03-13T16:00:00+00:00",
+    "round": 25
+  },
+  "212938": {
+    "thread_id": "8709",
+    "thread_url": "https://voetbalbe.boards.net/thread/8709/kaa-gent-sv-zulte-waregem",
+    "title": "KAA Gent - SV Zulte Waregem",
+    "home_team": "KAA Gent",
+    "away_team": "SV Zulte Waregem",
+    "event_date": "2027-03-13T16:00:00+00:00",
+    "round": 25
+  },
+  "212939": {
+    "thread_id": "8710",
+    "thread_url": "https://voetbalbe.boards.net/thread/8710/krc-genk-sint-truidense-vv",
+    "title": "KRC Genk - Sint-Truidense VV",
+    "home_team": "KRC Genk",
+    "away_team": "Sint-Truidense VV",
+    "event_date": "2027-03-13T16:00:00+00:00",
+    "round": 25
+  },
+  "212940": {
+    "thread_id": "8711",
+    "thread_url": "https://voetbalbe.boards.net/thread/8711/kv-kortrijk-oud-heverlee-leuven",
+    "title": "KV Kortrijk - Oud-Heverlee Leuven",
+    "home_team": "KV Kortrijk",
+    "away_team": "Oud-Heverlee Leuven",
+    "event_date": "2027-03-13T16:00:00+00:00",
+    "round": 25
+  },
+  "212941": {
+    "thread_id": "8712",
+    "thread_url": "https://voetbalbe.boards.net/thread/8712/rc-sporting-charleroi-club-brugge",
+    "title": "RC Sporting Charleroi - Club Brugge KV",
+    "home_team": "RC Sporting Charleroi",
+    "away_team": "Club Brugge KV",
+    "event_date": "2027-03-13T16:00:00+00:00",
+    "round": 25
+  },
+  "212942": {
+    "thread_id": "8713",
+    "thread_url": "https://voetbalbe.boards.net/thread/8713/rsc-anderlecht-lommel-sk",
+    "title": "RSC Anderlecht - Lommel SK",
+    "home_team": "RSC Anderlecht",
+    "away_team": "Lommel SK",
+    "event_date": "2027-03-13T16:00:00+00:00",
+    "round": 25
+  },
+  "212943": {
+    "thread_id": "8714",
+    "thread_url": "https://voetbalbe.boards.net/thread/8714/royal-antwerp-fc-raal-louvi",
+    "title": "Royal Antwerp FC - RAAL La Louvière",
+    "home_team": "Royal Antwerp FC",
+    "away_team": "RAAL La Louvière",
+    "event_date": "2027-03-13T16:00:00+00:00",
+    "round": 25
+  },
+  "212944": {
+    "thread_id": "8715",
+    "thread_url": "https://voetbalbe.boards.net/thread/8715/sk-beveren-kvc-westerlo",
+    "title": "SK Beveren - KVC Westerlo",
+    "home_team": "SK Beveren",
+    "away_team": "KVC Westerlo",
+    "event_date": "2027-03-13T16:00:00+00:00",
+    "round": 25
+  },
+  "212945": {
+    "thread_id": "8716",
+    "thread_url": "https://voetbalbe.boards.net/thread/8716/standard-li-ge-kv-mechelen",
+    "title": "Standard Liège - KV Mechelen",
+    "home_team": "Standard Liège",
+    "away_team": "KV Mechelen",
+    "event_date": "2027-03-13T16:00:00+00:00",
+    "round": 25
+  },
+  "212946": {
+    "thread_id": "8717",
+    "thread_url": "https://voetbalbe.boards.net/thread/8717/club-brugge-kv-kaa-gent",
+    "title": "Club Brugge KV - KAA Gent",
+    "home_team": "Club Brugge KV",
+    "away_team": "KAA Gent",
+    "event_date": "2027-03-20T16:00:00+00:00",
+    "round": 26
+  },
+  "212947": {
+    "thread_id": "8718",
+    "thread_url": "https://voetbalbe.boards.net/thread/8718/kv-mechelen-rc-sporting-charleroi",
+    "title": "KV Mechelen - RC Sporting Charleroi",
+    "home_team": "KV Mechelen",
+    "away_team": "RC Sporting Charleroi",
+    "event_date": "2027-03-20T16:00:00+00:00",
+    "round": 26
+  },
+  "212948": {
+    "thread_id": "8719",
+    "thread_url": "https://voetbalbe.boards.net/thread/8719/kvc-westerlo-cercle-brugge",
+    "title": "KVC Westerlo - Cercle Brugge",
+    "home_team": "KVC Westerlo",
+    "away_team": "Cercle Brugge",
+    "event_date": "2027-03-20T16:00:00+00:00",
+    "round": 26
+  },
+  "212949": {
+    "thread_id": "8720",
+    "thread_url": "https://voetbalbe.boards.net/thread/8720/lommel-sk-royal-antwerp-fc",
+    "title": "Lommel SK - Royal Antwerp FC",
+    "home_team": "Lommel SK",
+    "away_team": "Royal Antwerp FC",
+    "event_date": "2027-03-20T16:00:00+00:00",
+    "round": 26
+  },
+  "212950": {
+    "thread_id": "8721",
+    "thread_url": "https://voetbalbe.boards.net/thread/8721/heverlee-leuven-royale-union-gilloise",
+    "title": "Oud-Heverlee Leuven - Royale Union Saint-Gilloise",
+    "home_team": "Oud-Heverlee Leuven",
+    "away_team": "Royale Union Saint-Gilloise",
+    "event_date": "2027-03-20T16:00:00+00:00",
+    "round": 26
+  },
+  "212951": {
+    "thread_id": "8722",
+    "thread_url": "https://voetbalbe.boards.net/thread/8722/raal-la-louvi-krc-genk",
+    "title": "RAAL La Louvière - KRC Genk",
+    "home_team": "RAAL La Louvière",
+    "away_team": "KRC Genk",
+    "event_date": "2027-03-20T16:00:00+00:00",
+    "round": 26
+  },
+  "212952": {
+    "thread_id": "8723",
+    "thread_url": "https://voetbalbe.boards.net/thread/8723/rsc-anderlecht-standard-li-ge",
+    "title": "RSC Anderlecht - Standard Liège",
+    "home_team": "RSC Anderlecht",
+    "away_team": "Standard Liège",
+    "event_date": "2027-03-20T16:00:00+00:00",
+    "round": 26
+  },
+  "212953": {
+    "thread_id": "8724",
+    "thread_url": "https://voetbalbe.boards.net/thread/8724/sv-zulte-waregem-kv-kortrijk",
+    "title": "SV Zulte Waregem - KV Kortrijk",
+    "home_team": "SV Zulte Waregem",
+    "away_team": "KV Kortrijk",
+    "event_date": "2027-03-20T16:00:00+00:00",
+    "round": 26
+  },
+  "212954": {
+    "thread_id": "8725",
+    "thread_url": "https://voetbalbe.boards.net/thread/8725/sint-truidense-vv-sk-beveren",
+    "title": "Sint-Truidense VV - SK Beveren",
+    "home_team": "Sint-Truidense VV",
+    "away_team": "SK Beveren",
+    "event_date": "2027-03-20T16:00:00+00:00",
+    "round": 26
+  },
+  "212955": {
+    "thread_id": "8726",
+    "thread_url": "https://voetbalbe.boards.net/thread/8726/cercle-brugge-raal-la-louvi",
+    "title": "Cercle Brugge - RAAL La Louvière",
+    "home_team": "Cercle Brugge",
+    "away_team": "RAAL La Louvière",
+    "event_date": "2027-04-02T16:00:00+00:00",
+    "round": 27
+  },
+  "212956": {
+    "thread_id": "8727",
+    "thread_url": "https://voetbalbe.boards.net/thread/8727/kaa-gent-kvc-westerlo",
+    "title": "KAA Gent - KVC Westerlo",
+    "home_team": "KAA Gent",
+    "away_team": "KVC Westerlo",
+    "event_date": "2027-04-02T16:00:00+00:00",
+    "round": 27
+  },
+  "212957": {
+    "thread_id": "8728",
+    "thread_url": "https://voetbalbe.boards.net/thread/8728/krc-genk-rsc-anderlecht",
+    "title": "KRC Genk - RSC Anderlecht",
+    "home_team": "KRC Genk",
+    "away_team": "RSC Anderlecht",
+    "event_date": "2027-04-02T16:00:00+00:00",
+    "round": 27
+  },
+  "212958": {
+    "thread_id": "8729",
+    "thread_url": "https://voetbalbe.boards.net/thread/8729/kv-kortrijk-club-brugge",
+    "title": "KV Kortrijk - Club Brugge KV",
+    "home_team": "KV Kortrijk",
+    "away_team": "Club Brugge KV",
+    "event_date": "2027-04-02T16:00:00+00:00",
+    "round": 27
+  },
+  "212959": {
+    "thread_id": "8730",
+    "thread_url": "https://voetbalbe.boards.net/thread/8730/oud-heverlee-leuven-zulte-waregem",
+    "title": "Oud-Heverlee Leuven - SV Zulte Waregem",
+    "home_team": "Oud-Heverlee Leuven",
+    "away_team": "SV Zulte Waregem",
+    "event_date": "2027-04-02T16:00:00+00:00",
+    "round": 27
+  },
+  "212960": {
+    "thread_id": "8731",
+    "thread_url": "https://voetbalbe.boards.net/thread/8731/rc-sporting-charleroi-lommel-sk",
+    "title": "RC Sporting Charleroi - Lommel SK",
+    "home_team": "RC Sporting Charleroi",
+    "away_team": "Lommel SK",
+    "event_date": "2027-04-02T16:00:00+00:00",
+    "round": 27
+  },
+  "212961": {
+    "thread_id": "8732",
+    "thread_url": "https://voetbalbe.boards.net/thread/8732/royale-union-saint-gilloise-mechelen",
+    "title": "Royale Union Saint-Gilloise - KV Mechelen",
+    "home_team": "Royale Union Saint-Gilloise",
+    "away_team": "KV Mechelen",
+    "event_date": "2027-04-02T16:00:00+00:00",
+    "round": 27
+  },
+  "212962": {
+    "thread_id": "8733",
+    "thread_url": "https://voetbalbe.boards.net/thread/8733/sk-beveren-royal-antwerp-fc",
+    "title": "SK Beveren - Royal Antwerp FC",
+    "home_team": "SK Beveren",
+    "away_team": "Royal Antwerp FC",
+    "event_date": "2027-04-02T16:00:00+00:00",
+    "round": 27
+  },
+  "212963": {
+    "thread_id": "8734",
+    "thread_url": "https://voetbalbe.boards.net/thread/8734/standard-li-ge-sint-truidense",
+    "title": "Standard Liège - Sint-Truidense VV",
+    "home_team": "Standard Liège",
+    "away_team": "Sint-Truidense VV",
+    "event_date": "2027-04-02T16:00:00+00:00",
+    "round": 27
+  },
+  "212964": {
+    "thread_id": "8735",
+    "thread_url": "https://voetbalbe.boards.net/thread/8735/club-brugge-oud-heverlee-leuven",
+    "title": "Club Brugge KV - Oud-Heverlee Leuven",
+    "home_team": "Club Brugge KV",
+    "away_team": "Oud-Heverlee Leuven",
+    "event_date": "2027-04-09T16:00:00+00:00",
+    "round": 28
+  },
+  "212965": {
+    "thread_id": "8736",
+    "thread_url": "https://voetbalbe.boards.net/thread/8736/kv-kortrijk-standard-li-ge",
+    "title": "KV Kortrijk - Standard Liège",
+    "home_team": "KV Kortrijk",
+    "away_team": "Standard Liège",
+    "event_date": "2027-04-09T16:00:00+00:00",
+    "round": 28
+  },
+  "212966": {
+    "thread_id": "8737",
+    "thread_url": "https://voetbalbe.boards.net/thread/8737/kv-mechelen-kaa-gent",
+    "title": "KV Mechelen - KAA Gent",
+    "home_team": "KV Mechelen",
+    "away_team": "KAA Gent",
+    "event_date": "2027-04-09T16:00:00+00:00",
+    "round": 28
+  },
+  "212967": {
+    "thread_id": "8738",
+    "thread_url": "https://voetbalbe.boards.net/thread/8738/lommel-sk-krc-genk",
+    "title": "Lommel SK - KRC Genk",
+    "home_team": "Lommel SK",
+    "away_team": "KRC Genk",
+    "event_date": "2027-04-09T16:00:00+00:00",
+    "round": 28
+  },
+  "212968": {
+    "thread_id": "8739",
+    "thread_url": "https://voetbalbe.boards.net/thread/8739/louvi-royale-union-saint-gilloise",
+    "title": "RAAL La Louvière - Royale Union Saint-Gilloise",
+    "home_team": "RAAL La Louvière",
+    "away_team": "Royale Union Saint-Gilloise",
+    "event_date": "2027-04-09T16:00:00+00:00",
+    "round": 28
+  },
+  "212969": {
+    "thread_id": "8740",
+    "thread_url": "https://voetbalbe.boards.net/thread/8740/rsc-anderlecht-sk-beveren",
+    "title": "RSC Anderlecht - SK Beveren",
+    "home_team": "RSC Anderlecht",
+    "away_team": "SK Beveren",
+    "event_date": "2027-04-09T16:00:00+00:00",
+    "round": 28
+  },
+  "212970": {
+    "thread_id": "8741",
+    "thread_url": "https://voetbalbe.boards.net/thread/8741/royal-antwerp-fc-cercle-brugge",
+    "title": "Royal Antwerp FC - Cercle Brugge",
+    "home_team": "Royal Antwerp FC",
+    "away_team": "Cercle Brugge",
+    "event_date": "2027-04-09T16:00:00+00:00",
+    "round": 28
+  },
+  "212971": {
+    "thread_id": "8742",
+    "thread_url": "https://voetbalbe.boards.net/thread/8742/sv-zulte-waregem-kvc-westerlo",
+    "title": "SV Zulte Waregem - KVC Westerlo",
+    "home_team": "SV Zulte Waregem",
+    "away_team": "KVC Westerlo",
+    "event_date": "2027-04-09T16:00:00+00:00",
+    "round": 28
+  },
+  "212972": {
+    "thread_id": "8743",
+    "thread_url": "https://voetbalbe.boards.net/thread/8743/sint-truidense-vv-sporting-charleroi",
+    "title": "Sint-Truidense VV - RC Sporting Charleroi",
+    "home_team": "Sint-Truidense VV",
+    "away_team": "RC Sporting Charleroi",
+    "event_date": "2027-04-09T16:00:00+00:00",
+    "round": 28
+  },
+  "212973": {
+    "thread_id": "8744",
+    "thread_url": "https://voetbalbe.boards.net/thread/8744/cercle-brugge-kv-kortrijk",
+    "title": "Cercle Brugge - KV Kortrijk",
+    "home_team": "Cercle Brugge",
+    "away_team": "KV Kortrijk",
+    "event_date": "2027-04-16T16:00:00+00:00",
+    "round": 29
+  },
+  "212974": {
+    "thread_id": "8745",
+    "thread_url": "https://voetbalbe.boards.net/thread/8745/kaa-gent-lommel-sk",
+    "title": "KAA Gent - Lommel SK",
+    "home_team": "KAA Gent",
+    "away_team": "Lommel SK",
+    "event_date": "2027-04-16T16:00:00+00:00",
+    "round": 29
+  },
+  "212975": {
+    "thread_id": "8746",
+    "thread_url": "https://voetbalbe.boards.net/thread/8746/krc-genk-club-brugge-kv",
+    "title": "KRC Genk - Club Brugge KV",
+    "home_team": "KRC Genk",
+    "away_team": "Club Brugge KV",
+    "event_date": "2027-04-16T16:00:00+00:00",
+    "round": 29
+  },
+  "212976": {
+    "thread_id": "8747",
+    "thread_url": "https://voetbalbe.boards.net/thread/8747/kv-mechelen-raal-la-louvi",
+    "title": "KV Mechelen - RAAL La Louvière",
+    "home_team": "KV Mechelen",
+    "away_team": "RAAL La Louvière",
+    "event_date": "2027-04-16T16:00:00+00:00",
+    "round": 29
+  },
+  "212977": {
+    "thread_id": "8748",
+    "thread_url": "https://voetbalbe.boards.net/thread/8748/kvc-westerlo-sint-truidense-vv",
+    "title": "KVC Westerlo - Sint-Truidense VV",
+    "home_team": "KVC Westerlo",
+    "away_team": "Sint-Truidense VV",
+    "event_date": "2027-04-16T16:00:00+00:00",
+    "round": 29
+  },
+  "212978": {
+    "thread_id": "8749",
+    "thread_url": "https://voetbalbe.boards.net/thread/8749/rc-sporting-charleroi-rsc-anderlecht",
+    "title": "RC Sporting Charleroi - RSC Anderlecht",
+    "home_team": "RC Sporting Charleroi",
+    "away_team": "RSC Anderlecht",
+    "event_date": "2027-04-16T16:00:00+00:00",
+    "round": 29
+  },
+  "212979": {
+    "thread_id": "8750",
+    "thread_url": "https://voetbalbe.boards.net/thread/8750/royale-union-saint-gilloise-antwerp",
+    "title": "Royale Union Saint-Gilloise - Royal Antwerp FC",
+    "home_team": "Royale Union Saint-Gilloise",
+    "away_team": "Royal Antwerp FC",
+    "event_date": "2027-04-16T16:00:00+00:00",
+    "round": 29
+  },
+  "212980": {
+    "thread_id": "8751",
+    "thread_url": "https://voetbalbe.boards.net/thread/8751/sk-beveren-sv-zulte-waregem",
+    "title": "SK Beveren - SV Zulte Waregem",
+    "home_team": "SK Beveren",
+    "away_team": "SV Zulte Waregem",
+    "event_date": "2027-04-16T16:00:00+00:00",
+    "round": 29
+  },
+  "212981": {
+    "thread_id": "8752",
+    "thread_url": "https://voetbalbe.boards.net/thread/8752/standard-li-oud-heverlee-leuven",
+    "title": "Standard Liège - Oud-Heverlee Leuven",
+    "home_team": "Standard Liège",
+    "away_team": "Oud-Heverlee Leuven",
+    "event_date": "2027-04-16T16:00:00+00:00",
+    "round": 29
+  },
+  "212982": {
+    "thread_id": "8753",
+    "thread_url": "https://voetbalbe.boards.net/thread/8753/brugge-royale-union-saint-gilloise",
+    "title": "Club Brugge KV - Royale Union Saint-Gilloise",
+    "home_team": "Club Brugge KV",
+    "away_team": "Royale Union Saint-Gilloise",
+    "event_date": "2027-04-23T16:00:00+00:00",
+    "round": 30
+  },
+  "212983": {
+    "thread_id": "8754",
+    "thread_url": "https://voetbalbe.boards.net/thread/8754/krc-genk-rc-sporting-charleroi",
+    "title": "KRC Genk - RC Sporting Charleroi",
+    "home_team": "KRC Genk",
+    "away_team": "RC Sporting Charleroi",
+    "event_date": "2027-04-23T16:00:00+00:00",
+    "round": 30
+  },
+  "212984": {
+    "thread_id": "8755",
+    "thread_url": "https://voetbalbe.boards.net/thread/8755/kv-kortrijk-kvc-westerlo",
+    "title": "KV Kortrijk - KVC Westerlo",
+    "home_team": "KV Kortrijk",
+    "away_team": "KVC Westerlo",
+    "event_date": "2027-04-23T16:00:00+00:00",
+    "round": 30
+  },
+  "212985": {
+    "thread_id": "8756",
+    "thread_url": "https://voetbalbe.boards.net/thread/8756/lommel-sk-sint-truidense-vv",
+    "title": "Lommel SK - Sint-Truidense VV",
+    "home_team": "Lommel SK",
+    "away_team": "Sint-Truidense VV",
+    "event_date": "2027-04-23T16:00:00+00:00",
+    "round": 30
+  },
+  "212986": {
+    "thread_id": "8757",
+    "thread_url": "https://voetbalbe.boards.net/thread/8757/oud-heverlee-leuven-sk-beveren",
+    "title": "Oud-Heverlee Leuven - SK Beveren",
+    "home_team": "Oud-Heverlee Leuven",
+    "away_team": "SK Beveren",
+    "event_date": "2027-04-23T16:00:00+00:00",
+    "round": 30
+  },
+  "212987": {
+    "thread_id": "8758",
+    "thread_url": "https://voetbalbe.boards.net/thread/8758/raal-la-louvi-re-standard",
+    "title": "RAAL La Louvière - Standard Liège",
+    "home_team": "RAAL La Louvière",
+    "away_team": "Standard Liège",
+    "event_date": "2027-04-23T16:00:00+00:00",
+    "round": 30
+  },
+  "212988": {
+    "thread_id": "8759",
+    "thread_url": "https://voetbalbe.boards.net/thread/8759/rsc-anderlecht-cercle-brugge",
+    "title": "RSC Anderlecht - Cercle Brugge",
+    "home_team": "RSC Anderlecht",
+    "away_team": "Cercle Brugge",
+    "event_date": "2027-04-23T16:00:00+00:00",
+    "round": 30
+  },
+  "212989": {
+    "thread_id": "8760",
+    "thread_url": "https://voetbalbe.boards.net/thread/8760/royal-antwerp-fc-kaa-gent",
+    "title": "Royal Antwerp FC - KAA Gent",
+    "home_team": "Royal Antwerp FC",
+    "away_team": "KAA Gent",
+    "event_date": "2027-04-23T16:00:00+00:00",
+    "round": 30
+  },
+  "212990": {
+    "thread_id": "8761",
+    "thread_url": "https://voetbalbe.boards.net/thread/8761/sv-zulte-waregem-kv-mechelen",
+    "title": "SV Zulte Waregem - KV Mechelen",
+    "home_team": "SV Zulte Waregem",
+    "away_team": "KV Mechelen",
+    "event_date": "2027-04-23T16:00:00+00:00",
+    "round": 30
+  },
+  "212991": {
+    "thread_id": "8762",
+    "thread_url": "https://voetbalbe.boards.net/thread/8762/cercle-brugge-club-kv",
+    "title": "Cercle Brugge - Club Brugge KV",
+    "home_team": "Cercle Brugge",
+    "away_team": "Club Brugge KV",
+    "event_date": "2027-04-30T16:00:00+00:00",
+    "round": 31
+  },
+  "212992": {
+    "thread_id": "8763",
+    "thread_url": "https://voetbalbe.boards.net/thread/8763/kaa-gent-krc-genk",
+    "title": "KAA Gent - KRC Genk",
+    "home_team": "KAA Gent",
+    "away_team": "KRC Genk",
+    "event_date": "2027-04-30T16:00:00+00:00",
+    "round": 31
+  },
+  "212993": {
+    "thread_id": "8764",
+    "thread_url": "https://voetbalbe.boards.net/thread/8764/kv-mechelen-royal-antwerp-fc",
+    "title": "KV Mechelen - Royal Antwerp FC",
+    "home_team": "KV Mechelen",
+    "away_team": "Royal Antwerp FC",
+    "event_date": "2027-04-30T16:00:00+00:00",
+    "round": 31
+  },
+  "212994": {
+    "thread_id": "8765",
+    "thread_url": "https://voetbalbe.boards.net/thread/8765/kvc-westerlo-oud-heverlee-leuven",
+    "title": "KVC Westerlo - Oud-Heverlee Leuven",
+    "home_team": "KVC Westerlo",
+    "away_team": "Oud-Heverlee Leuven",
+    "event_date": "2027-04-30T16:00:00+00:00",
+    "round": 31
+  },
+  "212995": {
+    "thread_id": "8766",
+    "thread_url": "https://voetbalbe.boards.net/thread/8766/rc-sporting-charleroi-zulte-waregem",
+    "title": "RC Sporting Charleroi - SV Zulte Waregem",
+    "home_team": "RC Sporting Charleroi",
+    "away_team": "SV Zulte Waregem",
+    "event_date": "2027-04-30T16:00:00+00:00",
+    "round": 31
+  },
+  "212996": {
+    "thread_id": "8767",
+    "thread_url": "https://voetbalbe.boards.net/thread/8767/royale-union-saint-gilloise-kortrijk",
+    "title": "Royale Union Saint-Gilloise - KV Kortrijk",
+    "home_team": "Royale Union Saint-Gilloise",
+    "away_team": "KV Kortrijk",
+    "event_date": "2027-04-30T16:00:00+00:00",
+    "round": 31
+  },
+  "212997": {
+    "thread_id": "8768",
+    "thread_url": "https://voetbalbe.boards.net/thread/8768/sk-beveren-raal-la-louvi",
+    "title": "SK Beveren - RAAL La Louvière",
+    "home_team": "SK Beveren",
+    "away_team": "RAAL La Louvière",
+    "event_date": "2027-04-30T16:00:00+00:00",
+    "round": 31
+  },
+  "212998": {
+    "thread_id": "8769",
+    "thread_url": "https://voetbalbe.boards.net/thread/8769/sint-truidense-vv-rsc-anderlecht",
+    "title": "Sint-Truidense VV - RSC Anderlecht",
+    "home_team": "Sint-Truidense VV",
+    "away_team": "RSC Anderlecht",
+    "event_date": "2027-04-30T16:00:00+00:00",
+    "round": 31
+  },
+  "212999": {
+    "thread_id": "8770",
+    "thread_url": "https://voetbalbe.boards.net/thread/8770/standard-li-ge-lommel-sk",
+    "title": "Standard Liège - Lommel SK",
+    "home_team": "Standard Liège",
+    "away_team": "Lommel SK",
+    "event_date": "2027-04-30T16:00:00+00:00",
+    "round": 31
+  },
+  "213000": {
+    "thread_id": "8771",
+    "thread_url": "https://voetbalbe.boards.net/thread/8771/club-brugge-kv-mechelen",
+    "title": "Club Brugge KV - KV Mechelen",
+    "home_team": "Club Brugge KV",
+    "away_team": "KV Mechelen",
+    "event_date": "2027-05-07T16:00:00+00:00",
+    "round": 32
+  },
+  "213001": {
+    "thread_id": "8772",
+    "thread_url": "https://voetbalbe.boards.net/thread/8772/krc-genk-cercle-brugge",
+    "title": "KRC Genk - Cercle Brugge",
+    "home_team": "KRC Genk",
+    "away_team": "Cercle Brugge",
+    "event_date": "2027-05-07T16:00:00+00:00",
+    "round": 32
+  },
+  "213002": {
+    "thread_id": "8773",
+    "thread_url": "https://voetbalbe.boards.net/thread/8773/kv-kortrijk-kaa-gent",
+    "title": "KV Kortrijk - KAA Gent",
+    "home_team": "KV Kortrijk",
+    "away_team": "KAA Gent",
+    "event_date": "2027-05-07T16:00:00+00:00",
+    "round": 32
+  },
+  "213003": {
+    "thread_id": "8774",
+    "thread_url": "https://voetbalbe.boards.net/thread/8774/lommel-sk-beveren",
+    "title": "Lommel SK - SK Beveren",
+    "home_team": "Lommel SK",
+    "away_team": "SK Beveren",
+    "event_date": "2027-05-07T16:00:00+00:00",
+    "round": 32
+  },
+  "213004": {
+    "thread_id": "8775",
+    "thread_url": "https://voetbalbe.boards.net/thread/8775/oud-heverlee-leuven-sporting-charleroi",
+    "title": "Oud-Heverlee Leuven - RC Sporting Charleroi",
+    "home_team": "Oud-Heverlee Leuven",
+    "away_team": "RC Sporting Charleroi",
+    "event_date": "2027-05-07T16:00:00+00:00",
+    "round": 32
+  },
+  "213005": {
+    "thread_id": "8776",
+    "thread_url": "https://voetbalbe.boards.net/thread/8776/raal-la-louvi-kvc-westerlo",
+    "title": "RAAL La Louvière - KVC Westerlo",
+    "home_team": "RAAL La Louvière",
+    "away_team": "KVC Westerlo",
+    "event_date": "2027-05-07T16:00:00+00:00",
+    "round": 32
+  },
+  "213006": {
+    "thread_id": "8777",
+    "thread_url": "https://voetbalbe.boards.net/thread/8777/anderlecht-royale-union-saint-gilloise",
+    "title": "RSC Anderlecht - Royale Union Saint-Gilloise",
+    "home_team": "RSC Anderlecht",
+    "away_team": "Royale Union Saint-Gilloise",
+    "event_date": "2027-05-07T16:00:00+00:00",
+    "round": 32
+  },
+  "213007": {
+    "thread_id": "8778",
+    "thread_url": "https://voetbalbe.boards.net/thread/8778/royal-antwerp-fc-standard-li",
+    "title": "Royal Antwerp FC - Standard Liège",
+    "home_team": "Royal Antwerp FC",
+    "away_team": "Standard Liège",
+    "event_date": "2027-05-07T16:00:00+00:00",
+    "round": 32
+  },
+  "213008": {
+    "thread_id": "8779",
+    "thread_url": "https://voetbalbe.boards.net/thread/8779/sv-zulte-waregem-sint-truidense",
+    "title": "SV Zulte Waregem - Sint-Truidense VV",
+    "home_team": "SV Zulte Waregem",
+    "away_team": "Sint-Truidense VV",
+    "event_date": "2027-05-07T16:00:00+00:00",
+    "round": 32
+  },
+  "213009": {
+    "thread_id": "8780",
+    "thread_url": "https://voetbalbe.boards.net/thread/8780/cercle-brugge-sk-beveren",
+    "title": "Cercle Brugge - SK Beveren",
+    "home_team": "Cercle Brugge",
+    "away_team": "SK Beveren",
+    "event_date": "2027-05-14T16:00:00+00:00",
+    "round": 33
+  },
+  "213010": {
+    "thread_id": "8781",
+    "thread_url": "https://voetbalbe.boards.net/thread/8781/gent-royale-union-saint-gilloise",
+    "title": "KAA Gent - Royale Union Saint-Gilloise",
+    "home_team": "KAA Gent",
+    "away_team": "Royale Union Saint-Gilloise",
+    "event_date": "2027-05-14T16:00:00+00:00",
+    "round": 33
+  },
+  "213011": {
+    "thread_id": "8782",
+    "thread_url": "https://voetbalbe.boards.net/thread/8782/kv-mechelen-oud-heverlee-leuven",
+    "title": "KV Mechelen - Oud-Heverlee Leuven",
+    "home_team": "KV Mechelen",
+    "away_team": "Oud-Heverlee Leuven",
+    "event_date": "2027-05-14T16:00:00+00:00",
+    "round": 33
+  },
+  "213012": {
+    "thread_id": "8783",
+    "thread_url": "https://voetbalbe.boards.net/thread/8783/kvc-westerlo-lommel-sk",
+    "title": "KVC Westerlo - Lommel SK",
+    "home_team": "KVC Westerlo",
+    "away_team": "Lommel SK",
+    "event_date": "2027-05-14T16:00:00+00:00",
+    "round": 33
+  },
+  "213013": {
+    "thread_id": "8784",
+    "thread_url": "https://voetbalbe.boards.net/thread/8784/rc-sporting-charleroi-kv-kortrijk",
+    "title": "RC Sporting Charleroi - KV Kortrijk",
+    "home_team": "RC Sporting Charleroi",
+    "away_team": "KV Kortrijk",
+    "event_date": "2027-05-14T16:00:00+00:00",
+    "round": 33
+  },
+  "213014": {
+    "thread_id": "8785",
+    "thread_url": "https://voetbalbe.boards.net/thread/8785/rsc-anderlecht-royal-antwerp-fc",
+    "title": "RSC Anderlecht - Royal Antwerp FC",
+    "home_team": "RSC Anderlecht",
+    "away_team": "Royal Antwerp FC",
+    "event_date": "2027-05-14T16:00:00+00:00",
+    "round": 33
+  },
+  "213015": {
+    "thread_id": "8786",
+    "thread_url": "https://voetbalbe.boards.net/thread/8786/sv-zulte-waregem-raal-louvi",
+    "title": "SV Zulte Waregem - RAAL La Louvière",
+    "home_team": "SV Zulte Waregem",
+    "away_team": "RAAL La Louvière",
+    "event_date": "2027-05-14T16:00:00+00:00",
+    "round": 33
+  },
+  "213016": {
+    "thread_id": "8787",
+    "thread_url": "https://voetbalbe.boards.net/thread/8787/sint-truidense-vv-club-brugge",
+    "title": "Sint-Truidense VV - Club Brugge KV",
+    "home_team": "Sint-Truidense VV",
+    "away_team": "Club Brugge KV",
+    "event_date": "2027-05-14T16:00:00+00:00",
+    "round": 33
+  },
+  "213017": {
+    "thread_id": "8788",
+    "thread_url": "https://voetbalbe.boards.net/thread/8788/standard-li-ge-krc-genk",
+    "title": "Standard Liège - KRC Genk",
+    "home_team": "Standard Liège",
+    "away_team": "KRC Genk",
+    "event_date": "2027-05-14T16:00:00+00:00",
+    "round": 33
+  },
+  "213018": {
+    "thread_id": "8789",
+    "thread_url": "https://voetbalbe.boards.net/thread/8789/club-brugge-kv-zulte-waregem",
+    "title": "Club Brugge KV - SV Zulte Waregem",
+    "home_team": "Club Brugge KV",
+    "away_team": "SV Zulte Waregem",
+    "event_date": "2027-05-21T16:00:00+00:00",
+    "round": 34
+  },
+  "213019": {
+    "thread_id": "8790",
+    "thread_url": "https://voetbalbe.boards.net/thread/8790/krc-genk-kv-mechelen",
+    "title": "KRC Genk - KV Mechelen",
+    "home_team": "KRC Genk",
+    "away_team": "KV Mechelen",
+    "event_date": "2027-05-21T16:00:00+00:00",
+    "round": 34
+  },
+  "213020": {
+    "thread_id": "8791",
+    "thread_url": "https://voetbalbe.boards.net/thread/8791/kv-kortrijk-sint-truidense-vv",
+    "title": "KV Kortrijk - Sint-Truidense VV",
+    "home_team": "KV Kortrijk",
+    "away_team": "Sint-Truidense VV",
+    "event_date": "2027-05-21T16:00:00+00:00",
+    "round": 34
+  },
+  "213021": {
+    "thread_id": "8792",
+    "thread_url": "https://voetbalbe.boards.net/thread/8792/lommel-sk-cercle-brugge",
+    "title": "Lommel SK - Cercle Brugge",
+    "home_team": "Lommel SK",
+    "away_team": "Cercle Brugge",
+    "event_date": "2027-05-21T16:00:00+00:00",
+    "round": 34
+  },
+  "213022": {
+    "thread_id": "8793",
+    "thread_url": "https://voetbalbe.boards.net/thread/8793/oud-heverlee-leuven-kaa-gent",
+    "title": "Oud-Heverlee Leuven - KAA Gent",
+    "home_team": "Oud-Heverlee Leuven",
+    "away_team": "KAA Gent",
+    "event_date": "2027-05-21T16:00:00+00:00",
+    "round": 34
+  },
+  "213023": {
+    "thread_id": "8794",
+    "thread_url": "https://voetbalbe.boards.net/thread/8794/raal-la-louvi-rsc-anderlecht",
+    "title": "RAAL La Louvière - RSC Anderlecht",
+    "home_team": "RAAL La Louvière",
+    "away_team": "RSC Anderlecht",
+    "event_date": "2027-05-21T16:00:00+00:00",
+    "round": 34
+  },
+  "213024": {
+    "thread_id": "8795",
+    "thread_url": "https://voetbalbe.boards.net/thread/8795/royal-antwerp-fc-kvc-westerlo",
+    "title": "Royal Antwerp FC - KVC Westerlo",
+    "home_team": "Royal Antwerp FC",
+    "away_team": "KVC Westerlo",
+    "event_date": "2027-05-21T16:00:00+00:00",
+    "round": 34
+  },
+  "213025": {
+    "thread_id": "8796",
+    "thread_url": "https://voetbalbe.boards.net/thread/8796/royale-union-gilloise-sporting-charleroi",
+    "title": "Royale Union Saint-Gilloise - RC Sporting Charleroi",
+    "home_team": "Royale Union Saint-Gilloise",
+    "away_team": "RC Sporting Charleroi",
+    "event_date": "2027-05-21T16:00:00+00:00",
+    "round": 34
+  },
+  "213026": {
+    "thread_id": "8797",
+    "thread_url": "https://voetbalbe.boards.net/thread/8797/sk-beveren-standard-li-ge",
+    "title": "SK Beveren - Standard Liège",
+    "home_team": "SK Beveren",
+    "away_team": "Standard Liège",
+    "event_date": "2027-05-21T16:00:00+00:00",
+    "round": 34
+  }
+}
