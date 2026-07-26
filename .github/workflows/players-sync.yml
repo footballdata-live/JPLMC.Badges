@@ -1,0 +1,88 @@
+name: players sync
+
+# =============================================================================
+#  JPL Fantasy Manager - spelerssynchronisatie
+# =============================================================================
+#  Regelset 10.5: twee keer per dag om nieuw aangekochte spelers bij de echte
+#  clubs op te pikken. 05:00 en 17:00 Belgische tijd.
+#
+#  GitHub Actions draait op UTC. In de ZOMERTIJD is dat 03:00 en 15:00 UTC.
+#  Na de omschakeling naar wintertijd eind oktober moet dit 04:00 en 16:00 UTC
+#  worden om dezelfde lokale tijden te houden. Zet dat in de agenda - GitHub
+#  doet dat niet vanzelf.
+#
+#  Secrets die deze workflow nodig heeft, in de bot-repo:
+#     BSD_KEY               BSD API-token
+#     PLAYERS_REPO_TOKEN    fine-grained PAT, Contents R/W op JPLMC.Badges
+# =============================================================================
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+    - cron: '0 15 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Bot-repo uitchecken
+        uses: actions/checkout@v4
+
+      - name: Python klaarzetten
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Data-repo uitchecken
+        uses: actions/checkout@v4
+        with:
+          repository: footballdata-live/JPLMC.Badges
+          token: ${{ secrets.PLAYERS_REPO_TOKEN }}
+          path: data
+
+      - name: players.json bouwen
+        id: bouw
+        env:
+          BSD_KEY: ${{ secrets.BSD_KEY }}
+        run: |
+          python3 bouw_players.py \
+            --basis fm_basis.json \
+            --uit data/players.json | tee uitvoer.log
+          if grep -q '^WIJZIGING=ja' uitvoer.log; then
+            echo "gewijzigd=ja" >> "$GITHUB_OUTPUT"
+          else
+            echo "gewijzigd=nee" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Committen en pushen
+        if: steps.bouw.outputs.gewijzigd == 'ja'
+        working-directory: data
+        run: |
+          git config user.name  "matchcenter-bot"
+          git config user.email "matchcenter.bot@users.noreply.github.com"
+          git add players.json
+          if git diff --cached --quiet; then
+            echo "Niets te committen."
+            exit 0
+          fi
+          git commit -m "players.json bijgewerkt [auto]"
+          git push
+
+      - name: Worker-cache legen
+        if: steps.bouw.outputs.gewijzigd == 'ja'
+        continue-on-error: true
+        env:
+          MANAGER_API_KEY: ${{ secrets.MANAGER_API_KEY }}
+        run: |
+          # Zonder dit blijft de Worker tot een uur lang de oude lijst
+          # serveren. Faalt dit, dan is dat niet kritiek - de cache
+          # verloopt vanzelf na een uur.
+          curl -sS -X POST \
+            -H "X-API-Key: ${MANAGER_API_KEY}" \
+            https://manager.matchcenter-bot.workers.dev/admin/cache/clear \
+            || echo "Cache legen mislukt - niet kritiek."
