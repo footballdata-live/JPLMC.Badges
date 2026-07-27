@@ -1,29 +1,28 @@
 name: players sync
 
 # =============================================================================
-#  JPL Fantasy Manager - spelerssynchronisatie  v1.1
+#  JPL Fantasy Manager - spelerssynchronisatie  v2.0
 # =============================================================================
-#  v1.1  Twee correcties op v1.0:
-#        (1) "python | tee" gaf de exitcode van tee door, niet die van python.
-#            Een crash meldde daardoor succes. Nu met set -o pipefail.
-#        (2) Opzet voor EEN repo: script, fm_basis.json en players.json staan
-#            allemaal in JPLMC.Badges. Geen tweede checkout, geen aparte PAT.
+#  v2.0  Roept bouw_players_v2.py aan in plaats van bouw_players.py.
+#        De selectie komt nu van proleague.be, niet meer van BSD.
+#        Basisbestand is fm_basis_v2.json.
+#        Looptijd stijgt naar ongeveer 2 minuten: 19 fetches op proleague.be
+#        plus 20 calls op BSD, met wachttijden ertussen.
+#
+#  v1.1  set -o pipefail toegevoegd (tee maskeerde een crash van python).
 #
 #  Deze workflow hoort in .github/workflows/ van JPLMC.Badges.
-#  In diezelfde repo moeten staan:
-#     bouw_players.py
-#     fm_basis.json        <- output van bouw_basis.py, MOET aanwezig zijn
+#  In dezelfde repo moeten staan:
+#     bouw_players_v2.py
+#     fm_basis_v2.json
 #
 #  Secrets in JPLMC.Badges -> Settings -> Secrets and variables -> Actions:
 #     BSD_KEY           BSD API-token
-#     MANAGER_API_KEY   voor het legen van de Worker-cache (optioneel)
-#
-#  PLAYERS_REPO_TOKEN is NIET meer nodig: pushen gebeurt met de ingebouwde
-#  GITHUB_TOKEN, die via permissions: contents: write schrijfrecht krijgt.
+#     MANAGER_API_KEY   voor het legen van de Worker-cache
 #
 #  Regelset 10.5: 05:00 en 17:00 Belgische tijd. GitHub draait op UTC, dus in
 #  de zomertijd 03:00 en 15:00. Eind oktober moet dit 04:00 en 16:00 worden om
-#  dezelfde lokale tijden te houden - GitHub past dat niet vanzelf aan.
+#  dezelfde lokale tijden te houden.
 # =============================================================================
 
 on:
@@ -38,6 +37,7 @@ permissions:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - name: Repo uitchecken
@@ -48,33 +48,30 @@ jobs:
         with:
           python-version: '3.11'
 
-      # Eerst kijken of alles er staat. Ontbreekt er iets, dan stopt de run
-      # hier met een duidelijke melding in plaats van verderop met een
-      # onbegrijpelijke fout.
       - name: Bestanden controleren
         run: |
           echo "--- inhoud van de repo ---"
           ls -la
           echo "--------------------------"
           ontbreekt=0
-          for f in bouw_players.py fm_basis.json; do
+          for f in bouw_players_v2.py fm_basis_v2.json; do
             if [ -f "$f" ]; then
-              echo "OK       $f  ($(wc -c < "$f") bytes)"
+              echo "OK        $f  ($(wc -c < "$f") bytes)"
             else
               echo "ONTBREEKT $f"
               ontbreekt=1
             fi
           done
+          for f in bouw_players.py fm_basis.json; do
+            if [ -f "$f" ]; then
+              echo "LET OP    $f staat er nog - oude versie, mag weg"
+            fi
+          done
           if [ "$ontbreekt" = "1" ]; then
             echo ""
-            echo "Een vereist bestand ontbreekt in de repo. Zie de lijst hierboven."
+            echo "Een vereist bestand ontbreekt in de repo."
             exit 1
           fi
-          if [ -z "${BSD_KEY_CHECK}" ]; then
-            echo "LET OP: secret BSD_KEY lijkt leeg. Controleer Settings > Secrets."
-          fi
-        env:
-          BSD_KEY_CHECK: ${{ secrets.BSD_KEY }}
 
       - name: players.json bouwen
         id: bouw
@@ -84,7 +81,9 @@ jobs:
         run: |
           # pipefail is essentieel: zonder dit maskeert tee een crash van python
           set -o pipefail
-          python3 bouw_players.py --basis fm_basis.json --uit players.json | tee uitvoer.log
+          python3 bouw_players_v2.py \
+            --basis fm_basis_v2.json \
+            --uit players.json | tee uitvoer.log
           if grep -q '^WIJZIGING=ja' uitvoer.log; then
             echo "gewijzigd=ja" >> "$GITHUB_OUTPUT"
           else
@@ -110,8 +109,6 @@ jobs:
         env:
           MANAGER_API_KEY: ${{ secrets.MANAGER_API_KEY }}
         run: |
-          # Zonder dit serveert de Worker tot een uur lang de oude lijst.
-          # Faalt dit, dan is dat niet kritiek: de cache verloopt vanzelf.
           curl -sS -X POST \
             -H "X-API-Key: ${MANAGER_API_KEY}" \
             https://manager.matchcenter-bot.workers.dev/admin/cache/clear \
