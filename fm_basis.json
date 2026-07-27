@@ -1,0 +1,3592 @@
+{
+ "periode": 1,
+ "berekend": "2026-07-26T19:49:01Z",
+ "bron_seizoen": 338,
+ "seizoen": 1327,
+ "seed": 20260728,
+ "budget": 110.0,
+ "bereiken": {
+  "G": [
+   4.0,
+   8.0
+  ],
+  "D": [
+   4.0,
+   9.0
+  ],
+  "M": [
+   5.0,
+   10.5
+  ],
+  "F": [
+   6.0,
+   11.5
+  ]
+ },
+ "medianen": {
+  "G": 6.2,
+  "D": 6.5,
+  "M": 7.7,
+  "F": 8.8
+ },
+ "gewichten": {
+  "totaal": 0.5,
+  "minuten": 0.3,
+  "per90": 0.2
+ },
+ "drempel": 300,
+ "prijzen": {
+  "7621": {
+   "fm": 5.9,
+   "soort": "rangschikking",
+   "totaal": 61,
+   "min": 990
+  },
+  "7710": {
+   "fm": 6.9,
+   "soort": "rangschikking",
+   "totaal": 137,
+   "min": 2610
+  },
+  "3744": {
+   "fm": 7.4,
+   "soort": "rangschikking",
+   "totaal": 154,
+   "min": 2835
+  },
+  "3759": {
+   "fm": 4.5,
+   "soort": "rangschikking",
+   "totaal": 25,
+   "min": 765
+  },
+  "7645": {
+   "fm": 5.7,
+   "soort": "rangschikking",
+   "totaal": 67,
+   "min": 1890
+  },
+  "7669": {
+   "fm": 6.2,
+   "soort": "rangschikking",
+   "totaal": 84,
+   "min": 1710
+  },
+  "7285": {
+   "fm": 6.5,
+   "soort": "rangschikking",
+   "totaal": 124,
+   "min": 2654
+  },
+  "7320": {
+   "fm": 4.5,
+   "soort": "rangschikking",
+   "totaal": 22,
+   "min": 496
+  },
+  "7522": {
+   "fm": 7.3,
+   "soort": "rangschikking",
+   "totaal": 151,
+   "min": 3600
+  },
+  "7574": {
+   "fm": 7.1,
+   "soort": "rangschikking",
+   "totaal": 143,
+   "min": 3060
+  },
+  "7334": {
+   "fm": 6.5,
+   "soort": "rangschikking",
+   "totaal": 119,
+   "min": 3330
+  },
+  "3551": {
+   "fm": 4.7,
+   "soort": "rangschikking",
+   "totaal": 29,
+   "min": 764
+  },
+  "7189": {
+   "fm": 6.3,
+   "soort": "rangschikking",
+   "totaal": 109,
+   "min": 2859
+  },
+  "7464": {
+   "fm": 7.7,
+   "soort": "rangschikking",
+   "totaal": 175,
+   "min": 3720
+  },
+  "42160": {
+   "fm": 4.9,
+   "soort": "rangschikking",
+   "totaal": 28,
+   "min": 540
+  },
+  "7279": {
+   "fm": 5.2,
+   "soort": "rangschikking",
+   "totaal": 47,
+   "min": 1591
+  },
+  "7366": {
+   "fm": 7.0,
+   "soort": "rangschikking",
+   "totaal": 141,
+   "min": 3420
+  },
+  "3121": {
+   "fm": 4.9,
+   "soort": "rangschikking",
+   "totaal": 35,
+   "min": 1080
+  },
+  "4419": {
+   "fm": 5.6,
+   "soort": "rangschikking",
+   "totaal": 50,
+   "min": 1020
+  },
+  "3137": {
+   "fm": 5.1,
+   "soort": "rangschikking",
+   "totaal": 46,
+   "min": 1620
+  },
+  "7419": {
+   "fm": 7.5,
+   "soort": "rangschikking",
+   "totaal": 158,
+   "min": 2925
+  },
+  "7784": {
+   "fm": 4.1,
+   "soort": "rangschikking",
+   "totaal": 16,
+   "min": 675
+  },
+  "3534": {
+   "fm": 6.4,
+   "soort": "rangschikking",
+   "totaal": 98,
+   "min": 1801
+  },
+  "3550": {
+   "fm": 5.2,
+   "soort": "rangschikking",
+   "totaal": 41,
+   "min": 1023
+  },
+  "7491": {
+   "fm": 6.8,
+   "soort": "rangschikking",
+   "totaal": 133,
+   "min": 3240
+  },
+  "65539": {
+   "fm": 6.2,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "65540": {
+   "fm": 6.2,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "8917": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "7772": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "37163": {
+   "fm": 6.2,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7811": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "68598": {
+   "fm": 6.2,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "37026": {
+   "fm": 6.2,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7853": {
+   "fm": 4.4,
+   "soort": "weinig",
+   "totaal": 6,
+   "min": 90
+  },
+  "64135": {
+   "fm": 6.2,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "12046": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "7593": {
+   "fm": 4.4,
+   "soort": "weinig",
+   "totaal": 0,
+   "min": 180
+  },
+  "8849": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "8769": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "2882": {
+   "fm": 6.2,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "8779": {
+   "fm": 4.4,
+   "soort": "weinig",
+   "totaal": 2,
+   "min": 180
+  },
+  "13533": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "13534": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "8642": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "53633": {
+   "fm": 6.2,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7733": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "7483": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "64108": {
+   "fm": 6.2,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "42163": {
+   "fm": 6.2,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "42162": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "42161": {
+   "fm": 6.2,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7810": {
+   "fm": 4.4,
+   "soort": "weinig",
+   "totaal": -1,
+   "min": 90
+  },
+  "29282": {
+   "fm": 6.2,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "62420": {
+   "fm": 6.2,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "56820": {
+   "fm": 6.2,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "56300": {
+   "fm": 6.2,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7400": {
+   "fm": 4.4,
+   "soort": "weinig",
+   "totaal": 8,
+   "min": 179
+  },
+  "12266": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "7758": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "7455": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "7732": {
+   "fm": 4.4,
+   "soort": "weinig",
+   "totaal": 1,
+   "min": 12
+  },
+  "4224": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "1678": {
+   "fm": 6.2,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "37353": {
+   "fm": 6.2,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7507": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "7622": {
+   "fm": 5.6,
+   "soort": "rangschikking",
+   "totaal": 63,
+   "min": 1321
+  },
+  "8614": {
+   "fm": 5.6,
+   "soort": "rangschikking",
+   "totaal": 71,
+   "min": 1736
+  },
+  "7625": {
+   "fm": 7.8,
+   "soort": "rangschikking",
+   "totaal": 136,
+   "min": 2433
+  },
+  "7623": {
+   "fm": 8.1,
+   "soort": "rangschikking",
+   "totaal": 159,
+   "min": 2954
+  },
+  "7711": {
+   "fm": 7.3,
+   "soort": "rangschikking",
+   "totaal": 122,
+   "min": 2198
+  },
+  "7771": {
+   "fm": 6.1,
+   "soort": "rangschikking",
+   "totaal": 79,
+   "min": 1470
+  },
+  "3758": {
+   "fm": 7.4,
+   "soort": "rangschikking",
+   "totaal": 124,
+   "min": 1877
+  },
+  "3745": {
+   "fm": 8.4,
+   "soort": "rangschikking",
+   "totaal": 176,
+   "min": 2930
+  },
+  "3762": {
+   "fm": 7.0,
+   "soort": "rangschikking",
+   "totaal": 109,
+   "min": 1449
+  },
+  "3747": {
+   "fm": 8.5,
+   "soort": "rangschikking",
+   "totaal": 199,
+   "min": 2629
+  },
+  "7647": {
+   "fm": 8.0,
+   "soort": "rangschikking",
+   "totaal": 160,
+   "min": 3395
+  },
+  "7648": {
+   "fm": 8.2,
+   "soort": "rangschikking",
+   "totaal": 165,
+   "min": 3440
+  },
+  "4945": {
+   "fm": 7.7,
+   "soort": "rangschikking",
+   "totaal": 133,
+   "min": 2117
+  },
+  "7649": {
+   "fm": 7.3,
+   "soort": "rangschikking",
+   "totaal": 126,
+   "min": 3007
+  },
+  "7329": {
+   "fm": 4.7,
+   "soort": "rangschikking",
+   "totaal": 33,
+   "min": 921
+  },
+  "12098": {
+   "fm": 4.0,
+   "soort": "rangschikking",
+   "totaal": 12,
+   "min": 312
+  },
+  "7368": {
+   "fm": 7.7,
+   "soort": "rangschikking",
+   "totaal": 131,
+   "min": 2126
+  },
+  "7323": {
+   "fm": 4.6,
+   "soort": "rangschikking",
+   "totaal": 28,
+   "min": 622
+  },
+  "7745": {
+   "fm": 7.0,
+   "soort": "rangschikking",
+   "totaal": 119,
+   "min": 2740
+  },
+  "7530": {
+   "fm": 5.4,
+   "soort": "rangschikking",
+   "totaal": 56,
+   "min": 1182
+  },
+  "8797": {
+   "fm": 5.0,
+   "soort": "rangschikking",
+   "totaal": 27,
+   "min": 413
+  },
+  "7564": {
+   "fm": 4.5,
+   "soort": "rangschikking",
+   "totaal": 31,
+   "min": 763
+  },
+  "7755": {
+   "fm": 6.4,
+   "soort": "rangschikking",
+   "totaal": 94,
+   "min": 1839
+  },
+  "7578": {
+   "fm": 6.6,
+   "soort": "rangschikking",
+   "totaal": 108,
+   "min": 2553
+  },
+  "7661": {
+   "fm": 5.2,
+   "soort": "rangschikking",
+   "totaal": 28,
+   "min": 328
+  },
+  "7587": {
+   "fm": 5.3,
+   "soort": "rangschikking",
+   "totaal": 31,
+   "min": 366
+  },
+  "7747": {
+   "fm": 7.8,
+   "soort": "rangschikking",
+   "totaal": 134,
+   "min": 2304
+  },
+  "7577": {
+   "fm": 7.8,
+   "soort": "rangschikking",
+   "totaal": 140,
+   "min": 2731
+  },
+  "7336": {
+   "fm": 6.1,
+   "soort": "rangschikking",
+   "totaal": 78,
+   "min": 1382
+  },
+  "7692": {
+   "fm": 5.9,
+   "soort": "rangschikking",
+   "totaal": 67,
+   "min": 1237
+  },
+  "7339": {
+   "fm": 5.9,
+   "soort": "rangschikking",
+   "totaal": 83,
+   "min": 1975
+  },
+  "7343": {
+   "fm": 6.8,
+   "soort": "rangschikking",
+   "totaal": 109,
+   "min": 2445
+  },
+  "7744": {
+   "fm": 6.6,
+   "soort": "rangschikking",
+   "totaal": 102,
+   "min": 2082
+  },
+  "7743": {
+   "fm": 6.2,
+   "soort": "rangschikking",
+   "totaal": 92,
+   "min": 1953
+  },
+  "7345": {
+   "fm": 5.1,
+   "soort": "rangschikking",
+   "totaal": 42,
+   "min": 887
+  },
+  "7219": {
+   "fm": 4.9,
+   "soort": "rangschikking",
+   "totaal": 36,
+   "min": 837
+  },
+  "7192": {
+   "fm": 7.9,
+   "soort": "rangschikking",
+   "totaal": 152,
+   "min": 3538
+  },
+  "7195": {
+   "fm": 6.4,
+   "soort": "rangschikking",
+   "totaal": 94,
+   "min": 1877
+  },
+  "7198": {
+   "fm": 7.0,
+   "soort": "rangschikking",
+   "totaal": 112,
+   "min": 2241
+  },
+  "7762": {
+   "fm": 4.1,
+   "soort": "rangschikking",
+   "totaal": 13,
+   "min": 332
+  },
+  "3746": {
+   "fm": 8.7,
+   "soort": "rangschikking",
+   "totaal": 199,
+   "min": 3147
+  },
+  "7469": {
+   "fm": 7.0,
+   "soort": "rangschikking",
+   "totaal": 111,
+   "min": 1813
+  },
+  "7468": {
+   "fm": 6.1,
+   "soort": "rangschikking",
+   "totaal": 92,
+   "min": 2237
+  },
+  "7470": {
+   "fm": 7.1,
+   "soort": "rangschikking",
+   "totaal": 120,
+   "min": 3075
+  },
+  "7476": {
+   "fm": 7.6,
+   "soort": "rangschikking",
+   "totaal": 134,
+   "min": 2820
+  },
+  "42156": {
+   "fm": 5.2,
+   "soort": "rangschikking",
+   "totaal": 32,
+   "min": 540
+  },
+  "42151": {
+   "fm": 4.8,
+   "soort": "rangschikking",
+   "totaal": 28,
+   "min": 526
+  },
+  "42150": {
+   "fm": 5.7,
+   "soort": "rangschikking",
+   "totaal": 45,
+   "min": 540
+  },
+  "7249": {
+   "fm": 6.6,
+   "soort": "rangschikking",
+   "totaal": 106,
+   "min": 2243
+  },
+  "7280": {
+   "fm": 6.2,
+   "soort": "rangschikking",
+   "totaal": 84,
+   "min": 1737
+  },
+  "7247": {
+   "fm": 8.4,
+   "soort": "rangschikking",
+   "totaal": 180,
+   "min": 2889
+  },
+  "8867": {
+   "fm": 5.7,
+   "soort": "rangschikking",
+   "totaal": 52,
+   "min": 900
+  },
+  "7275": {
+   "fm": 4.7,
+   "soort": "rangschikking",
+   "totaal": 33,
+   "min": 858
+  },
+  "7785": {
+   "fm": 5.0,
+   "soort": "rangschikking",
+   "totaal": 37,
+   "min": 834
+  },
+  "7786": {
+   "fm": 5.5,
+   "soort": "rangschikking",
+   "totaal": 45,
+   "min": 804
+  },
+  "8751": {
+   "fm": 5.9,
+   "soort": "rangschikking",
+   "totaal": 58,
+   "min": 921
+  },
+  "7376": {
+   "fm": 7.4,
+   "soort": "rangschikking",
+   "totaal": 127,
+   "min": 3077
+  },
+  "7374": {
+   "fm": 7.9,
+   "soort": "rangschikking",
+   "totaal": 151,
+   "min": 2962
+  },
+  "7414": {
+   "fm": 7.0,
+   "soort": "rangschikking",
+   "totaal": 116,
+   "min": 2444
+  },
+  "7371": {
+   "fm": 7.4,
+   "soort": "rangschikking",
+   "totaal": 126,
+   "min": 2519
+  },
+  "3135": {
+   "fm": 4.8,
+   "soort": "rangschikking",
+   "totaal": 19,
+   "min": 310
+  },
+  "4161": {
+   "fm": 7.0,
+   "soort": "rangschikking",
+   "totaal": 113,
+   "min": 2111
+  },
+  "3139": {
+   "fm": 5.7,
+   "soort": "rangschikking",
+   "totaal": 61,
+   "min": 1168
+  },
+  "4160": {
+   "fm": 5.0,
+   "soort": "rangschikking",
+   "totaal": 30,
+   "min": 533
+  },
+  "3124": {
+   "fm": 8.2,
+   "soort": "rangschikking",
+   "totaal": 169,
+   "min": 3509
+  },
+  "3123": {
+   "fm": 7.3,
+   "soort": "rangschikking",
+   "totaal": 126,
+   "min": 3014
+  },
+  "3125": {
+   "fm": 6.2,
+   "soort": "rangschikking",
+   "totaal": 83,
+   "min": 1534
+  },
+  "3122": {
+   "fm": 8.7,
+   "soort": "rangschikking",
+   "totaal": 203,
+   "min": 2996
+  },
+  "7427": {
+   "fm": 5.3,
+   "soort": "rangschikking",
+   "totaal": 45,
+   "min": 951
+  },
+  "7706": {
+   "fm": 5.3,
+   "soort": "rangschikking",
+   "totaal": 32,
+   "min": 445
+  },
+  "7750": {
+   "fm": 6.7,
+   "soort": "rangschikking",
+   "totaal": 109,
+   "min": 2594
+  },
+  "7757": {
+   "fm": 7.2,
+   "soort": "rangschikking",
+   "totaal": 124,
+   "min": 2849
+  },
+  "7422": {
+   "fm": 6.4,
+   "soort": "rangschikking",
+   "totaal": 100,
+   "min": 2282
+  },
+  "4431": {
+   "fm": 6.2,
+   "soort": "rangschikking",
+   "totaal": 78,
+   "min": 1041
+  },
+  "3537": {
+   "fm": 8.8,
+   "soort": "rangschikking",
+   "totaal": 218,
+   "min": 3435
+  },
+  "3535": {
+   "fm": 7.3,
+   "soort": "rangschikking",
+   "totaal": 123,
+   "min": 1332
+  },
+  "3538": {
+   "fm": 8.1,
+   "soort": "rangschikking",
+   "totaal": 157,
+   "min": 2976
+  },
+  "3536": {
+   "fm": 7.5,
+   "soort": "rangschikking",
+   "totaal": 127,
+   "min": 2668
+  },
+  "3549": {
+   "fm": 5.8,
+   "soort": "rangschikking",
+   "totaal": 65,
+   "min": 1218
+  },
+  "4222": {
+   "fm": 7.0,
+   "soort": "rangschikking",
+   "totaal": 109,
+   "min": 1658
+  },
+  "7699": {
+   "fm": 6.3,
+   "soort": "rangschikking",
+   "totaal": 86,
+   "min": 1664
+  },
+  "7506": {
+   "fm": 4.8,
+   "soort": "rangschikking",
+   "totaal": 35,
+   "min": 946
+  },
+  "7494": {
+   "fm": 6.6,
+   "soort": "rangschikking",
+   "totaal": 103,
+   "min": 2292
+  },
+  "7493": {
+   "fm": 6.1,
+   "soort": "rangschikking",
+   "totaal": 83,
+   "min": 1670
+  },
+  "7495": {
+   "fm": 6.2,
+   "soort": "rangschikking",
+   "totaal": 79,
+   "min": 1298
+  },
+  "7508": {
+   "fm": 6.5,
+   "soort": "rangschikking",
+   "totaal": 100,
+   "min": 2030
+  },
+  "8684": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "65535": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "65537": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "54160": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "65534": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "65536": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "65538": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "79596": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "13844": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7801": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "2981": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "64846": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "41280": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "7802": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "7640": {
+   "fm": 4.4,
+   "soort": "weinig",
+   "totaal": 5,
+   "min": 121
+  },
+  "3760": {
+   "fm": 4.4,
+   "soort": "weinig",
+   "totaal": 3,
+   "min": 67
+  },
+  "12097": {
+   "fm": 4.4,
+   "soort": "weinig",
+   "totaal": 12,
+   "min": 101
+  },
+  "30911": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "39902": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "4596": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "14243": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "7778": {
+   "fm": 4.4,
+   "soort": "weinig",
+   "totaal": 4,
+   "min": 157
+  },
+  "65009": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "65008": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "68596": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "64834": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "67437": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "13520": {
+   "fm": 4.4,
+   "soort": "weinig",
+   "totaal": 2,
+   "min": 43
+  },
+  "29726": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "12047": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "29574": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "52322": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "48148": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "38144": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "41014": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7799": {
+   "fm": 4.4,
+   "soort": "weinig",
+   "totaal": 1,
+   "min": 3
+  },
+  "64274": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7808": {
+   "fm": 4.4,
+   "soort": "weinig",
+   "totaal": 1,
+   "min": 45
+  },
+  "3489": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "57876": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "2762": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "12971": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "37167": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "59299": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7863": {
+   "fm": 4.4,
+   "soort": "weinig",
+   "totaal": 11,
+   "min": 90
+  },
+  "30838": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7763": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "7752": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "45398": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7716": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "7741": {
+   "fm": 4.4,
+   "soort": "weinig",
+   "totaal": 3,
+   "min": 13
+  },
+  "8850": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "7806": {
+   "fm": 4.4,
+   "soort": "weinig",
+   "totaal": 2,
+   "min": 11
+  },
+  "22625": {
+   "fm": 4.4,
+   "soort": "weinig",
+   "totaal": 1,
+   "min": 21
+  },
+  "7798": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "64107": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "53383": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "8993": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "42157": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "44990": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "42152": {
+   "fm": 4.4,
+   "soort": "weinig",
+   "totaal": 0,
+   "min": 14
+  },
+  "42153": {
+   "fm": 4.4,
+   "soort": "weinig",
+   "totaal": 20,
+   "min": 277
+  },
+  "42158": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "59203": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "42155": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "52320": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "42154": {
+   "fm": 4.4,
+   "soort": "weinig",
+   "totaal": 9,
+   "min": 114
+  },
+  "7841": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "64694": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "13550": {
+   "fm": 4.4,
+   "soort": "weinig",
+   "totaal": 3,
+   "min": 76
+  },
+  "34304": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "62418": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "62417": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "62419": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "65886": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "62414": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "62415": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "62416": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7753": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "7402": {
+   "fm": 4.4,
+   "soort": "weinig",
+   "totaal": 9,
+   "min": 47
+  },
+  "59216": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "59212": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "58905": {
+   "fm": 4.4,
+   "soort": "weinig",
+   "totaal": 5,
+   "min": 120
+  },
+  "59210": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "68681": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "58906": {
+   "fm": 4.4,
+   "soort": "weinig",
+   "totaal": 5,
+   "min": 35
+  },
+  "59207": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "58907": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "7690": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "7458": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "7457": {
+   "fm": 4.4,
+   "soort": "weinig",
+   "totaal": 2,
+   "min": 251
+  },
+  "48249": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "3553": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "3552": {
+   "fm": 4.4,
+   "soort": "weinig",
+   "totaal": 0,
+   "min": 15
+  },
+  "37352": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "8979": {
+   "fm": 4.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "58933": {
+   "fm": 6.5,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7633": {
+   "fm": 5.2,
+   "soort": "rangschikking",
+   "totaal": 12,
+   "min": 322
+  },
+  "7635": {
+   "fm": 8.5,
+   "soort": "rangschikking",
+   "totaal": 108,
+   "min": 2114
+  },
+  "7629": {
+   "fm": 8.3,
+   "soort": "rangschikking",
+   "totaal": 99,
+   "min": 1878
+  },
+  "7624": {
+   "fm": 7.5,
+   "soort": "rangschikking",
+   "totaal": 80,
+   "min": 2185
+  },
+  "7626": {
+   "fm": 7.9,
+   "soort": "rangschikking",
+   "totaal": 90,
+   "min": 2446
+  },
+  "7737": {
+   "fm": 6.1,
+   "soort": "rangschikking",
+   "totaal": 30,
+   "min": 641
+  },
+  "7628": {
+   "fm": 9.2,
+   "soort": "rangschikking",
+   "totaal": 132,
+   "min": 2309
+  },
+  "3749": {
+   "fm": 9.7,
+   "soort": "rangschikking",
+   "totaal": 155,
+   "min": 2968
+  },
+  "3748": {
+   "fm": 10.2,
+   "soort": "rangschikking",
+   "totaal": 192,
+   "min": 3099
+  },
+  "8600": {
+   "fm": 7.7,
+   "soort": "rangschikking",
+   "totaal": 78,
+   "min": 775
+  },
+  "3764": {
+   "fm": 8.0,
+   "soort": "rangschikking",
+   "totaal": 88,
+   "min": 1547
+  },
+  "3750": {
+   "fm": 7.9,
+   "soort": "rangschikking",
+   "totaal": 90,
+   "min": 2214
+  },
+  "3751": {
+   "fm": 7.7,
+   "soort": "rangschikking",
+   "totaal": 83,
+   "min": 1618
+  },
+  "3756": {
+   "fm": 9.0,
+   "soort": "rangschikking",
+   "totaal": 124,
+   "min": 2013
+  },
+  "7662": {
+   "fm": 5.7,
+   "soort": "rangschikking",
+   "totaal": 21,
+   "min": 458
+  },
+  "7652": {
+   "fm": 9.3,
+   "soort": "rangschikking",
+   "totaal": 139,
+   "min": 2379
+  },
+  "7659": {
+   "fm": 8.2,
+   "soort": "rangschikking",
+   "totaal": 92,
+   "min": 1749
+  },
+  "7654": {
+   "fm": 9.8,
+   "soort": "rangschikking",
+   "totaal": 160,
+   "min": 2555
+  },
+  "7653": {
+   "fm": 9.9,
+   "soort": "rangschikking",
+   "totaal": 163,
+   "min": 2670
+  },
+  "7657": {
+   "fm": 6.8,
+   "soort": "rangschikking",
+   "totaal": 39,
+   "min": 625
+  },
+  "7650": {
+   "fm": 9.6,
+   "soort": "rangschikking",
+   "totaal": 150,
+   "min": 2904
+  },
+  "7300": {
+   "fm": 8.9,
+   "soort": "rangschikking",
+   "totaal": 119,
+   "min": 2206
+  },
+  "7317": {
+   "fm": 8.5,
+   "soort": "rangschikking",
+   "totaal": 107,
+   "min": 2290
+  },
+  "7722": {
+   "fm": 6.9,
+   "soort": "rangschikking",
+   "totaal": 53,
+   "min": 1139
+  },
+  "7292": {
+   "fm": 8.9,
+   "soort": "rangschikking",
+   "totaal": 119,
+   "min": 2434
+  },
+  "7294": {
+   "fm": 5.3,
+   "soort": "rangschikking",
+   "totaal": 17,
+   "min": 506
+  },
+  "9032": {
+   "fm": 5.8,
+   "soort": "rangschikking",
+   "totaal": 31,
+   "min": 855
+  },
+  "7723": {
+   "fm": 6.8,
+   "soort": "rangschikking",
+   "totaal": 41,
+   "min": 604
+  },
+  "7535": {
+   "fm": 9.3,
+   "soort": "rangschikking",
+   "totaal": 145,
+   "min": 3305
+  },
+  "7608": {
+   "fm": 8.6,
+   "soort": "rangschikking",
+   "totaal": 109,
+   "min": 2531
+  },
+  "7543": {
+   "fm": 9.4,
+   "soort": "rangschikking",
+   "totaal": 145,
+   "min": 2977
+  },
+  "7556": {
+   "fm": 6.2,
+   "soort": "rangschikking",
+   "totaal": 23,
+   "min": 358
+  },
+  "8566": {
+   "fm": 6.3,
+   "soort": "rangschikking",
+   "totaal": 38,
+   "min": 855
+  },
+  "7545": {
+   "fm": 7.3,
+   "soort": "rangschikking",
+   "totaal": 61,
+   "min": 1119
+  },
+  "12169": {
+   "fm": 5.0,
+   "soort": "rangschikking",
+   "totaal": 9,
+   "min": 314
+  },
+  "7588": {
+   "fm": 8.2,
+   "soort": "rangschikking",
+   "totaal": 98,
+   "min": 2340
+  },
+  "8848": {
+   "fm": 7.2,
+   "soort": "rangschikking",
+   "totaal": 54,
+   "min": 930
+  },
+  "7581": {
+   "fm": 8.7,
+   "soort": "rangschikking",
+   "totaal": 114,
+   "min": 2770
+  },
+  "7579": {
+   "fm": 6.5,
+   "soort": "rangschikking",
+   "totaal": 49,
+   "min": 1296
+  },
+  "7583": {
+   "fm": 7.6,
+   "soort": "rangschikking",
+   "totaal": 80,
+   "min": 1730
+  },
+  "7775": {
+   "fm": 5.4,
+   "soort": "rangschikking",
+   "totaal": 19,
+   "min": 544
+  },
+  "7350": {
+   "fm": 6.9,
+   "soort": "rangschikking",
+   "totaal": 61,
+   "min": 1680
+  },
+  "9019": {
+   "fm": 5.2,
+   "soort": "rangschikking",
+   "totaal": 13,
+   "min": 413
+  },
+  "7693": {
+   "fm": 6.4,
+   "soort": "rangschikking",
+   "totaal": 39,
+   "min": 805
+  },
+  "7351": {
+   "fm": 7.7,
+   "soort": "rangschikking",
+   "totaal": 85,
+   "min": 2258
+  },
+  "7356": {
+   "fm": 8.1,
+   "soort": "rangschikking",
+   "totaal": 97,
+   "min": 1891
+  },
+  "7201": {
+   "fm": 6.7,
+   "soort": "rangschikking",
+   "totaal": 51,
+   "min": 1713
+  },
+  "7211": {
+   "fm": 7.3,
+   "soort": "rangschikking",
+   "totaal": 75,
+   "min": 1638
+  },
+  "7206": {
+   "fm": 8.5,
+   "soort": "rangschikking",
+   "totaal": 107,
+   "min": 2051
+  },
+  "7203": {
+   "fm": 7.3,
+   "soort": "rangschikking",
+   "totaal": 70,
+   "min": 2280
+  },
+  "7789": {
+   "fm": 8.3,
+   "soort": "rangschikking",
+   "totaal": 105,
+   "min": 2120
+  },
+  "7225": {
+   "fm": 7.5,
+   "soort": "rangschikking",
+   "totaal": 76,
+   "min": 1464
+  },
+  "7790": {
+   "fm": 5.9,
+   "soort": "rangschikking",
+   "totaal": 17,
+   "min": 317
+  },
+  "7228": {
+   "fm": 6.8,
+   "soort": "rangschikking",
+   "totaal": 52,
+   "min": 1185
+  },
+  "7681": {
+   "fm": 8.6,
+   "soort": "rangschikking",
+   "totaal": 109,
+   "min": 2076
+  },
+  "7486": {
+   "fm": 6.5,
+   "soort": "rangschikking",
+   "totaal": 32,
+   "min": 440
+  },
+  "7471": {
+   "fm": 8.6,
+   "soort": "rangschikking",
+   "totaal": 110,
+   "min": 2184
+  },
+  "7479": {
+   "fm": 8.3,
+   "soort": "rangschikking",
+   "totaal": 102,
+   "min": 2464
+  },
+  "7683": {
+   "fm": 7.5,
+   "soort": "rangschikking",
+   "totaal": 72,
+   "min": 1383
+  },
+  "7466": {
+   "fm": 7.2,
+   "soort": "rangschikking",
+   "totaal": 66,
+   "min": 1379
+  },
+  "7263": {
+   "fm": 9.4,
+   "soort": "rangschikking",
+   "totaal": 145,
+   "min": 2840
+  },
+  "7472": {
+   "fm": 7.9,
+   "soort": "rangschikking",
+   "totaal": 88,
+   "min": 1696
+  },
+  "42140": {
+   "fm": 5.8,
+   "soort": "rangschikking",
+   "totaal": 24,
+   "min": 540
+  },
+  "42146": {
+   "fm": 7.1,
+   "soort": "rangschikking",
+   "totaal": 50,
+   "min": 540
+  },
+  "42147": {
+   "fm": 6.2,
+   "soort": "rangschikking",
+   "totaal": 28,
+   "min": 518
+  },
+  "7281": {
+   "fm": 6.3,
+   "soort": "rangschikking",
+   "totaal": 24,
+   "min": 303
+  },
+  "7258": {
+   "fm": 8.3,
+   "soort": "rangschikking",
+   "totaal": 101,
+   "min": 2569
+  },
+  "7261": {
+   "fm": 7.4,
+   "soort": "rangschikking",
+   "totaal": 76,
+   "min": 1899
+  },
+  "7277": {
+   "fm": 6.7,
+   "soort": "rangschikking",
+   "totaal": 49,
+   "min": 1039
+  },
+  "7627": {
+   "fm": 6.4,
+   "soort": "rangschikking",
+   "totaal": 45,
+   "min": 1124
+  },
+  "7383": {
+   "fm": 9.2,
+   "soort": "rangschikking",
+   "totaal": 140,
+   "min": 3259
+  },
+  "7390": {
+   "fm": 9.4,
+   "soort": "rangschikking",
+   "totaal": 146,
+   "min": 3204
+  },
+  "7397": {
+   "fm": 7.6,
+   "soort": "rangschikking",
+   "totaal": 71,
+   "min": 965
+  },
+  "3141": {
+   "fm": 6.5,
+   "soort": "rangschikking",
+   "totaal": 31,
+   "min": 422
+  },
+  "3127": {
+   "fm": 10.0,
+   "soort": "rangschikking",
+   "totaal": 185,
+   "min": 3603
+  },
+  "3129": {
+   "fm": 9.7,
+   "soort": "rangschikking",
+   "totaal": 159,
+   "min": 2362
+  },
+  "3136": {
+   "fm": 6.7,
+   "soort": "rangschikking",
+   "totaal": 55,
+   "min": 1531
+  },
+  "3140": {
+   "fm": 8.1,
+   "soort": "rangschikking",
+   "totaal": 91,
+   "min": 1510
+  },
+  "7501": {
+   "fm": 9.9,
+   "soort": "rangschikking",
+   "totaal": 166,
+   "min": 2697
+  },
+  "4564": {
+   "fm": 9.1,
+   "soort": "rangschikking",
+   "totaal": 131,
+   "min": 1785
+  },
+  "3128": {
+   "fm": 9.1,
+   "soort": "rangschikking",
+   "totaal": 125,
+   "min": 2248
+  },
+  "3133": {
+   "fm": 6.3,
+   "soort": "rangschikking",
+   "totaal": 43,
+   "min": 1124
+  },
+  "3132": {
+   "fm": 7.2,
+   "soort": "rangschikking",
+   "totaal": 58,
+   "min": 1052
+  },
+  "3130": {
+   "fm": 7.9,
+   "soort": "rangschikking",
+   "totaal": 81,
+   "min": 1141
+  },
+  "7310": {
+   "fm": 8.4,
+   "soort": "rangschikking",
+   "totaal": 107,
+   "min": 2526
+  },
+  "7435": {
+   "fm": 6.0,
+   "soort": "rangschikking",
+   "totaal": 34,
+   "min": 1002
+  },
+  "7433": {
+   "fm": 9.1,
+   "soort": "rangschikking",
+   "totaal": 134,
+   "min": 3366
+  },
+  "7450": {
+   "fm": 6.0,
+   "soort": "rangschikking",
+   "totaal": 32,
+   "min": 831
+  },
+  "7429": {
+   "fm": 9.5,
+   "soort": "rangschikking",
+   "totaal": 153,
+   "min": 3060
+  },
+  "3541": {
+   "fm": 10.1,
+   "soort": "rangschikking",
+   "totaal": 182,
+   "min": 2816
+  },
+  "3554": {
+   "fm": 6.5,
+   "soort": "rangschikking",
+   "totaal": 34,
+   "min": 608
+  },
+  "3542": {
+   "fm": 10.2,
+   "soort": "rangschikking",
+   "totaal": 198,
+   "min": 3366
+  },
+  "3546": {
+   "fm": 8.2,
+   "soort": "rangschikking",
+   "totaal": 94,
+   "min": 1315
+  },
+  "3540": {
+   "fm": 7.5,
+   "soort": "rangschikking",
+   "totaal": 81,
+   "min": 1995
+  },
+  "12063": {
+   "fm": 6.2,
+   "soort": "rangschikking",
+   "totaal": 36,
+   "min": 818
+  },
+  "7492": {
+   "fm": 6.6,
+   "soort": "rangschikking",
+   "totaal": 50,
+   "min": 1336
+  },
+  "7701": {
+   "fm": 9.8,
+   "soort": "rangschikking",
+   "totaal": 161,
+   "min": 2382
+  },
+  "7503": {
+   "fm": 8.8,
+   "soort": "rangschikking",
+   "totaal": 111,
+   "min": 1746
+  },
+  "7496": {
+   "fm": 7.0,
+   "soort": "rangschikking",
+   "totaal": 45,
+   "min": 609
+  },
+  "7497": {
+   "fm": 8.9,
+   "soort": "rangschikking",
+   "totaal": 120,
+   "min": 2784
+  },
+  "65527": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "65528": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "65532": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "65531": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "22233": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "54248": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "65529": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "65530": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "65533": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "40742": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7643": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 1,
+   "min": 23
+  },
+  "7769": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 2,
+   "min": 9
+  },
+  "52282": {
+   "fm": 5.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "64845": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "40562": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "3086": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7489": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 2,
+   "min": 22
+  },
+  "7488": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 7,
+   "min": 76
+  },
+  "8814": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "21891": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "15469": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "68597": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "46784": {
+   "fm": 5.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "8612": {
+   "fm": 5.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "10604": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 5,
+   "min": 37
+  },
+  "64833": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "64832": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "37161": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 7,
+   "min": 98
+  },
+  "12099": {
+   "fm": 5.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "52530": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 11,
+   "min": 35
+  },
+  "7797": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 8,
+   "min": 136
+  },
+  "26542": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "28652": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "36482": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 5,
+   "min": 43
+  },
+  "7740": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 14,
+   "min": 166
+  },
+  "7362": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 1,
+   "min": 45
+  },
+  "30988": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "64273": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "67365": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "64272": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7595": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 2,
+   "min": 32
+  },
+  "53382": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 1,
+   "min": 1
+  },
+  "59294": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "44964": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": -1,
+   "min": 35
+  },
+  "53761": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "8533": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "12042": {
+   "fm": 5.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "66085": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "22622": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 3,
+   "min": 37
+  },
+  "13974": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "77247": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "13648": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 8,
+   "min": 100
+  },
+  "50437": {
+   "fm": 5.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "62411": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "48252": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 1,
+   "min": 45
+  },
+  "36849": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7862": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 1,
+   "min": 8
+  },
+  "7865": {
+   "fm": 5.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "52328": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 1,
+   "min": 15
+  },
+  "6507": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7770": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 12,
+   "min": 79
+  },
+  "8636": {
+   "fm": 5.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "64170": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "32079": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "6295": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "5237": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "42144": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "42143": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 10,
+   "min": 112
+  },
+  "42148": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 7,
+   "min": 89
+  },
+  "52319": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "6332": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "42145": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "42141": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 34,
+   "min": 256
+  },
+  "7794": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 5,
+   "min": 31
+  },
+  "7283": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 11,
+   "min": 174
+  },
+  "11262": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7282": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 9,
+   "min": 122
+  },
+  "73763": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7736": {
+   "fm": 5.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "62408": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "62405": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "62404": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "73603": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "62413": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "42113": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 6,
+   "min": 230
+  },
+  "62407": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "62409": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "62410": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "64137": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "3555": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 18,
+   "min": 119
+  },
+  "28380": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7697": {
+   "fm": 5.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "7405": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 8,
+   "min": 68
+  },
+  "7696": {
+   "fm": 5.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "7417": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 4,
+   "min": 22
+  },
+  "43183": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "44496": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "59191": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "8730": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 5,
+   "min": 58
+  },
+  "52529": {
+   "fm": 5.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "36485": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "66429": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "66428": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7461": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 6,
+   "min": 59
+  },
+  "36486": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7767": {
+   "fm": 5.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "7432": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "3897": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 2,
+   "min": 69
+  },
+  "67454": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "4606": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 9,
+   "min": 265
+  },
+  "4223": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 18,
+   "min": 203
+  },
+  "67453": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "8558": {
+   "fm": 5.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "31223": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "27253": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "2794": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 14,
+   "min": 74
+  },
+  "7504": {
+   "fm": 5.4,
+   "soort": "weinig",
+   "totaal": 3,
+   "min": 43
+  },
+  "7805": {
+   "fm": 5.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "37350": {
+   "fm": 7.7,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7509": {
+   "fm": 5.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "3930": {
+   "fm": 7.5,
+   "soort": "rangschikking",
+   "totaal": 25,
+   "min": 318
+  },
+  "7611": {
+   "fm": 10.6,
+   "soort": "rangschikking",
+   "totaal": 121,
+   "min": 1905
+  },
+  "7630": {
+   "fm": 9.7,
+   "soort": "rangschikking",
+   "totaal": 91,
+   "min": 1924
+  },
+  "7638": {
+   "fm": 8.3,
+   "soort": "rangschikking",
+   "totaal": 55,
+   "min": 1270
+  },
+  "7632": {
+   "fm": 8.8,
+   "soort": "rangschikking",
+   "totaal": 64,
+   "min": 1241
+  },
+  "3752": {
+   "fm": 10.2,
+   "soort": "rangschikking",
+   "totaal": 124,
+   "min": 2660
+  },
+  "3755": {
+   "fm": 10.5,
+   "soort": "rangschikking",
+   "totaal": 116,
+   "min": 1825
+  },
+  "3763": {
+   "fm": 7.7,
+   "soort": "rangschikking",
+   "totaal": 34,
+   "min": 500
+  },
+  "8599": {
+   "fm": 8.8,
+   "soort": "rangschikking",
+   "totaal": 57,
+   "min": 771
+  },
+  "7490": {
+   "fm": 7.3,
+   "soort": "rangschikking",
+   "totaal": 33,
+   "min": 599
+  },
+  "3754": {
+   "fm": 10.1,
+   "soort": "rangschikking",
+   "totaal": 92,
+   "min": 1493
+  },
+  "3753": {
+   "fm": 10.0,
+   "soort": "rangschikking",
+   "totaal": 90,
+   "min": 1214
+  },
+  "7658": {
+   "fm": 8.2,
+   "soort": "rangschikking",
+   "totaal": 45,
+   "min": 634
+  },
+  "7655": {
+   "fm": 10.6,
+   "soort": "rangschikking",
+   "totaal": 170,
+   "min": 3266
+  },
+  "7314": {
+   "fm": 9.8,
+   "soort": "rangschikking",
+   "totaal": 84,
+   "min": 1331
+  },
+  "7331": {
+   "fm": 6.8,
+   "soort": "rangschikking",
+   "totaal": 26,
+   "min": 563
+  },
+  "7589": {
+   "fm": 6.4,
+   "soort": "rangschikking",
+   "totaal": 14,
+   "min": 586
+  },
+  "7791": {
+   "fm": 6.6,
+   "soort": "rangschikking",
+   "totaal": 18,
+   "min": 315
+  },
+  "7586": {
+   "fm": 9.0,
+   "soort": "rangschikking",
+   "totaal": 61,
+   "min": 653
+  },
+  "7352": {
+   "fm": 9.5,
+   "soort": "rangschikking",
+   "totaal": 84,
+   "min": 1558
+  },
+  "6621": {
+   "fm": 7.5,
+   "soort": "rangschikking",
+   "totaal": 30,
+   "min": 419
+  },
+  "7358": {
+   "fm": 7.6,
+   "soort": "rangschikking",
+   "totaal": 37,
+   "min": 708
+  },
+  "7354": {
+   "fm": 9.9,
+   "soort": "rangschikking",
+   "totaal": 91,
+   "min": 1586
+  },
+  "7242": {
+   "fm": 7.7,
+   "soort": "rangschikking",
+   "totaal": 43,
+   "min": 972
+  },
+  "7214": {
+   "fm": 9.1,
+   "soort": "rangschikking",
+   "totaal": 75,
+   "min": 1829
+  },
+  "7553": {
+   "fm": 8.3,
+   "soort": "rangschikking",
+   "totaal": 52,
+   "min": 862
+  },
+  "7477": {
+   "fm": 9.8,
+   "soort": "rangschikking",
+   "totaal": 85,
+   "min": 1432
+  },
+  "10606": {
+   "fm": 7.1,
+   "soort": "rangschikking",
+   "totaal": 21,
+   "min": 326
+  },
+  "7473": {
+   "fm": 9.0,
+   "soort": "rangschikking",
+   "totaal": 67,
+   "min": 1187
+  },
+  "7487": {
+   "fm": 7.9,
+   "soort": "rangschikking",
+   "totaal": 45,
+   "min": 867
+  },
+  "7682": {
+   "fm": 10.5,
+   "soort": "rangschikking",
+   "totaal": 152,
+   "min": 2836
+  },
+  "42137": {
+   "fm": 7.0,
+   "soort": "rangschikking",
+   "totaal": 24,
+   "min": 410
+  },
+  "42138": {
+   "fm": 7.8,
+   "soort": "rangschikking",
+   "totaal": 36,
+   "min": 491
+  },
+  "7481": {
+   "fm": 8.3,
+   "soort": "rangschikking",
+   "totaal": 53,
+   "min": 950
+  },
+  "7273": {
+   "fm": 10.1,
+   "soort": "rangschikking",
+   "totaal": 113,
+   "min": 2097
+  },
+  "7395": {
+   "fm": 7.6,
+   "soort": "rangschikking",
+   "totaal": 39,
+   "min": 779
+  },
+  "7411": {
+   "fm": 8.7,
+   "soort": "rangschikking",
+   "totaal": 53,
+   "min": 682
+  },
+  "3142": {
+   "fm": 9.2,
+   "soort": "rangschikking",
+   "totaal": 69,
+   "min": 1171
+  },
+  "3134": {
+   "fm": 9.5,
+   "soort": "rangschikking",
+   "totaal": 79,
+   "min": 1311
+  },
+  "7727": {
+   "fm": 9.2,
+   "soort": "rangschikking",
+   "totaal": 68,
+   "min": 1087
+  },
+  "7440": {
+   "fm": 8.3,
+   "soort": "rangschikking",
+   "totaal": 52,
+   "min": 867
+  },
+  "7709": {
+   "fm": 8.3,
+   "soort": "rangschikking",
+   "totaal": 56,
+   "min": 1168
+  },
+  "8923": {
+   "fm": 8.5,
+   "soort": "rangschikking",
+   "totaal": 58,
+   "min": 1325
+  },
+  "7462": {
+   "fm": 7.8,
+   "soort": "rangschikking",
+   "totaal": 36,
+   "min": 534
+  },
+  "7452": {
+   "fm": 6.6,
+   "soort": "rangschikking",
+   "totaal": 18,
+   "min": 317
+  },
+  "7446": {
+   "fm": 11.0,
+   "soort": "rangschikking",
+   "totaal": 172,
+   "min": 2840
+  },
+  "3547": {
+   "fm": 9.1,
+   "soort": "rangschikking",
+   "totaal": 61,
+   "min": 809
+  },
+  "3545": {
+   "fm": 11.3,
+   "soort": "rangschikking",
+   "totaal": 210,
+   "min": 2507
+  },
+  "3544": {
+   "fm": 10.3,
+   "soort": "rangschikking",
+   "totaal": 98,
+   "min": 1338
+  },
+  "7502": {
+   "fm": 10.4,
+   "soort": "rangschikking",
+   "totaal": 144,
+   "min": 2616
+  },
+  "7505": {
+   "fm": 6.5,
+   "soort": "rangschikking",
+   "totaal": 18,
+   "min": 351
+  },
+  "65523": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "65525": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "65524": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "65526": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "65522": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "65521": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "65520": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "37331": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7644": {
+   "fm": 6.4,
+   "soort": "weinig",
+   "totaal": 7,
+   "min": 163
+  },
+  "17224": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7803": {
+   "fm": 6.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "7781": {
+   "fm": 6.4,
+   "soort": "weinig",
+   "totaal": 8,
+   "min": 178
+  },
+  "62402": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "8691": {
+   "fm": 6.4,
+   "soort": "weinig",
+   "totaal": 1,
+   "min": 11
+  },
+  "8815": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "17220": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7779": {
+   "fm": 6.4,
+   "soort": "weinig",
+   "totaal": 3,
+   "min": 23
+  },
+  "8376": {
+   "fm": 6.4,
+   "soort": "weinig",
+   "totaal": 2,
+   "min": 1
+  },
+  "12742": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "64829": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7759": {
+   "fm": 6.4,
+   "soort": "weinig",
+   "totaal": 7,
+   "min": 120
+  },
+  "37160": {
+   "fm": 6.4,
+   "soort": "weinig",
+   "totaal": 2,
+   "min": 106
+  },
+  "23917": {
+   "fm": 6.4,
+   "soort": "weinig",
+   "totaal": 1,
+   "min": 15
+  },
+  "44825": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "64830": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "8868": {
+   "fm": 6.4,
+   "soort": "weinig",
+   "totaal": 2,
+   "min": 21
+  },
+  "64831": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "78360": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "8428": {
+   "fm": 6.4,
+   "soort": "weinig",
+   "totaal": 19,
+   "min": 244
+  },
+  "64134": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "8565": {
+   "fm": 6.4,
+   "soort": "weinig",
+   "totaal": 21,
+   "min": 132
+  },
+  "26281": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "27429": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7800": {
+   "fm": 6.4,
+   "soort": "weinig",
+   "totaal": 6,
+   "min": 167
+  },
+  "7825": {
+   "fm": 6.4,
+   "soort": "weinig",
+   "totaal": 1,
+   "min": 12
+  },
+  "64271": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "63656": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "8375": {
+   "fm": 6.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "77248": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "5742": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "53632": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "64106": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "10605": {
+   "fm": 6.4,
+   "soort": "weinig",
+   "totaal": 3,
+   "min": 30
+  },
+  "42139": {
+   "fm": 6.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "52318": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "1476": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "42164": {
+   "fm": 6.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "7756": {
+   "fm": 6.4,
+   "soort": "weinig",
+   "totaal": 5,
+   "min": 91
+  },
+  "4507": {
+   "fm": 6.4,
+   "soort": "weinig",
+   "totaal": 5,
+   "min": 72
+  },
+  "7795": {
+   "fm": 6.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  },
+  "7278": {
+   "fm": 6.4,
+   "soort": "weinig",
+   "totaal": 15,
+   "min": 140
+  },
+  "62403": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "17038": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "2120": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "64136": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "62401": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "62400": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "30553": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "56305": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "42195": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7773": {
+   "fm": 6.4,
+   "soort": "weinig",
+   "totaal": 1,
+   "min": 8
+  },
+  "8750": {
+   "fm": 6.4,
+   "soort": "weinig",
+   "totaal": 32,
+   "min": 217
+  },
+  "12062": {
+   "fm": 6.4,
+   "soort": "weinig",
+   "totaal": 4,
+   "min": 82
+  },
+  "59179": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "3228": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "8435": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7448": {
+   "fm": 6.4,
+   "soort": "weinig",
+   "totaal": 9,
+   "min": 178
+  },
+  "36484": {
+   "fm": 6.4,
+   "soort": "weinig",
+   "totaal": 3,
+   "min": 22
+  },
+  "7346": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "3556": {
+   "fm": 6.4,
+   "soort": "weinig",
+   "totaal": 7,
+   "min": 58
+  },
+  "62890": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "57479": {
+   "fm": 8.8,
+   "soort": "nieuwkomer",
+   "totaal": 0,
+   "min": 0
+  },
+  "7777": {
+   "fm": 6.0,
+   "soort": "nooit_gespeeld",
+   "totaal": 0,
+   "min": 0
+  }
+ }
+}
