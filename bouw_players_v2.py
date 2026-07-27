@@ -45,7 +45,7 @@ import urllib.request
 # CONFIGURATIE
 # ----------------------------------------------------------------------------
 
-BUDGET = 100.0            # beslissing van de admins, 27/07/2026
+BUDGET = 110.0            # beslissing van de admins, 27/07/2026
 
 PL_BASE        = 'https://www.proleague.be'
 BSD_BASE       = 'https://sports.bzzoiro.com'
