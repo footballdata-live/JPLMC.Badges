@@ -1,19 +1,29 @@
 name: players sync
 
 # =============================================================================
-#  JPL Fantasy Manager - spelerssynchronisatie  v2.0
+#  JPL Fantasy Manager - spelerssynchronisatie  v3.0
 # =============================================================================
-#  v2.0  Roept bouw_players_v2.py aan in plaats van bouw_players.py.
-#        De selectie komt nu van proleague.be, niet meer van BSD.
-#        Basisbestand is fm_basis_v2.json.
-#        Looptijd stijgt naar ongeveer 2 minuten: 19 fetches op proleague.be
-#        plus 20 calls op BSD, met wachttijden ertussen.
+#  v3.0  Roept bouw_players_v3.3.py aan.
 #
-#  v1.1  set -o pipefail toegevoegd (tee maskeerde een crash van python).
+#        Wat er sinds v2.0 veranderde aan het script:
+#        - v3.0 laagsgewijs koppelen in plaats van speler per speler, zodat
+#          een zachte match nooit een BSD-record wegneemt dat een hardere
+#          match nodig had
+#        - v3.1 voortgang per club, meer pogingen, en een harde stop bij een
+#          daling van meer dan 15 procent ten opzichte van de vorige publicatie
+#        - v3.2 koppelen op Pro League-ID; BSD's clubtoewijzing wordt
+#          genegeerd omdat die achterloopt op de transfers
+#        - v3.3 brede zoektocht voor wie niet koppelt, plus een handmatige
+#          uitsluitingslijst voor spelers die nog in een Pro League-selectie
+#          staan maar aantoonbaar weg zijn
+#
+#        LOOPTIJD: reken op 4 tot 6 minuten. Het BSD-endpoint /api/players/
+#        is traag (soms 40 seconden voor een club) en de brede zoektocht doet
+#        er nog enkele calls bij. De timeout staat daarom op 20 minuten.
 #
 #  Deze workflow hoort in .github/workflows/ van JPLMC.Badges.
 #  In dezelfde repo moeten staan:
-#     bouw_players_v2.py
+#     bouw_players_v3.3.py
 #     fm_basis_v2.json
 #
 #  Secrets in JPLMC.Badges -> Settings -> Secrets and variables -> Actions:
@@ -37,7 +47,7 @@ permissions:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
 
     steps:
       - name: Repo uitchecken
@@ -62,7 +72,8 @@ jobs:
               ontbreekt=1
             fi
           done
-          for f in bouw_players.py fm_basis.json; do
+          for f in bouw_players.py bouw_players_v2.py bouw_players_v3.py \
+                   bouw_players_v3.1.py bouw_players_v3.2.py fm_basis.json; do
             if [ -f "$f" ]; then
               echo "LET OP    $f staat er nog - oude versie, mag weg"
             fi
@@ -81,7 +92,7 @@ jobs:
         run: |
           # pipefail is essentieel: zonder dit maskeert tee een crash van python
           set -o pipefail
-          python3 bouw_players_v2.py \
+          python3 bouw_players_v3.3.py \
             --basis fm_basis_v2.json \
             --uit players.json | tee uitvoer.log
           if grep -q '^WIJZIGING=ja' uitvoer.log; then
@@ -89,6 +100,26 @@ jobs:
           else
             echo "gewijzigd=nee" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Samenvatting
+        if: always()
+        shell: bash
+        run: |
+          if [ ! -f uitvoer.log ]; then
+            echo "Geen uitvoer.log - het script is niet tot draaien gekomen."
+            exit 0
+          fi
+          {
+            echo "## Spelerssynchronisatie"
+            echo ""
+            grep -E '^  (in de databank|via Pro League-ID|via naam|via zoektocht|geen BSD-record)' \
+              uitvoer.log || true
+            echo ""
+            if grep -q '^FOUT' uitvoer.log; then
+              echo "### Afgebroken"
+              grep -A3 '^FOUT' uitvoer.log || true
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Committen en pushen
         if: steps.bouw.outputs.gewijzigd == 'ja'
