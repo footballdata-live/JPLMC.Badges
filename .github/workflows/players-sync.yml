@@ -1,5 +1,9 @@
 name: players sync
-
+on:
+  schedule:
+    - cron: '0 3 * * *'
+    - cron: '0 15 * * *'
+  workflow_dispatch:
 # =============================================================================
 #  JPL Fantasy Manager - spelerssynchronisatie  v2.0
 # =============================================================================
