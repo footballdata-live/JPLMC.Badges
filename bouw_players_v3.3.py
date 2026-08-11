@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # =============================================================================
-#  JPL Fantasy Manager - bouw_players_v3.3.py
+#  JPL Fantasy Manager - bouw_players_v3.3.2.py
 # =============================================================================
 #  Vervangt bouw_players_v2.py. Schrijft players.json: het LIVE bestand dat de
 #  ploegbouwer en de Worker lezen. Draait twee keer per dag via GitHub Actions.
@@ -52,6 +52,29 @@
 #  Alleen voor spelers die NIET in de basis staan is er nog naamkoppeling
 #  nodig, en dan over alle BSD-clubs heen in plaats van binnen een club -
 #  want de club van BSD zegt niets meer.
+#
+#  v3.3.2 De zoektocht probeert nu MEERDERE naamdelen. Eerst het laatste -
+#  meestal de achternaam en het meest onderscheidend - en levert dat niets op,
+#  dan de overige delen van lang naar kort.
+#
+#  Een enkel naamdeel volstond niet. Michael Frey viel weg omdat "Michael"
+#  honderd treffers geeft, wat het maximum van de API is: de echte Frey stond
+#  daar niet tussen omdat de lijst werd afgekapt. Zoeken op "Frey" vindt hem
+#  meteen.
+#
+#  v3.3.1 De zoektocht was accentgevoelig. BSD's ?search= negeert accenten
+#  NIET: zoeken op "Herve Koffi" geeft nul treffers, op "Hervé Koffi" een.
+#  De Pro League levert namen zonder accent, dus elke speler met een accent
+#  in zijn naam viel weg zodra hij uit de clubselecties verdween.
+#
+#  Herve Koffi is daar het voorbeeld van: hij ging op 1 augustus op huurbasis
+#  van Lens naar Union, stond eerst nog in de BSD-selectie van Union en werd
+#  toen via de naamlaag gevonden. Zodra BSD hem naar RC Lens verplaatste, moest
+#  de zoektocht het overnemen - en die faalde op het accent.
+#
+#  De fix: zoeken op het LANGSTE naamdeel, en daarna zelf filteren met plat(),
+#  dat accenten wel opheft. "Koffi" geeft 36 treffers, waarvan er precies een
+#  overeenkomt.
 #
 #  v3.3 BREDE ZOEKTOCHT VOOR WIE NIET KOPPELT.
 #  Na v3.2 bleven er 34 Pro League-spelers over zonder BSD-record. Michael
@@ -121,7 +144,7 @@ import urllib.parse
 # CONFIGURATIE
 # ----------------------------------------------------------------------------
 
-BUDGET = 110.0            # beslissing van de admins, 27/07/2026
+BUDGET = 100.0            # beslissing van de admins, 27/07/2026
 
 PL_BASE        = 'https://www.proleague.be'
 BSD_BASE       = 'https://sports.bzzoiro.com'
@@ -215,22 +238,47 @@ def zoekBijBSD(naam):
     clubfilter. Enkel gebruiken voor namen die de Pro League al bevestigd
     heeft - dan is de zoektocht veilig.
 
+    BSD's ?search= is ACCENTGEVOELIG: "Herve Koffi" geeft nul treffers,
+    "Hervé Koffi" een. De Pro League levert namen zonder accent. We zoeken
+    daarom op het langste naamdeel - dat is doorgaans de achternaam en
+    zelden geaccentueerd - en filteren daarna zelf met plat(), dat accenten
+    wel opheft.
+
     Retour: het BSD-record bij precies EEN treffer, anders None. Bij meerdere
     treffers met dezelfde naam wordt er niet gekoppeld: dat zou gokken zijn.
     """
-    d = bsd('/api/players/?search=' + urllib.parse.quote(naam), pogingen=3, stil=True)
-    res = (d or {}).get('results') or []
-    treffers = [p for p in res if plat(p.get('name') or '') == plat(naam)]
-    if len(treffers) == 1:
-        p = treffers[0]
-        return {
-            'id':   str(p['id']),
-            'naam': p.get('name') or '',
-            'pos':  p.get('position'),
-            'mv':   p.get('market_value'),
-            'av':   p.get('availability') or 'available',
-            'bsd_club': (p.get('current_team') or {}).get('name') or 'geen club',
-        }
+    delen = [d for d in re.split(r'[\s\-]+', naam or '') if len(d) > 1]
+    if not delen:
+        return None
+
+    # Het LAATSTE naamdeel eerst: dat is meestal de achternaam en het meest
+    # onderscheidend. Daarna de overige delen van lang naar kort.
+    #
+    # Een enkele zoekterm volstaat niet. Een gangbare voornaam als "Michael"
+    # geeft honderd treffers - het maximum van de API - en dan valt de juiste
+    # speler buiten de lijst. "Frey" vindt hem meteen.
+    volgorde = [delen[-1]] + sorted(delen[:-1], key=len, reverse=True)
+
+    for zoekterm in volgorde:
+        d = bsd('/api/players/?search=' + urllib.parse.quote(zoekterm),
+                pogingen=3, stil=True)
+        res = (d or {}).get('results') or []
+        treffers = [p for p in res if plat(p.get('name') or '') == plat(naam)]
+        if len(treffers) == 1:
+            p = treffers[0]
+            return {
+                'id':   str(p['id']),
+                'naam': p.get('name') or '',
+                'pos':  p.get('position'),
+                'mv':   p.get('market_value'),
+                'av':   p.get('availability') or 'available',
+                'bsd_club': (p.get('current_team') or {}).get('name') or 'geen club',
+            }
+        # Meerdere treffers met dezelfde naam: niet koppelen, dat is gokken.
+        if len(treffers) > 1:
+            return None
+        time.sleep(0.2)
+
     return None
 
 
