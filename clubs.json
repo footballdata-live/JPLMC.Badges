@@ -29,21 +29,6 @@
     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/Club_Brugge_KV_logo.svg/500px-Club_Brugge_KV_logo.svg.png",
     "kleuren": { "main": "#0055a3", "dark": "#003366", "light": "#3388cc" }
   },
-  "234": {
-    "code": "DEN",
-    "naam": "FCV Dender EH",
-    "volledige_naam": "Football Club Verbroedering Dender Eendracht Hekelgem",
-    "stamnummer": 91,
-    "opgericht": 1926,
-    "stadion": "Stadion Alphonse Lemiszperk",
-    "capaciteit": 8600,
-    "bijnaam": "De Dendermondse Ransen",
-    "stad": "Denderleeuw",
-    "landstitels": 0,
-    "bekers": 0,
-    "badge": "https://upload.wikimedia.org/wikipedia/en/9/98/FCVDenderEH.png",
-    "kleuren": { "main": "#e30613", "dark": "#8b0a1a", "light": "#f05a5a" }
-  },
   "245": {
     "code": "GNT",
     "naam": "KAA Gent",
@@ -59,7 +44,7 @@
     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/KAA_Gent_logo.svg/960px-KAA_Gent_logo.svg.png",
     "kleuren": { "main": "#004a99", "dark": "#002d5c", "light": "#3377bb" }
   },
-  "1826": {
+  "146": {
     "code": "GNK",
     "naam": "KRC Genk",
     "volledige_naam": "Koninklijke Racing Club Genk",
@@ -74,7 +59,7 @@
     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/KRC_Genk_Logo_2016.svg/500px-KRC_Genk_Logo_2016.svg.png",
     "kleuren": { "main": "#0066b3", "dark": "#003d6b", "light": "#4499cc" }
   },
-  "2887": {
+  "237": {
     "code": "KVM",
     "naam": "KV Mechelen",
     "volledige_naam": "Koninklijke Voetbalclub Mechelen",
@@ -89,23 +74,7 @@
     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/KV_Mechelen_logo.svg/500px-KV_Mechelen_logo.svg.png",
     "kleuren": { "main": "#ffe100", "dark": "#b39c00", "light": "#ffec4d" }
   },
-  "2888": {
-    "code": "KVO",
-    "naam": "KV Oostende",
-    "volledige_naam": "Koninklijke Voetbalclub Oostende",
-    "stamnummer": 31,
-    "opgericht": 1904,
-    "stadion": "Diaz Arena",
-    "capaciteit": 8432,
-    "bijnaam": "De Kustboys",
-    "stad": "Oostende",
-    "landstitels": 0,
-    "bekers": 0,
-    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/KV_Oostende_logo.svg/500px-KV_Oostende_logo.svg.png",
-    "kleuren": { "main": "#e30613", "dark": "#8b0a1a", "light": "#f05a5a" },
-    "_note": "NIET IN JPL 26-27 - verwijder of vervang"
-  },
-  "129": {
+  "240": {
     "code": "AND",
     "naam": "RSC Anderlecht",
     "volledige_naam": "Royal Sporting Club Anderlecht",
@@ -121,7 +90,7 @@
     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/RSC_Anderlecht.svg/500px-RSC_Anderlecht.svg.png",
     "kleuren": { "main": "#5B2C86", "dark": "#3a1a5c", "light": "#8b5fbf" }
   },
-  "231": {
+  "233": {
     "code": "ANT",
     "naam": "Royal Antwerp FC",
     "volledige_naam": "Royal Antwerp Football Club",
@@ -136,7 +105,7 @@
     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Royal_Antwerp_FC_logo.svg/500px-Royal_Antwerp_FC_logo.svg.png",
     "kleuren": { "main": "#e30613", "dark": "#8b0a1a", "light": "#f05a5a" }
   },
-  "232": {
+  "243": {
     "code": "CHA",
     "naam": "Sporting Charleroi",
     "volledige_naam": "Royal Charleroi Sporting Club",
@@ -151,7 +120,7 @@
     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/R_Charleroi_SC_logo.svg/500px-R_Charleroi_SC_logo.svg.png",
     "kleuren": { "main": "#1a1a1a", "dark": "#000000", "light": "#4d4d4d" }
   },
-  "233": {
+  "242": {
     "code": "OHL",
     "naam": "OH Leuven",
     "volledige_naam": "Oud-Heverlee Leuven",
@@ -166,7 +135,7 @@
     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Oud-Heverlee_Leuven_logo.svg/500px-Oud-Heverlee_Leuven_logo.svg.png",
     "kleuren": { "main": "#006633", "dark": "#003d1f", "light": "#339966" }
   },
-  "130": {
+  "239": {
     "code": "STA",
     "naam": "Standard de Liège",
     "volledige_naam": "Royal Standard de Liège",
@@ -181,7 +150,7 @@
     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Standard_de_Li%C3%A8ge_logo.svg/500px-Standard_de_Li%C3%A8ge_logo.svg.png",
     "kleuren": { "main": "#d31127", "dark": "#8b0a1a", "light": "#e85d6f" }
   },
-  "237": {
+  "244": {
     "code": "STV",
     "naam": "Sint-Truidense VV",
     "volledige_naam": "Koninklijke Sint-Truidense Voetbalvereniging",
@@ -196,7 +165,7 @@
     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Sint-Truidense_VV_logo.svg/500px-Sint-Truidense_VV_logo.svg.png",
     "kleuren": { "main": "#ffe100", "dark": "#b39c00", "light": "#ffec4d" }
   },
-  "124": {
+  "116": {
     "code": "USG",
     "naam": "Union Saint-Gilloise",
     "volledige_naam": "Royale Union Saint-Gilloise",
@@ -211,7 +180,7 @@
     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Union_Saint-Gilloise_logo.svg/500px-Union_Saint-Gilloise_logo.svg.png",
     "kleuren": { "main": "#2b3990", "dark": "#1a2260", "light": "#5566bb" }
   },
-  "239": {
+  "236": {
     "code": "ZWA",
     "naam": "SV Zulte Waregem",
     "volledige_naam": "Sportvereniging Zulte Waregem",
@@ -226,7 +195,7 @@
     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8d/SV_Zulte_Waregem_logo.svg/500px-SV_Zulte_Waregem_logo.svg.png",
     "kleuren": { "main": "#a6093d", "dark": "#6e0628", "light": "#cc3366" }
   },
-  "238": {
+  "241": {
     "code": "WES",
     "naam": "KVC Westerlo",
     "volledige_naam": "Koninklijke Voetbalclub Westerlo",
@@ -241,7 +210,7 @@
     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/6/64/KVC_Westerlo_logo.svg/500px-KVC_Westerlo_logo.svg.png",
     "kleuren": { "main": "#004a8f", "dark": "#002d57", "light": "#3377aa" }
   },
-  "7629": {
+  "238": {
     "code": "RAAL",
     "naam": "RAAL La Louvière",
     "volledige_naam": "RAAL La Louvière",
@@ -256,7 +225,7 @@
     "badge": "https://upload.wikimedia.org/wikipedia/fr/thumb/6/68/Logo_RAAL_La_Louvi%C3%A8re_2025.svg/250px-Logo_RAAL_La_Louvi%C3%A8re_2025.svg.png",
     "kleuren": { "main": "#e30613", "dark": "#8b0a1a", "light": "#f05a5a" }
   },
-  "10734": {
+  "1827": {
     "code": "LOM",
     "naam": "Lommel SK",
     "volledige_naam": "Lommel Sport Katholiek",
@@ -271,7 +240,7 @@
     "badge": "https://www.lommelsk.be/images/lsk-main-logo.png?v=4",
     "kleuren": { "main": "#ffcc00", "dark": "#b38f00", "light": "#ffe066" }
   },
-  "6298": {
+  "2763": {
     "code": "KVK",
     "naam": "KV Kortrijk",
     "volledige_naam": "Koninklijke Voetbalclub Kortrijk",
@@ -286,7 +255,7 @@
     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/KV_Kortrijk_logo.svg/500px-KV_Kortrijk_logo.svg.png",
     "kleuren": { "main": "#e30613", "dark": "#8b0a1a", "light": "#f05a5a" }
   },
-  "11096": {
+  "2414": {
     "code": "SKB",
     "naam": "SK Beveren",
     "volledige_naam": "Sporting Klub Beveren",
