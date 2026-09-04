@@ -1,38 +1,56 @@
 # =============================================================================
-#  playerstats.yml - bouwt playerstats.json voor de clubfanpages
+#  playerstats.yml v2 - bouwt playerstats.json voor de clubfanpages
 # =============================================================================
-#  Draait na de speeldagen. De cadans mag ruim staan: het script is
-#  incrementeel en doet niets zolang er geen nieuwe afgelopen wedstrijd is.
-#  Een run zonder nieuwe wedstrijden kost drie HTTP-calls en stopt.
+#  Draait IN de repo footballdata-live/JPLMC.Badges zelf. Daardoor is er geen
+#  PAT nodig: de ingebouwde GITHUB_TOKEN volstaat om terug te committen.
+#  Dat scheelt een vervaldatum, en de vorige tokens verliepen op 1 september.
 #
-#  Los van de players.json-workflow gehouden. Die draait twee keer per dag
-#  omdat selecties schuiven; statistieken veranderen alleen na een wedstrijd.
-#  Belangrijker nog: als deze stap zou falen, mag dat players.json niet
-#  meeslepen. Dat bestand voedt het managerspel.
+#  v2 ten opzichte van v1:
+#    - DATA_REPO_TOKEN en de vlag --push zijn weg. De commit gebeurt hier,
+#      met GITHUB_TOKEN.
+#    - De twee curl-stappen zijn weg. playerstats.json en matches.json staan
+#      in deze repo en komen mee met de checkout. Ze via GitHub Pages halen
+#      was fragiel: Pages loopt achter op de repo omdat de site eerst moet
+#      bouwen, dus twee runs kort na elkaar lazen een verouderde versie.
 #
-#  BENODIGDE SECRETS
-#    BSD_KEY          - dezelfde als bij bouw_players
-#    DATA_REPO_TOKEN  - schrijfrechten op footballdata-live/JPLMC.Badges
+#  BENODIGDE SECRET
+#    BSD_KEY - dezelfde als bij bouw_players
 #
-#  LET OP: workflow permissions kunnen bij ProBoards-repos stil terugvallen
-#  op read-only. Staat er niets in de repo terwijl de run groen is, kijk dan
-#  bij Settings, Actions, Workflow permissions.
+#  EENMALIG CONTROLEREN
+#    Settings, Actions, General, Workflow permissions moet op
+#    "Read and write permissions" staan. Zonder dat is de run groen terwijl
+#    er niets gecommit wordt. Die instelling is bij deze repo al eens stil
+#    teruggevallen op read-only.
+#
+#  LET OP DE BESTANDSNAAM
+#    GitHub is hoofdlettergevoelig. Het bestand moet exact playerstats.json
+#    heten, met een kleine p. De fanpage vraagt die URL kleingeschreven op,
+#    en Playerstats.json zou daar een 404 geven.
 # =============================================================================
 
 name: playerstats
 
 on:
-  # Handmatig en via cron-job.org. Voeg hier een schedule toe als je liever
-  # niet extern triggert; met alleen workflow_dispatch is cron-job.org de
-  # enige trigger.
+  # Handmatig en via cron-job.org. Zonder schedule-blok is cron-job.org de
+  # enige automatische trigger.
   workflow_dispatch:
+
+# Nodig om te kunnen terugcommitten met GITHUB_TOKEN.
+permissions:
+  contents: write
+
+# Twee runs tegelijk zouden allebei van dezelfde uitgangsstand vertrekken en
+# elkaars commit overschrijven. De tweede wacht nu tot de eerste klaar is.
+concurrency:
+  group: playerstats
+  cancel-in-progress: false
 
 jobs:
   bouw:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Repo met de scripts uitchecken
+      - name: Repo uitchecken
         uses: actions/checkout@v4
 
       - name: Python opzetten
@@ -40,24 +58,32 @@ jobs:
         with:
           python-version: '3.11'
 
-      # Het huidige playerstats.json en matches.json ophalen uit de
-      # datarepo. Zonder het eerste zou het script alles opnieuw tellen;
-      # zonder het tweede kent het de kalender niet.
-      - name: Huidige data ophalen
-        run: |
-          curl -sf -o playerstats.json \
-            https://footballdata-live.github.io/JPLMC.Badges/playerstats.json \
-            || echo "playerstats.json bestaat nog niet, eerste run"
-          curl -sf -o matches.json \
-            https://footballdata-live.github.io/JPLMC.Badges/matches.json \
-            || echo "matches.json niet opgehaald, script valt terug op Pages"
-
-      - name: playerstats.json bouwen en pushen
+      - name: playerstats.json bouwen
         env:
           BSD_KEY: ${{ secrets.BSD_KEY }}
-          DATA_REPO_TOKEN: ${{ secrets.DATA_REPO_TOKEN }}
         run: |
           python3 bouw_playerstats_v1.0.py \
             --uit playerstats.json \
-            --matches matches.json \
-            --push
+            --matches matches.json
+
+      - name: Committen als er iets veranderd is
+        run: |
+          # git diff beslist, niet de uitvoer van het script. Zo wordt er
+          # nooit een lege commit gemaakt, ook niet als het script wel
+          # schreef maar de inhoud identiek bleef.
+          if git diff --quiet -- playerstats.json; then
+            echo "playerstats.json ongewijzigd, niets te committen"
+            exit 0
+          fi
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add playerstats.json
+          git commit -m "chore: update playerstats.json [skip ci]"
+
+          # Tussen de checkout en nu kan er een andere commit binnengekomen
+          # zijn, bijvoorbeeld van de bot die matches.json bijwerkt. Rebasen
+          # in plaats van forceren, zodat die commit niet verloren gaat.
+          git pull --rebase --autostash
+          git push
+          echo "playerstats.json gecommit"
