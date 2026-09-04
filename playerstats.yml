@@ -1,0 +1,63 @@
+# =============================================================================
+#  playerstats.yml - bouwt playerstats.json voor de clubfanpages
+# =============================================================================
+#  Draait na de speeldagen. De cadans mag ruim staan: het script is
+#  incrementeel en doet niets zolang er geen nieuwe afgelopen wedstrijd is.
+#  Een run zonder nieuwe wedstrijden kost drie HTTP-calls en stopt.
+#
+#  Los van de players.json-workflow gehouden. Die draait twee keer per dag
+#  omdat selecties schuiven; statistieken veranderen alleen na een wedstrijd.
+#  Belangrijker nog: als deze stap zou falen, mag dat players.json niet
+#  meeslepen. Dat bestand voedt het managerspel.
+#
+#  BENODIGDE SECRETS
+#    BSD_KEY          - dezelfde als bij bouw_players
+#    DATA_REPO_TOKEN  - schrijfrechten op footballdata-live/JPLMC.Badges
+#
+#  LET OP: workflow permissions kunnen bij ProBoards-repos stil terugvallen
+#  op read-only. Staat er niets in de repo terwijl de run groen is, kijk dan
+#  bij Settings, Actions, Workflow permissions.
+# =============================================================================
+
+name: playerstats
+
+on:
+  # Handmatig en via cron-job.org. Voeg hier een schedule toe als je liever
+  # niet extern triggert; met alleen workflow_dispatch is cron-job.org de
+  # enige trigger.
+  workflow_dispatch:
+
+jobs:
+  bouw:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repo met de scripts uitchecken
+        uses: actions/checkout@v4
+
+      - name: Python opzetten
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # Het huidige playerstats.json en matches.json ophalen uit de
+      # datarepo. Zonder het eerste zou het script alles opnieuw tellen;
+      # zonder het tweede kent het de kalender niet.
+      - name: Huidige data ophalen
+        run: |
+          curl -sf -o playerstats.json \
+            https://footballdata-live.github.io/JPLMC.Badges/playerstats.json \
+            || echo "playerstats.json bestaat nog niet, eerste run"
+          curl -sf -o matches.json \
+            https://footballdata-live.github.io/JPLMC.Badges/matches.json \
+            || echo "matches.json niet opgehaald, script valt terug op Pages"
+
+      - name: playerstats.json bouwen en pushen
+        env:
+          BSD_KEY: ${{ secrets.BSD_KEY }}
+          DATA_REPO_TOKEN: ${{ secrets.DATA_REPO_TOKEN }}
+        run: |
+          python3 bouw_playerstats_v1.0.py \
+            --uit playerstats.json \
+            --matches matches.json \
+            --push
