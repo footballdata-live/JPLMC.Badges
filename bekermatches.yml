@@ -1,0 +1,52 @@
+name: bouw bekermatches
+
+# Dagelijks om 06:00 UTC. Bekerwedstrijden worden 's avonds gespeeld, dus
+# een ochtendrun pikt de uitslagen van de vorige avond op. Daarnaast met de
+# hand te starten via workflow_dispatch.
+#
+# Zolang de Pro League nog geen kalender publiceert doet deze run niets:
+# het script meldt WIJZIGING=nee en eindigt normaal. Er is dus geen reden om
+# te wachten met inschakelen.
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bekermatches
+  cancel-in-progress: false
+
+jobs:
+  bouw:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repo uitchecken
+        uses: actions/checkout@v4
+
+      - name: Python klaarzetten
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Huidige bekermatches.json ophalen
+        # Uit de gepubliceerde Pages-versie, zodat de vergelijking klopt met
+        # wat er werkelijk live staat. Ontbreekt het bestand nog, dan is dat
+        # geen fout: het script maakt het dan aan.
+        run: |
+          if curl -sf -o bekermatches.json \
+            https://footballdata-live.github.io/JPLMC.Badges/bekermatches.json; then
+            echo "bestaand bestand opgehaald ($(wc -c < bekermatches.json) bytes)"
+          else
+            echo "bekermatches.json bestaat nog niet, eerste run"
+          fi
+
+      - name: Bekerkalender bouwen
+        env:
+          DATA_REPO_TOKEN: ${{ secrets.DATA_REPO_TOKEN }}
+        run: |
+          python3 bouw_bekermatches_v1.0.py --push --toon
