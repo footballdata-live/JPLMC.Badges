@@ -1,9 +1,17 @@
 # =============================================================================
-#  euromatches.yml v2 - bouwt euromatches.json voor de clubfanpages
+#  euromatches.yml v3 - bouwt euromatches.json voor de clubfanpages
 # =============================================================================
 #  Draait IN de repo footballdata-live/JPLMC.Badges zelf. Daardoor is er geen
 #  PAT nodig: de ingebouwde GITHUB_TOKEN volstaat om terug te committen.
 #  Zelfde patroon als playerstats.yml v2.
+#
+#  v3 ten opzichte van v2:
+#    - python3 -u, zodat de uitvoer regel per regel in de log verschijnt.
+#      Zonder die vlag buffert Python alles tot het proces klaar is, en dan
+#      staat er bij een hangende run niets in de log. Een run bleef vier
+#      minuten staan zonder dat vast te stellen was waar hij zat.
+#    - Script naar v1.3, met een voortgangsregel per pagina en een harde
+#      bovengrens op de totale duur.
 #
 #  v2 ten opzichte van v1:
 #    - DATA_REPO_TOKEN en de vlag --push zijn weg. De commit gebeurt hier.
@@ -59,7 +67,9 @@ jobs:
         env:
           BSD_KEY: ${{ secrets.BSD_KEY }}
         run: |
-          python3 bouw_euromatches_v1.2.py --toon
+          # -u is niet optioneel: zonder die vlag verschijnt er geen enkele
+          # regel in de log tot het script klaar is.
+          python3 -u bouw_euromatches_v1.3.py --toon
 
       - name: Committen als er iets veranderd is
         run: |
