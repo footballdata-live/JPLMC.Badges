@@ -1,20 +1,40 @@
-name: bouw euromatches
+# =============================================================================
+#  euromatches.yml v2 - bouwt euromatches.json voor de clubfanpages
+# =============================================================================
+#  Draait IN de repo footballdata-live/JPLMC.Badges zelf. Daardoor is er geen
+#  PAT nodig: de ingebouwde GITHUB_TOKEN volstaat om terug te committen.
+#  Zelfde patroon als playerstats.yml v2.
+#
+#  v2 ten opzichte van v1:
+#    - DATA_REPO_TOKEN en de vlag --push zijn weg. De commit gebeurt hier.
+#      De eerste run van v1 strandde hier: het bestand werd gebouwd, de push
+#      werd overgeslagen omdat de PAT niet bestond, en de run was groen.
+#    - De curl-stap is weg. euromatches.json staat in deze repo en komt mee
+#      met de checkout. Via GitHub Pages ophalen was fragiel: Pages loopt
+#      achter op de repo omdat de site eerst moet bouwen, dus twee runs kort
+#      na elkaar lazen een verouderde versie. Dat is hier extra vervelend,
+#      want het script voegt samen met wat er al staat.
+#
+#  BENODIGDE SECRET
+#    BSD_KEY - dezelfde als bij bouw_players en playerstats
+#
+#  EENMALIG CONTROLEREN
+#    Settings, Actions, General, Workflow permissions moet op
+#    "Read and write permissions" staan. Zonder dat is de run groen terwijl
+#    er niets gecommit wordt. Die instelling is bij deze repo al eens stil
+#    teruggevallen op read-only.
+# =============================================================================
 
-# Dagelijks om 06:15 UTC, een kwartier na de bekerworkflow zodat ze elkaar
-# niet in de weg zitten bij het pushen naar dezelfde repo.
-#
-# Europese wedstrijden worden 's avonds gespeeld, dus een ochtendrun pikt de
-# uitslagen van de vorige avond op. Daarnaast met de hand te starten via
-# workflow_dispatch.
-#
-# Anders dan bij de beker is er hier meteen data: de competitiefase van CL,
-# EL en Conference League staat al volledig bij BSD.
+name: euromatches
 
 on:
+  # Dagelijks om 06:15 UTC, een kwartier na bekermatches zodat ze elkaar niet
+  # in de weg zitten bij het pushen naar dezelfde repo.
   schedule:
     - cron: '15 6 * * *'
   workflow_dispatch:
 
+# Nodig om te kunnen terugcommitten met GITHUB_TOKEN.
 permissions:
   contents: write
 
@@ -30,26 +50,35 @@ jobs:
       - name: Repo uitchecken
         uses: actions/checkout@v4
 
-      - name: Python klaarzetten
+      - name: Python opzetten
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Huidige euromatches.json ophalen
-        # Uit de gepubliceerde Pages-versie, zodat het samenvoegen vertrekt
-        # van wat er werkelijk live staat. Ontbreekt het bestand nog, dan is
-        # dat geen fout: het script maakt het dan aan.
-        run: |
-          if curl -sf -o euromatches.json \
-            https://footballdata-live.github.io/JPLMC.Badges/euromatches.json; then
-            echo "bestaand bestand opgehaald ($(wc -c < euromatches.json) bytes)"
-          else
-            echo "euromatches.json bestaat nog niet, eerste run"
-          fi
-
-      - name: Europese wedstrijden bouwen
+      - name: euromatches.json bouwen
         env:
           BSD_KEY: ${{ secrets.BSD_KEY }}
-          DATA_REPO_TOKEN: ${{ secrets.DATA_REPO_TOKEN }}
         run: |
-          python3 bouw_euromatches_v1.1.py --push --toon
+          python3 bouw_euromatches_v1.2.py --toon
+
+      - name: Committen als er iets veranderd is
+        run: |
+          # git diff beslist, niet de uitvoer van het script. Zo wordt er
+          # nooit een lege commit gemaakt, ook niet als het script wel
+          # schreef maar de inhoud identiek bleef.
+          if git diff --quiet -- euromatches.json; then
+            echo "euromatches.json ongewijzigd, niets te committen"
+            exit 0
+          fi
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add euromatches.json
+          git commit -m "chore: update euromatches.json [skip ci]"
+
+          # Tussen de checkout en nu kan er een andere commit binnengekomen
+          # zijn, bijvoorbeeld van de bot die matches.json bijwerkt. Rebasen
+          # in plaats van forceren, zodat die commit niet verloren gaat.
+          git pull --rebase --autostash
+          git push
+          echo "euromatches.json gecommit"
