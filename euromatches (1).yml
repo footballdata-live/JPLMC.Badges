@@ -1,0 +1,55 @@
+name: bouw euromatches
+
+# Dagelijks om 06:15 UTC, een kwartier na de bekerworkflow zodat ze elkaar
+# niet in de weg zitten bij het pushen naar dezelfde repo.
+#
+# Europese wedstrijden worden 's avonds gespeeld, dus een ochtendrun pikt de
+# uitslagen van de vorige avond op. Daarnaast met de hand te starten via
+# workflow_dispatch.
+#
+# Anders dan bij de beker is er hier meteen data: de competitiefase van CL,
+# EL en Conference League staat al volledig bij BSD.
+
+on:
+  schedule:
+    - cron: '15 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: euromatches
+  cancel-in-progress: false
+
+jobs:
+  bouw:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repo uitchecken
+        uses: actions/checkout@v4
+
+      - name: Python klaarzetten
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Huidige euromatches.json ophalen
+        # Uit de gepubliceerde Pages-versie, zodat het samenvoegen vertrekt
+        # van wat er werkelijk live staat. Ontbreekt het bestand nog, dan is
+        # dat geen fout: het script maakt het dan aan.
+        run: |
+          if curl -sf -o euromatches.json \
+            https://footballdata-live.github.io/JPLMC.Badges/euromatches.json; then
+            echo "bestaand bestand opgehaald ($(wc -c < euromatches.json) bytes)"
+          else
+            echo "euromatches.json bestaat nog niet, eerste run"
+          fi
+
+      - name: Europese wedstrijden bouwen
+        env:
+          BSD_KEY: ${{ secrets.BSD_KEY }}
+          DATA_REPO_TOKEN: ${{ secrets.DATA_REPO_TOKEN }}
+        run: |
+          python3 bouw_euromatches_v1.1.py --push --toon
