@@ -4,9 +4,15 @@ name: bouw bekermatches
 # een ochtendrun pikt de uitslagen van de vorige avond op. Daarnaast met de
 # hand te starten via workflow_dispatch.
 #
-# Zolang de Pro League nog geen kalender publiceert doet deze run niets:
-# het script meldt WIJZIGING=nee en eindigt normaal. Er is dus geen reden om
-# te wachten met inschakelen.
+# Dagelijks draaien is hier geen luxe maar functioneel. De halve finale
+# bestaat uit twee speelweken en de server geeft altijd alleen de huidige
+# terug. De heenwedstrijd is dus maar een paar dagen zichtbaar, en juist
+# omdat het script elke dag draait pikt hij die op. Daarna blijft hij
+# bewaard door het samenvoegen in v1.1.
+#
+# Zolang de Pro League nog op de vorige editie staat doet deze run niets:
+# het script meldt WIJZIGING=nee en eindigt normaal. Er is dus geen reden
+# om te wachten met inschakelen.
 
 on:
   schedule:
@@ -34,9 +40,13 @@ jobs:
           python-version: '3.11'
 
       - name: Huidige bekermatches.json ophalen
-        # Uit de gepubliceerde Pages-versie, zodat de vergelijking klopt met
-        # wat er werkelijk live staat. Ontbreekt het bestand nog, dan is dat
-        # geen fout: het script maakt het dan aan.
+        # Uit de gepubliceerde Pages-versie, zodat het samenvoegen vertrekt
+        # van wat er werkelijk live staat. Dit is in v1.1 essentieel: zonder
+        # deze stap begint elke run met een leeg bestand en gaat de eerder
+        # opgehaalde heenwedstrijd van de halve finale verloren.
+        #
+        # Ontbreekt het bestand nog, dan is dat geen fout: het script maakt
+        # het dan aan.
         run: |
           if curl -sf -o bekermatches.json \
             https://footballdata-live.github.io/JPLMC.Badges/bekermatches.json; then
@@ -49,4 +59,4 @@ jobs:
         env:
           DATA_REPO_TOKEN: ${{ secrets.DATA_REPO_TOKEN }}
         run: |
-          python3 bouw_bekermatches_v1.0.py --push --toon
+          python3 bouw_bekermatches_v1.1.py --push --toon
