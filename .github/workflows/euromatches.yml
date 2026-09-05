@@ -1,9 +1,12 @@
 # =============================================================================
-#  euromatches.yml v3 - bouwt euromatches.json voor de clubfanpages
+#  euromatches.yml v5 - bouwt euromatches.json voor de clubfanpages
 # =============================================================================
 #  Draait IN de repo footballdata-live/JPLMC.Badges zelf. Daardoor is er geen
 #  PAT nodig: de ingebouwde GITHUB_TOKEN volstaat om terug te committen.
 #  Zelfde patroon als playerstats.yml v2.
+#
+#  v4 ten opzichte van v3:
+#    - Script naar v1.4: eindstand bij verlengingen uit extra_time_score.
 #
 #  v3 ten opzichte van v2:
 #    - python3 -u, zodat de uitvoer regel per regel in de log verschijnt.
@@ -69,7 +72,7 @@ jobs:
         run: |
           # -u is niet optioneel: zonder die vlag verschijnt er geen enkele
           # regel in de log tot het script klaar is.
-          python3 -u bouw_euromatches_v1.3.py --toon
+          python3 -u bouw_euromatches_v1.5.py --toon
 
       - name: Committen als er iets veranderd is
         run: |
