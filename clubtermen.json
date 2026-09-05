@@ -1,14 +1,22 @@
 {
   "_toelichting": {
-    "zeker": "Termen die op zichzelf een vermelding van deze club bewijzen. Woordgrens-match, hoofdletterongevoelig.",
-    "zwak": "Termen die alleen meetellen als er in dezelfde tekst al een zekere term van deze club staat, of als de term in de titel voorkomt. Op zichzelf te dubbelzinnig.",
-    "nooit": "Bewust NIET gebruikt, met de reden erbij. Deze staan hier zodat niemand ze later alsnog toevoegt zonder de reden te kennen."
+    "zeker": "Telt overal: titel en tekst. Bewijst op zichzelf dat het artikel over deze club gaat.",
+    "zwak": "Telt ALLEEN in de titel. In lopende tekst te dubbelzinnig, in een titel wel bruikbaar omdat er in de JPL geen tweede club uit die stad is.",
+    "nooit": "Telt nergens mee, en de term wordt geblokkeerd voor ALLE clubs. De reden staat erbij zodat niemand hem later terugzet zonder die te kennen.",
+    "hoofdletter": "Optioneel per club: termen die hoofdlettergevoelig vergeleken worden. 'Standard' is de ploeg, 'standaard' met een a is het gewone woord."
   },
-
   "123": {
     "naam": "Club Brugge",
-    "zeker": ["Club Brugge", "Club-Brugge", "Blauw-Zwart", "Blauw Zwart", "Jan Breydel"],
-    "zwak": ["Club", "Brugge", "blauwzwart"],
+    "zeker": [
+      "Club Brugge",
+      "Club-Brugge",
+      "Blauw-Zwart",
+      "Blauw Zwart",
+      "Jan Breydel"
+    ],
+    "zwak": [
+      "blauwzwart"
+    ],
     "nooit": {
       "Club": "komt in half het forum voor als gewoon woord",
       "Brugge": "gedeeld met Cercle Brugge"
@@ -16,8 +24,15 @@
   },
   "235": {
     "naam": "Cercle Brugge",
-    "zeker": ["Cercle", "Cercle Brugge", "KSV Cercle"],
-    "zwak": ["De Vereniging", "groen-zwart", "Groen-Zwart"],
+    "zeker": [
+      "Cercle",
+      "Cercle Brugge",
+      "KSV Cercle"
+    ],
+    "zwak": [
+      "groen-zwart",
+      "Groen-Zwart"
+    ],
     "nooit": {
       "De Vereniging": "gewone Nederlandse woordcombinatie",
       "Brugge": "gedeeld met Club Brugge"
@@ -25,119 +40,236 @@
   },
   "240": {
     "naam": "RSC Anderlecht",
-    "zeker": ["Anderlecht", "RSCA", "RSC Anderlecht", "Paars-Wit", "Paars Wit", "Lotto Park", "Astridpark"],
-    "zwak": ["Sporting", "paarswit"],
+    "zeker": [
+      "Anderlecht",
+      "RSCA",
+      "RSC Anderlecht",
+      "Paars-Wit",
+      "Paars Wit",
+      "Lotto Park",
+      "Astridpark"
+    ],
+    "zwak": [
+      "paarswit"
+    ],
     "nooit": {
       "Sporting": "ook deel van Sporting Charleroi"
     }
   },
   "245": {
     "naam": "KAA Gent",
-    "zeker": ["KAA Gent", "AA Gent", "Buffalo", "Buffalo's", "Buffalos", "Ghelamco", "Planet Group Arena"],
-    "zwak": ["Gent"],
-    "nooit": {
-      "Gent": "ook stad en universiteit; alleen sterk in combinatie"
-    }
+    "zeker": [
+      "KAA Gent",
+      "AA Gent",
+      "Buffalo",
+      "Buffalo's",
+      "Buffalos",
+      "Ghelamco",
+      "Planet Group Arena"
+    ],
+    "zwak": [
+      "Gent"
+    ],
+    "nooit": {}
   },
   "146": {
     "naam": "KRC Genk",
-    "zeker": ["Genk", "KRC Genk", "Racing Genk", "Cegeka Arena", "Luminus Arena", "De Smurfen", "Smurfen"],
-    "zwak": ["Racing"],
-    "nooit": {
-      "Racing": "ook Racing White, Racing Mechelen"
-    }
+    "zeker": [
+      "Genk",
+      "KRC Genk",
+      "Racing Genk",
+      "Cegeka Arena",
+      "Luminus Arena",
+      "De Smurfen",
+      "Smurfen"
+    ],
+    "zwak": [
+      "Racing"
+    ],
+    "nooit": {}
   },
   "233": {
     "naam": "Royal Antwerp FC",
-    "zeker": ["Antwerp", "Royal Antwerp", "The Great Old", "Great Old", "Bosuil"],
-    "zwak": ["Antwerpen"],
-    "nooit": {
-      "Antwerpen": "de stad, ook Beerschot"
-    }
+    "zeker": [
+      "Antwerp",
+      "Royal Antwerp",
+      "The Great Old",
+      "Great Old",
+      "Bosuil"
+    ],
+    "zwak": [
+      "Antwerpen"
+    ],
+    "nooit": {}
   },
   "239": {
     "naam": "Standard de Liege",
-    "zeker": ["Standard", "Standard Luik", "Standard de Liège", "Les Rouches", "Rouches", "Sclessin"],
-    "zwak": ["Luik", "Liège"],
-    "nooit": {
-      "Luik": "de stad; ook RFC Luik"
-    }
+    "zeker": [
+      "Standard",
+      "Standard Luik",
+      "Standard de Liège",
+      "Les Rouches",
+      "Rouches",
+      "Sclessin"
+    ],
+    "zwak": [
+      "Luik",
+      "Liège"
+    ],
+    "nooit": {},
+    "hoofdletter": [
+      "Standard"
+    ]
   },
   "116": {
     "naam": "Union Saint-Gilloise",
-    "zeker": ["Union Saint-Gilloise", "Union SG", "USG", "Saint-Gilloise", "Sint-Gillis", "Duden", "Joseph Marien", "Les Unionistes", "Unionistes"],
-    "zwak": ["Union"],
-    "nooit": {
-      "Union": "los woord, ook Union Berlin en Union Tubize"
-    }
+    "zeker": [
+      "Union Saint-Gilloise",
+      "Union SG",
+      "USG",
+      "Saint-Gilloise",
+      "Sint-Gillis",
+      "Duden",
+      "Joseph Marien",
+      "Les Unionistes",
+      "Unionistes"
+    ],
+    "zwak": [
+      "Union"
+    ],
+    "nooit": {}
   },
   "243": {
     "naam": "Sporting Charleroi",
-    "zeker": ["Charleroi", "Zebra", "Zèbres", "Zebres", "Mambourg"],
-    "zwak": ["Sporting", "Les Zèbres"],
+    "zeker": [
+      "Charleroi",
+      "Zebra",
+      "Zèbres",
+      "Zebres",
+      "Mambourg"
+    ],
+    "zwak": [
+      "Les Zèbres"
+    ],
     "nooit": {
       "Sporting": "ook bijnaam van Anderlecht"
     }
   },
   "237": {
     "naam": "KV Mechelen",
-    "zeker": ["KV Mechelen", "Malinwa", "Achter de Kazerne", "AFAS"],
-    "zwak": ["Mechelen"],
-    "nooit": {
-      "Mechelen": "ook Racing Mechelen en de stad"
-    }
+    "zeker": [
+      "KV Mechelen",
+      "Malinwa",
+      "Achter de Kazerne",
+      "AFAS"
+    ],
+    "zwak": [
+      "Mechelen"
+    ],
+    "nooit": {}
   },
   "244": {
     "naam": "Sint-Truidense VV",
-    "zeker": ["STVV", "Sint-Truiden", "Sint-Truidense", "Truiden", "Kanaries", "De Kanaries", "Stayen"],
+    "zeker": [
+      "STVV",
+      "Sint-Truiden",
+      "Sint-Truidense",
+      "Truiden",
+      "Kanaries",
+      "De Kanaries",
+      "Stayen"
+    ],
     "zwak": [],
     "nooit": {}
   },
   "241": {
     "naam": "KVC Westerlo",
-    "zeker": ["Westerlo", "KVC Westerlo", "Kemphanen", "De Kemphanen", "Kuipje", "Het Kuipje"],
+    "zeker": [
+      "Westerlo",
+      "KVC Westerlo",
+      "Kemphanen",
+      "De Kemphanen",
+      "Kuipje",
+      "Het Kuipje"
+    ],
     "zwak": [],
     "nooit": {}
   },
   "242": {
     "naam": "OH Leuven",
-    "zeker": ["OH Leuven", "OHL", "Oud-Heverlee", "Den Dreef"],
-    "zwak": ["Leuven"],
-    "nooit": {
-      "Leuven": "de stad en de universiteit"
-    }
+    "zeker": [
+      "OH Leuven",
+      "OHL",
+      "Oud-Heverlee",
+      "Den Dreef"
+    ],
+    "zwak": [
+      "Leuven"
+    ],
+    "nooit": {}
   },
   "2763": {
     "naam": "KV Kortrijk",
-    "zeker": ["KV Kortrijk", "Kortrijk", "Kerels", "De Kerels", "Guldensporen"],
+    "zeker": [
+      "KV Kortrijk",
+      "Kortrijk",
+      "Kerels",
+      "De Kerels",
+      "Guldensporen"
+    ],
     "zwak": [],
     "nooit": {}
   },
   "236": {
     "naam": "SV Zulte Waregem",
-    "zeker": ["Zulte Waregem", "Zulte-Waregem", "Essevee", "Regenboogstadion"],
-    "zwak": ["Zulte", "Waregem"],
+    "zeker": [
+      "Zulte Waregem",
+      "Zulte-Waregem",
+      "Essevee",
+      "Regenboogstadion"
+    ],
+    "zwak": [
+      "Zulte",
+      "Waregem"
+    ],
     "nooit": {}
   },
   "2414": {
     "naam": "SK Beveren",
-    "zeker": ["SK Beveren", "Beveren", "Freethiel"],
-    "zwak": ["De Leeuwen", "Leeuwen"],
+    "zeker": [
+      "SK Beveren",
+      "Beveren",
+      "Freethiel"
+    ],
+    "zwak": [
+      "Leeuwen"
+    ],
     "nooit": {
       "De Leeuwen": "te generiek, ook andere ploegen en landen"
     }
   },
   "1827": {
     "naam": "Lommel SK",
-    "zeker": ["Lommel", "Lommel SK", "Soevereinstadion"],
-    "zwak": ["De Stadsploeg"],
+    "zeker": [
+      "Lommel",
+      "Lommel SK",
+      "Soevereinstadion"
+    ],
+    "zwak": [],
     "nooit": {
       "De Stadsploeg": "gewone Nederlandse woordcombinatie"
     }
   },
   "238": {
     "naam": "RAAL La Louviere",
-    "zeker": ["RAAL", "La Louvière", "La Louviere", "Louvière", "Les Loups", "Tivoli"],
+    "zeker": [
+      "RAAL",
+      "La Louvière",
+      "La Louviere",
+      "Louvière",
+      "Les Loups",
+      "Tivoli"
+    ],
     "zwak": [],
     "nooit": {}
   }
