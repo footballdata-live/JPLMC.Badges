@@ -1,27 +1,55 @@
-name: bouw bekermatches
+# =============================================================================
+#  bekermatches.yml v2 - bouwt bekermatches.json voor de clubfanpages
+# =============================================================================
+#  Draait IN de repo footballdata-live/JPLMC.Badges zelf. Daardoor is er geen
+#  PAT nodig: de ingebouwde GITHUB_TOKEN volstaat om terug te committen.
+#  Zelfde patroon als playerstats.yml v2.
+#
+#  v2 ten opzichte van v1:
+#    - DATA_REPO_TOKEN en de vlag --push zijn weg. De commit gebeurt hier.
+#    - De curl-stap is weg. bekermatches.json staat in deze repo en komt mee
+#      met de checkout. Via GitHub Pages ophalen was fragiel: Pages loopt
+#      achter op de repo omdat de site eerst moet bouwen, dus twee runs kort
+#      na elkaar lazen een verouderde versie. Dat is hier extra vervelend,
+#      want het script voegt samen met wat er al staat.
+#
+#  GEEN SECRETS NODIG
+#    Het bekerscript praat met proleague.be, dat vraagt geen sleutel.
+#
+#  EENMALIG CONTROLEREN
+#    Settings, Actions, General, Workflow permissions moet op
+#    "Read and write permissions" staan. Zonder dat is de run groen terwijl
+#    er niets gecommit wordt. Die instelling is bij deze repo al eens stil
+#    teruggevallen op read-only.
+#
+#  WAT JE MAANDENLANG ZAL ZIEN
+#    De Pro League publiceert de nieuwe bekerkalender pas rond oktober, en de
+#    JPL-clubs stappen in vanaf Round of 32. Tot dan meldt het script
+#    WIJZIGING=nee en wordt er niets gecommit. Dat is het bedoelde gedrag,
+#    geen fout.
+# =============================================================================
 
-# Dagelijks om 06:00 UTC. Bekerwedstrijden worden 's avonds gespeeld, dus
-# een ochtendrun pikt de uitslagen van de vorige avond op. Daarnaast met de
-# hand te starten via workflow_dispatch.
-#
-# Dagelijks draaien is hier geen luxe maar functioneel. De halve finale
-# bestaat uit twee speelweken en de server geeft altijd alleen de huidige
-# terug. De heenwedstrijd is dus maar een paar dagen zichtbaar, en juist
-# omdat het script elke dag draait pikt hij die op. Daarna blijft hij
-# bewaard door het samenvoegen in v1.1.
-#
-# Zolang de Pro League nog op de vorige editie staat doet deze run niets:
-# het script meldt WIJZIGING=nee en eindigt normaal. Er is dus geen reden
-# om te wachten met inschakelen.
+name: bekermatches
 
 on:
+  # Dagelijks om 06:00 UTC. Bekerwedstrijden worden 's avonds gespeeld, dus
+  # een ochtendrun pikt de uitslagen van de vorige avond op.
+  #
+  # Dagelijks draaien is hier functioneel, geen luxe. De halve finale bestaat
+  # uit twee speelweken en proleague.be geeft server-side altijd alleen de
+  # huidige terug. De heenwedstrijd is dus maar een paar dagen zichtbaar, en
+  # juist omdat het script elke dag draait pikt hij die op. Daarna blijft hij
+  # bewaard door het samenvoegen.
   schedule:
     - cron: '0 6 * * *'
   workflow_dispatch:
 
+# Nodig om te kunnen terugcommitten met GITHUB_TOKEN.
 permissions:
   contents: write
 
+# Twee runs tegelijk zouden allebei van dezelfde uitgangsstand vertrekken en
+# elkaars commit overschrijven. De tweede wacht nu tot de eerste klaar is.
 concurrency:
   group: bekermatches
   cancel-in-progress: false
@@ -34,29 +62,33 @@ jobs:
       - name: Repo uitchecken
         uses: actions/checkout@v4
 
-      - name: Python klaarzetten
+      - name: Python opzetten
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Huidige bekermatches.json ophalen
-        # Uit de gepubliceerde Pages-versie, zodat het samenvoegen vertrekt
-        # van wat er werkelijk live staat. Dit is in v1.1 essentieel: zonder
-        # deze stap begint elke run met een leeg bestand en gaat de eerder
-        # opgehaalde heenwedstrijd van de halve finale verloren.
-        #
-        # Ontbreekt het bestand nog, dan is dat geen fout: het script maakt
-        # het dan aan.
+      - name: bekermatches.json bouwen
         run: |
-          if curl -sf -o bekermatches.json \
-            https://footballdata-live.github.io/JPLMC.Badges/bekermatches.json; then
-            echo "bestaand bestand opgehaald ($(wc -c < bekermatches.json) bytes)"
-          else
-            echo "bekermatches.json bestaat nog niet, eerste run"
+          python3 bouw_bekermatches_v1.2.py --toon
+
+      - name: Committen als er iets veranderd is
+        run: |
+          # git diff beslist, niet de uitvoer van het script. Zo wordt er
+          # nooit een lege commit gemaakt, ook niet als het script wel
+          # schreef maar de inhoud identiek bleef.
+          if git diff --quiet -- bekermatches.json; then
+            echo "bekermatches.json ongewijzigd, niets te committen"
+            exit 0
           fi
 
-      - name: Bekerkalender bouwen
-        env:
-          DATA_REPO_TOKEN: ${{ secrets.DATA_REPO_TOKEN }}
-        run: |
-          python3 bouw_bekermatches_v1.1.py --push --toon
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bekermatches.json
+          git commit -m "chore: update bekermatches.json [skip ci]"
+
+          # Tussen de checkout en nu kan er een andere commit binnengekomen
+          # zijn, bijvoorbeeld van de bot die matches.json bijwerkt. Rebasen
+          # in plaats van forceren, zodat die commit niet verloren gaat.
+          git pull --rebase --autostash
+          git push
+          echo "bekermatches.json gecommit"
