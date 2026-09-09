@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-09-05T12:34:17Z",
+ "bijgewerkt": "2026-09-09T11:23:53Z",
  "seizoen": "26/27",
  "wedstrijden": {
   "220445": {
@@ -59,15 +59,15 @@
    "away_team": "Aston Villa",
    "home_team_id": "123",
    "away_team_id": "",
-   "home_score": null,
-   "away_score": null,
-   "home_score_90": null,
-   "away_score_90": null,
+   "home_score": 2,
+   "away_score": 3,
+   "home_score_90": 2,
+   "away_score_90": 3,
    "verlenging": false,
    "home_pens": null,
    "away_pens": null,
-   "status": "notstarted",
-   "minuut": null,
+   "status": "finished",
+   "minuut": 94,
    "stadion": "Jan Breydel Stadium",
    "bsd_id": "601076"
   },
