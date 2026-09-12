@@ -13,9 +13,10 @@
     "bekers": 2,
     "badge": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_Cercle_Brugge_2022.png",
     "kleuren": {
-      "main": "#1a472a",
-      "dark": "#0d2616",
-      "light": "#3a7a52"
+      "main": "#00693E",
+      "dark": "#003F25",
+      "light": "#599E82",
+      "accent": "#000000"
     }
   },
   "123": {
@@ -32,9 +33,10 @@
     "bekers": 12,
     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/Club_Brugge_KV_logo.svg/500px-Club_Brugge_KV_logo.svg.png",
     "kleuren": {
-      "main": "#0055a3",
-      "dark": "#003366",
-      "light": "#3388cc"
+      "main": "#0078BF",
+      "dark": "#004873",
+      "light": "#59A7D5",
+      "accent": "#000000"
     }
   },
   "245": {
@@ -51,9 +53,10 @@
     "bekers": 4,
     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/KAA_Gent_logo.svg/960px-KAA_Gent_logo.svg.png",
     "kleuren": {
-      "main": "#004a99",
-      "dark": "#002d5c",
-      "light": "#3377bb"
+      "main": "#004B93",
+      "dark": "#002D58",
+      "light": "#598AB9",
+      "accent": "#FFFFFF"
     }
   },
   "146": {
@@ -70,9 +73,10 @@
     "bekers": 5,
     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/KRC_Genk_Logo_2016.svg/500px-KRC_Genk_Logo_2016.svg.png",
     "kleuren": {
-      "main": "#0066b3",
-      "dark": "#003d6b",
-      "light": "#4499cc"
+      "main": "#0055A5",
+      "dark": "#003363",
+      "light": "#5990C4",
+      "accent": "#FFFFFF"
     }
   },
   "237": {
@@ -89,9 +93,10 @@
     "bekers": 2,
     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/KV_Mechelen_logo.svg/500px-KV_Mechelen_logo.svg.png",
     "kleuren": {
-      "main": "#ffe100",
-      "dark": "#b39c00",
-      "light": "#ffec4d"
+      "main": "#FFD200",
+      "dark": "#997E00",
+      "light": "#FFE259",
+      "accent": "#E30613"
     },
     "europese_prijzen": "1x Europacup II (1988)"
   },
@@ -110,9 +115,10 @@
     "europese_prijzen": "2x Europacup II (1976, 1978), 1x UEFA Cup (1983), 2x Europese Supercup (1976, 1978)",
     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/RSC_Anderlecht.svg/500px-RSC_Anderlecht.svg.png",
     "kleuren": {
-      "main": "#5B2C86",
-      "dark": "#3a1a5c",
-      "light": "#8b5fbf"
+      "main": "#582C83",
+      "dark": "#351A4F",
+      "light": "#9276AE",
+      "accent": "#FFFFFF"
     }
   },
   "233": {
@@ -129,9 +135,10 @@
     "bekers": 4,
     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Royal_Antwerp_FC_logo.svg/500px-Royal_Antwerp_FC_logo.svg.png",
     "kleuren": {
-      "main": "#e30613",
-      "dark": "#8b0a1a",
-      "light": "#f05a5a"
+      "main": "#E30613",
+      "dark": "#88040B",
+      "light": "#ED5D66",
+      "accent": "#FFFFFF"
     }
   },
   "243": {
@@ -148,14 +155,15 @@
     "bekers": 0,
     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/R_Charleroi_SC_logo.svg/500px-R_Charleroi_SC_logo.svg.png",
     "kleuren": {
-      "main": "#1a1a1a",
+      "main": "#000000",
       "dark": "#000000",
-      "light": "#4d4d4d"
+      "light": "#595959",
+      "accent": "#FFFFFF"
     }
   },
   "242": {
     "code": "OHL",
-    "naam": "Heverlee Leuven",
+    "naam": "OH Leuven",
     "volledige_naam": "Oud-Heverlee Leuven",
     "stamnummer": 6584,
     "opgericht": 2002,
@@ -167,9 +175,10 @@
     "bekers": 0,
     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Oud-Heverlee_Leuven_logo.svg/500px-Oud-Heverlee_Leuven_logo.svg.png",
     "kleuren": {
-      "main": "#006633",
-      "dark": "#003d1f",
-      "light": "#339966"
+      "main": "#0055A5",
+      "dark": "#003363",
+      "light": "#5990C4",
+      "accent": "#FFFFFF"
     }
   },
   "239": {
@@ -186,9 +195,9 @@
     "bekers": 8,
     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Standard_de_Li%C3%A8ge_logo.svg/500px-Standard_de_Li%C3%A8ge_logo.svg.png",
     "kleuren": {
-      "main": "#d31127",
-      "dark": "#8b0a1a",
-      "light": "#e85d6f"
+      "main": "#E30613",
+      "dark": "#88040B",
+      "light": "#ED5D66"
     }
   },
   "244": {
@@ -205,9 +214,10 @@
     "bekers": 0,
     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Sint-Truidense_VV_logo.svg/500px-Sint-Truidense_VV_logo.svg.png",
     "kleuren": {
-      "main": "#ffe100",
-      "dark": "#b39c00",
-      "light": "#ffec4d"
+      "main": "#FFD200",
+      "dark": "#997E00",
+      "light": "#FFE259",
+      "accent": "#0055A5"
     }
   },
   "116": {
@@ -224,9 +234,10 @@
     "bekers": 4,
     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Union_Saint-Gilloise_logo.svg/500px-Union_Saint-Gilloise_logo.svg.png",
     "kleuren": {
-      "main": "#2b3990",
-      "dark": "#1a2260",
-      "light": "#5566bb"
+      "main": "#0055A5",
+      "dark": "#003363",
+      "light": "#5990C4",
+      "accent": "#FFD200"
     }
   },
   "236": {
@@ -243,9 +254,10 @@
     "bekers": 1,
     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8d/SV_Zulte_Waregem_logo.svg/500px-SV_Zulte_Waregem_logo.svg.png",
     "kleuren": {
-      "main": "#a6093d",
-      "dark": "#6e0628",
-      "light": "#cc3366"
+      "main": "#E30613",
+      "dark": "#88040B",
+      "light": "#ED5D66",
+      "accent": "#00843D"
     }
   },
   "241": {
@@ -262,9 +274,10 @@
     "bekers": 1,
     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/6/64/KVC_Westerlo_logo.svg/500px-KVC_Westerlo_logo.svg.png",
     "kleuren": {
-      "main": "#004a8f",
-      "dark": "#002d57",
-      "light": "#3377aa"
+      "main": "#FFD200",
+      "dark": "#997E00",
+      "light": "#FFE259",
+      "accent": "#0055A5"
     }
   },
   "238": {
@@ -281,9 +294,10 @@
     "bekers": 0,
     "badge": "https://upload.wikimedia.org/wikipedia/fr/thumb/6/68/Logo_RAAL_La_Louvi%C3%A8re_2025.svg/250px-Logo_RAAL_La_Louvi%C3%A8re_2025.svg.png",
     "kleuren": {
-      "main": "#e30613",
-      "dark": "#8b0a1a",
-      "light": "#f05a5a"
+      "main": "#00843D",
+      "dark": "#004F25",
+      "light": "#59AF81",
+      "accent": "#FFFFFF"
     }
   },
   "1827": {
@@ -300,9 +314,10 @@
     "bekers": 0,
     "badge": "https://tmssl.akamaized.net//images/wappen/head/5026.png",
     "kleuren": {
-      "main": "#ffcc00",
-      "dark": "#b38f00",
-      "light": "#ffe066"
+      "main": "#00843D",
+      "dark": "#004F25",
+      "light": "#59AF81",
+      "accent": "#FFFFFF"
     }
   },
   "2763": {
@@ -319,9 +334,10 @@
     "bekers": 0,
     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/KV_Kortrijk_logo.svg/500px-KV_Kortrijk_logo.svg.png",
     "kleuren": {
-      "main": "#e30613",
-      "dark": "#8b0a1a",
-      "light": "#f05a5a"
+      "main": "#E30613",
+      "dark": "#88040B",
+      "light": "#ED5D66",
+      "accent": "#FFFFFF"
     }
   },
   "2414": {
@@ -338,9 +354,10 @@
     "bekers": 3,
     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/SK_Beveren_logo.svg/250px-SK_Beveren_logo.svg.png",
     "kleuren": {
-      "main": "#003399",
-      "dark": "#001f5c",
-      "light": "#3366cc"
+      "main": "#FFD200",
+      "dark": "#997E00",
+      "light": "#FFE259",
+      "accent": "#0055A5"
     }
   }
 }
