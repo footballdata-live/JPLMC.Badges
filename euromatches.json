@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-09-09T11:23:53Z",
+ "bijgewerkt": "2026-09-17T08:57:39Z",
  "seizoen": "26/27",
  "wedstrijden": {
   "220445": {
@@ -427,15 +427,15 @@
    "away_team": "Olympique Lyonnais",
    "home_team_id": "240",
    "away_team_id": "",
-   "home_score": null,
-   "away_score": null,
-   "home_score_90": null,
-   "away_score_90": null,
+   "home_score": 1,
+   "away_score": 2,
+   "home_score_90": 1,
+   "away_score_90": 2,
    "verlenging": false,
    "home_pens": null,
    "away_pens": null,
-   "status": "notstarted",
-   "minuut": null,
+   "status": "finished",
+   "minuut": 93,
    "stadion": "Lotto Park",
    "bsd_id": "601281"
   },
