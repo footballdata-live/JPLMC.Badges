@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-09-17T08:57:39Z",
+ "bijgewerkt": "2026-09-18T11:15:39Z",
  "seizoen": "26/27",
  "wedstrijden": {
   "220445": {
@@ -450,15 +450,15 @@
    "away_team": "Royale Union Saint-Gilloise",
    "home_team_id": "",
    "away_team_id": "116",
-   "home_score": null,
-   "away_score": null,
-   "home_score_90": null,
-   "away_score_90": null,
+   "home_score": 0,
+   "away_score": 3,
+   "home_score_90": 0,
+   "away_score_90": 3,
    "verlenging": false,
    "home_pens": null,
    "away_pens": null,
-   "status": "notstarted",
-   "minuut": null,
+   "status": "finished",
+   "minuut": 93,
    "stadion": "Stadion Mesta Plzne",
    "bsd_id": "601218"
   },
