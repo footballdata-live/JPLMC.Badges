@@ -590,8 +590,10 @@
     "title": "KV Mechelen - Sint-Truidense VV",
     "home_team": "KV Mechelen",
     "away_team": "Sint-Truidense VV",
-    "event_date": "2026-10-09T16:00:00+00:00",
-    "round": 8
+    "event_date": "2026-10-11T17:15:00+00:00",
+    "round": 8,
+    "date_override": true,
+    "date_override_bsd": "2026-10-09T16:00:00+00:00"
   },
   "212784": {
     "thread_id": "8558",
@@ -599,8 +601,10 @@
     "title": "KVC Westerlo - Royal Antwerp FC",
     "home_team": "KVC Westerlo",
     "away_team": "Royal Antwerp FC",
-    "event_date": "2026-10-09T16:00:00+00:00",
-    "round": 8
+    "event_date": "2026-10-11T16:30:00+00:00",
+    "round": 8,
+    "date_override": true,
+    "date_override_bsd": "2026-10-09T16:00:00+00:00"
   },
   "212785": {
     "thread_id": "8559",
@@ -617,8 +621,10 @@
     "title": "Royale Union Saint-Gilloise - Oud-Heverlee Leuven",
     "home_team": "Royale Union Saint-Gilloise",
     "away_team": "Oud-Heverlee Leuven",
-    "event_date": "2026-10-09T16:00:00+00:00",
-    "round": 8
+    "event_date": "2026-10-11T14:00:00+00:00",
+    "round": 8,
+    "date_override": true,
+    "date_override_bsd": "2026-10-09T16:00:00+00:00"
   },
   "212787": {
     "thread_id": "8561",
@@ -644,8 +650,10 @@
     "title": "Standard Liège - RC Sporting Charleroi",
     "home_team": "Standard Liège",
     "away_team": "RC Sporting Charleroi",
-    "event_date": "2026-10-09T16:00:00+00:00",
-    "round": 8
+    "event_date": "2026-10-11T11:30:00+00:00",
+    "round": 8,
+    "date_override": true,
+    "date_override_bsd": "2026-10-09T16:00:00+00:00"
   },
   "212790": {
     "thread_id": "8564",
@@ -653,8 +661,10 @@
     "title": "Club Brugge KV - Sint-Truidense VV",
     "home_team": "Club Brugge KV",
     "away_team": "Sint-Truidense VV",
-    "event_date": "2026-10-23T16:00:00+00:00",
-    "round": 9
+    "event_date": "2026-10-25T15:00:00+00:00",
+    "round": 9,
+    "date_override": true,
+    "date_override_bsd": "2026-10-23T16:00:00+00:00"
   },
   "212791": {
     "thread_id": "8565",
@@ -662,8 +672,10 @@
     "title": "KAA Gent - RSC Anderlecht",
     "home_team": "KAA Gent",
     "away_team": "RSC Anderlecht",
-    "event_date": "2026-10-23T16:00:00+00:00",
-    "round": 9
+    "event_date": "2026-10-25T17:30:00+00:00",
+    "round": 9,
+    "date_override": true,
+    "date_override_bsd": "2026-10-23T16:00:00+00:00"
   },
   "212792": {
     "thread_id": "8566",
@@ -671,8 +683,10 @@
     "title": "KRC Genk - Standard Liège",
     "home_team": "KRC Genk",
     "away_team": "Standard Liège",
-    "event_date": "2026-10-23T16:00:00+00:00",
-    "round": 9
+    "event_date": "2026-10-25T12:30:00+00:00",
+    "round": 9,
+    "date_override": true,
+    "date_override_bsd": "2026-10-23T16:00:00+00:00"
   },
   "212793": {
     "thread_id": "8567",
@@ -725,8 +739,10 @@
     "title": "Royale Union Saint-Gilloise - Cercle Brugge",
     "home_team": "Royale Union Saint-Gilloise",
     "away_team": "Cercle Brugge",
-    "event_date": "2026-10-23T16:00:00+00:00",
-    "round": 9
+    "event_date": "2026-10-25T18:15:00+00:00",
+    "round": 9,
+    "date_override": true,
+    "date_override_bsd": "2026-10-23T16:00:00+00:00"
   },
   "212799": {
     "thread_id": "8573",
