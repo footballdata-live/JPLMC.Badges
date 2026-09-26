@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-09-18T11:15:39Z",
+ "bijgewerkt": "2026-09-26T11:26:19Z",
  "seizoen": "26/27",
  "wedstrijden": {
   "220445": {
@@ -482,7 +482,7 @@
    "away_pens": null,
    "status": "notstarted",
    "minuut": null,
-   "stadion": "Stade Joseph Marien",
+   "stadion": "The King Power AT Den Dreef Stadium",
    "bsd_id": "601293"
   },
   "601226": {
@@ -528,7 +528,7 @@
    "away_pens": null,
    "status": "notstarted",
    "minuut": null,
-   "stadion": "Stade Joseph Marien",
+   "stadion": "Merkur Spiel-Arena",
    "bsd_id": "601296"
   },
   "601234": {
@@ -620,7 +620,7 @@
    "away_pens": null,
    "status": "notstarted",
    "minuut": null,
-   "stadion": "Stade Joseph Marien",
+   "stadion": "The King Power AT Den Dreef Stadium",
    "bsd_id": "601295"
   },
   "601262": {
@@ -781,7 +781,7 @@
    "away_pens": null,
    "status": "notstarted",
    "minuut": null,
-   "stadion": "Stade Joseph Marien",
+   "stadion": "The King Power AT Den Dreef Stadium",
    "bsd_id": "601294"
   },
   "221135": {
