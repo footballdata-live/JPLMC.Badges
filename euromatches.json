@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-09-26T11:26:19Z",
+ "bijgewerkt": "2026-09-29T12:53:57Z",
  "seizoen": "26/27",
  "wedstrijden": {
   "220445": {
@@ -1091,7 +1091,7 @@
    "date": "2026-11-26",
    "kickoff": "2026-11-26T20:00:00Z",
    "home_team": "KAA Gent",
-   "away_team": "FK Crvena Zvezda",
+   "away_team": "FK Crvena zvezda",
    "home_team_id": "245",
    "away_team_id": "",
    "home_score": null,
