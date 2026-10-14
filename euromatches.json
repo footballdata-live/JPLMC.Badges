@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-09-29T12:53:57Z",
+ "bijgewerkt": "2026-10-14T11:52:57Z",
  "seizoen": "26/27",
  "wedstrijden": {
   "220445": {
@@ -82,15 +82,15 @@
    "away_team": "Club Brugge KV",
    "home_team_id": "",
    "away_team_id": "123",
-   "home_score": null,
-   "away_score": null,
-   "home_score_90": null,
-   "away_score_90": null,
+   "home_score": 3,
+   "away_score": 4,
+   "home_score_90": 3,
+   "away_score_90": 4,
    "verlenging": false,
    "home_pens": null,
    "away_pens": null,
-   "status": "notstarted",
-   "minuut": null,
+   "status": "finished",
+   "minuut": 97,
    "stadion": "San Siro/Giuseppe Meazza",
    "bsd_id": "601040"
   },
