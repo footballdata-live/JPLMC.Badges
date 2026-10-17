@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-09-30T10:32:20Z",
+ "bijgewerkt": "2026-10-17T10:12:57Z",
  "seizoen": "Seizoen 2026/2027",
  "editie": "6fd85acb-0929-43e7-9747-509b0a9a6995",
  "wedstrijden": {
@@ -13,12 +13,12 @@
    "away_team": "Cercle Brugge",
    "home_team_id": "",
    "away_team_id": "235",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 1,
+   "away_score": 2,
    "home_pens": null,
    "away_pens": null,
    "status": "-",
-   "status_type": "PreMatch",
+   "status_type": "PostMatch",
    "slug": "seizoen-2026-2027-croky-cup-1-sporting-hasselt-vs-cercle-brugge"
   },
   "3fe6e18b-49b5-4ed5-9671-40be322b992d": {
@@ -67,12 +67,12 @@
    "away_team": "R.S.C. Habay-La-Neuve",
    "home_team_id": "2414",
    "away_team_id": "",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 3,
+   "away_score": 0,
    "home_pens": null,
    "away_pens": null,
    "status": "-",
-   "status_type": "PreMatch",
+   "status_type": "PostMatch",
    "slug": "seizoen-2026-2027-croky-cup-1-sk-beveren-vs-r-s-c-habay"
   },
   "67a7b53b-7b2a-4d60-a5ab-05c08dc06d56": {
@@ -157,12 +157,12 @@
    "away_team": "FCV Dender EH",
    "home_team_id": "239",
    "away_team_id": "",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 2,
+   "away_score": 0,
    "home_pens": null,
    "away_pens": null,
    "status": "-",
-   "status_type": "PreMatch",
+   "status_type": "PostMatch",
    "slug": "seizoen-2026-2027-croky-cup-1-standard-de-liege-vs-fcv-dender-eh"
   },
   "9d5a8a39-388e-4c64-ac95-8e0adf0b45a7": {
@@ -265,12 +265,12 @@
    "away_team": "Patro Eisden Maasmechelen",
    "home_team_id": "241",
    "away_team_id": "",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 2,
+   "away_score": 0,
    "home_pens": null,
    "away_pens": null,
    "status": "-",
-   "status_type": "PreMatch",
+   "status_type": "PostMatch",
    "slug": "seizoen-2026-2027-croky-cup-1-kvc-westerlo-vs-patro-eisden-maasmechelen"
   },
   "e08439a1-1ea9-4df9-8355-dbfa455e07ef": {
