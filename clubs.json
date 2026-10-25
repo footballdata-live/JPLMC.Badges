@@ -175,10 +175,10 @@
     "bekers": 0,
     "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Oud-Heverlee_Leuven_logo.svg/500px-Oud-Heverlee_Leuven_logo.svg.png",
     "kleuren": {
-      "main": "#0055A5",
-      "dark": "#003363",
-      "light": "#5990C4",
-      "accent": "#FFFFFF"
+      "main": "#FFFFFF",
+      "dark": "#464C4A",
+      "light": "#A8ADB1",
+      "accent": "#D20019"
     }
   },
   "239": {
