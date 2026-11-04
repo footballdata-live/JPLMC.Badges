@@ -69,7 +69,7 @@ jobs:
 
       - name: bekermatches.json bouwen
         run: |
-          python3 bouw_bekermatches_v1.2.py --toon
+          python3 bouw_bekermatches_v1.3.py --toon
 
       - name: Committen als er iets veranderd is
         run: |
