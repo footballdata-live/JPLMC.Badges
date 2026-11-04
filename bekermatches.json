@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-10-21T11:15:29Z",
+ "bijgewerkt": "2026-11-04T10:08:24Z",
  "seizoen": "Seizoen 2026/2027",
  "editie": "6fd85acb-0929-43e7-9747-509b0a9a6995",
  "wedstrijden": {
@@ -17,7 +17,7 @@
    "away_score": 2,
    "home_pens": null,
    "away_pens": null,
-   "status": "-",
+   "status": "FT",
    "status_type": "PostMatch",
    "slug": "seizoen-2026-2027-croky-cup-1-sporting-hasselt-vs-cercle-brugge"
   },
@@ -35,7 +35,7 @@
    "away_score": 0,
    "home_pens": null,
    "away_pens": null,
-   "status": "-",
+   "status": "FT",
    "status_type": "PostMatch",
    "slug": "seizoen-2026-2027-croky-cup-1-oh-leuven-vs-royal-francs-borains"
   },
@@ -71,7 +71,7 @@
    "away_score": 0,
    "home_pens": null,
    "away_pens": null,
-   "status": "-",
+   "status": "FT",
    "status_type": "PostMatch",
    "slug": "seizoen-2026-2027-croky-cup-1-sk-beveren-vs-r-s-c-habay"
   },
@@ -89,7 +89,7 @@
    "away_score": 0,
    "home_pens": null,
    "away_pens": null,
-   "status": "-",
+   "status": "FT",
    "status_type": "PostMatch",
    "slug": "seizoen-2026-2027-croky-cup-1-raal-la-louviere-vs-rfc-liege"
   },
@@ -125,7 +125,7 @@
    "away_score": 0,
    "home_pens": null,
    "away_pens": null,
-   "status": "-",
+   "status": "FT",
    "status_type": "PostMatch",
    "slug": "seizoen-2026-2027-croky-cup-1-club-brugge-vs-ksc-lokeren"
   },
@@ -161,7 +161,7 @@
    "away_score": 0,
    "home_pens": null,
    "away_pens": null,
-   "status": "-",
+   "status": "FT",
    "status_type": "PostMatch",
    "slug": "seizoen-2026-2027-croky-cup-1-standard-de-liege-vs-fcv-dender-eh"
   },
@@ -179,7 +179,7 @@
    "away_score": 0,
    "home_pens": null,
    "away_pens": null,
-   "status": "-",
+   "status": "FT",
    "status_type": "PostMatch",
    "slug": "seizoen-2026-2027-croky-cup-1-sv-zulte-waregem-vs-rfc-seraing"
   },
@@ -197,7 +197,7 @@
    "away_score": 1,
    "home_pens": null,
    "away_pens": null,
-   "status": "-",
+   "status": "FT",
    "status_type": "PostMatch",
    "slug": "seizoen-2026-2027-croky-cup-1-raec-mons-vs-sporting-charleroi"
   },
@@ -215,7 +215,7 @@
    "away_score": 1,
    "home_pens": null,
    "away_pens": null,
-   "status": "-",
+   "status": "FT",
    "status_type": "PostMatch",
    "slug": "seizoen-2026-2027-croky-cup-1-k-sk-heist-vs-royal-antwerp-fc"
   },
@@ -251,7 +251,7 @@
    "away_score": 2,
    "home_pens": null,
    "away_pens": null,
-   "status": "-",
+   "status": "FT",
    "status_type": "PostMatch",
    "slug": "seizoen-2026-2027-croky-cup-1-royal-excelsior-virton-vs-krc-genk"
   },
@@ -269,7 +269,7 @@
    "away_score": 0,
    "home_pens": null,
    "away_pens": null,
-   "status": "-",
+   "status": "FT",
    "status_type": "PostMatch",
    "slug": "seizoen-2026-2027-croky-cup-1-kvc-westerlo-vs-patro-eisden-maasmechelen"
   },
