@@ -1,14 +1,28 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-bouw_bekermatches v1.2
+bouw_bekermatches v1.3
 ======================
 
 Bouwt bekermatches.json voor de fanpages: alle Croky Cup-wedstrijden waar
 minstens een JPL-club bij betrokken is.
 
-WIJZIGING TEN OPZICHTE VAN v1.1
+WIJZIGING TEN OPZICHTE VAN v1.2
 -------------------------------
+De eindstatus PostMatch wordt FT.
+
+De bron kent twee eindstatussen. In de 1/16 finale van seizoen 2026/2027 kwamen
+elf wedstrijden binnen met period.shortName "-" en period.type "PostMatch", en
+vijf met "FT" en "FullTime". Een geplande wedstrijd heeft ook shortName "-", met
+type "PreMatch". De fanpage leest enkel het veld status en kent "-" niet als
+afgelopen. Die elf bleven daardoor als eerstvolgende wedstrijd staan, terwijl de
+score er wel stond.
+
+status wordt hier omgezet naar FT; status_type blijft de ruwe waarde uit de
+bron. Alleen de gemeten waarde PostMatch wordt omgezet, andere types niet.
+
+WIJZIGINGEN IN v1.2 TEN OPZICHTE VAN v1.1
+-----------------------------------------
 De push naar GitHub is eruit. Dit script schrijft alleen nog het bestand;
 de commit gebeurt in de workflow met de ingebouwde GITHUB_TOKEN.
 
@@ -100,8 +114,8 @@ de naam staat er, zodat "Club Brugge - Eendracht Aalst Lede" correct toont.
 
 GEBRUIK
 -------
-    python3 bouw_bekermatches_v1.2.py              # schrijft bekermatches.json
-    python3 bouw_bekermatches_v1.2.py --toon       # print ook de lijst
+    python3 bouw_bekermatches_v1.3.py              # schrijft bekermatches.json
+    python3 bouw_bekermatches_v1.3.py --toon       # print ook de lijst
 
 Committen doet de workflow, niet dit script.
 """
@@ -340,6 +354,12 @@ def zet_om(w):
 
     periode = w.get('period') or {}
 
+    # PostMatch is een eindstatus met shortName "-", dezelfde waarde als bij een
+    # geplande wedstrijd. De fanpage kent enkel FT als einde, zie de kop.
+    status = periode.get('shortName') or ''
+    if periode.get('type') == 'PostMatch':
+        status = 'FT'
+
     # De bron zet een Z achter de tijd en beweert daarmee UTC. Dat nemen we
     # over zoals het er staat: niet compenseren op een vermoeden. Klopt het
     # niet, dan blijkt dat op de eerste echte wedstrijd en passen we het aan
@@ -358,7 +378,7 @@ def zet_om(w):
         'away_score':   w.get('awayScore'),
         'home_pens':    w.get('homeShootOutScore'),
         'away_pens':    w.get('awayShootOutScore'),
-        'status':       periode.get('shortName') or '',
+        'status':       status,
         'status_type':  periode.get('type') or '',
         'slug':         w.get('slug') or '',
     }
@@ -418,7 +438,7 @@ def main():
     toon = '--toon' in sys.argv
 
     print('=' * 62)
-    print('bouw_bekermatches v1.2 - Croky Cup')
+    print('bouw_bekermatches v1.3 - Croky Cup')
     print('Verwacht seizoen: %s' % HUIDIG_SEIZOEN)
     print('=' * 62)
 
