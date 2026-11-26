@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-06T14:17:09Z",
+ "bijgewerkt": "2026-11-26T16:54:24Z",
  "seizoen": "26/27",
  "wedstrijden": {
   "220445": {
@@ -151,15 +151,15 @@
    "away_team": "Liverpool FC",
    "home_team_id": "123",
    "away_team_id": "",
-   "home_score": null,
-   "away_score": null,
-   "home_score_90": null,
-   "away_score_90": null,
+   "home_score": 0,
+   "away_score": 3,
+   "home_score_90": 0,
+   "away_score_90": 3,
    "verlenging": false,
    "home_pens": null,
    "away_pens": null,
-   "status": "notstarted",
-   "minuut": null,
+   "status": "finished",
+   "minuut": 93,
    "stadion": "Jan Breydel Stadium",
    "bsd_id": "601058"
   },
